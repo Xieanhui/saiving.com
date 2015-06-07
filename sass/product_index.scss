@@ -1,0 +1,104 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+table, tr, td {
+  clear: both;
+  text-align: left;
+  line-height: 25px
+}
+
+table {
+  width: 95%;
+  margin: auto
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto 20px 0;
+  font-size: 3em
+}
+
+#main {
+  width: 100%;
+  margin: 20px auto 0;
+  border: 1px solid #ccc;
+  padding: 19px 0
+}
+
+#main h2 {
+  font-size: 1.5em;
+  margin: 20px auto 20px;
+  background: #ececec;
+  padding: 6px 0 6px 20px;
+  text-align: left
+}
+
+#main h2 a {
+  color: $headingFontColor;
+  text-decoration: none
+}
+
+#main ul {
+  margin:0 auto;
+  zoom: 1;
+  overflow: hidden
+}
+
+#main li {
+  text-align: center;
+  width: 260px;
+  float: left;
+  list-style: none;
+
+}
+
+#main li a {
+  display: block;
+  white-space: nowrap;
+  color: $contentFontColor
+}
+
+#main li img {
+  margin: 10px auto
+}
+
+#main td a {
+  color: $contentFontColor
+}
+
+#main .bigPic li{
+  text-align: center;
+  width: 20%;
+  height: 310px;
+  float: left;
+  list-style: none;
+  overflow: hidden;
+}
+
+#main .bigPic li a.btn{
+  color:#3f7500;
+
+  &:hover {
+  color:#ffffff;
+  }
+}
+
+
+@include minWidth(1180px){
+  #main {width: 1180px;}
+}
+@include maxWidth(1180px){
+  #main {width: 940px;}
+}

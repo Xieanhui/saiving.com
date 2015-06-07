@@ -1,0 +1,75 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+#main {
+  width: 100%;
+  margin: 20px auto 0;
+  border: 1px solid #CCC;
+  padding: 19px 0
+}
+
+#main h1 {
+  text-align: left;
+  margin: 0 auto 20px 0;
+  padding: 0 20px
+}
+
+#main h2 {
+  text-align: left;
+  margin: 20px 0;
+  background-color: #ECECEC;
+  padding: 6px 20px
+}
+
+#main ol li {
+  text-align: left;
+  line-height: 25px;
+  width: 200px;
+  float: left;
+  list-style: circle inside
+}
+
+#main ol li a {
+  color: #C00
+}
+
+#main table {
+  border-collapse: collapse;
+  line-height: 30px;
+  text-align: left;
+  margin: 0 auto;
+  width: 98%
+}
+
+#main table th {
+  text-align: left
+}
+
+#main table td {
+  padding: 0 10px 0 10px;
+  border: 1px solid #ccc;
+  text-align: left
+}
+
+@include minWidth(1180px){
+  #main {
+    width: 1180px
+  }
+}
+@include maxWidth(940px){
+  #main {
+    width: 940px
+  }
+}

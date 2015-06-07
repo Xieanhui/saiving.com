@@ -1,0 +1,342 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+#main {
+  width: 100%;
+  margin: 20px auto 0;
+  border: 1px solid #CCC
+}
+
+#main .location {
+  text-align: left;
+  color: #777;
+  font-size: 0.875em;
+  padding: 0 20px 20px
+}
+
+#main .location a {
+  color: #777
+}
+
+#main .left {
+  float: left;
+  width: 72%;
+  text-align: left;
+  border-right: 1px solid #CCC
+}
+
+#main .left h2 {
+  color: #496d02
+}
+
+#main .left p.callMe a {
+  color: #F00
+}
+
+#main .left ul.Related li a {
+  color: #555
+}
+
+#main .fill {
+  height: 20px;
+  background-color: #FFF;
+  display: block
+}
+
+#main .left h1 {
+  font-size: 3em;
+  padding: 0 20px 20px
+}
+
+#main .left h2 {
+  font-size: 2em;
+  padding: 6px 20px;
+  color: #555
+}
+
+#main .left h3, #main .left h4 {
+  padding: 15px 20px
+}
+
+#main .left p {
+  padding: 20px 20px
+}
+
+#main .left p.adswords {
+  text-align: left;
+  color: #999;
+  line-height: 50px;
+  text-indent: 0
+}
+
+#main .left p.shortwords {
+  text-indent: 0
+}
+
+#main .left p.shortwords span {
+  color: #C00;
+}
+
+#main .left p.alias {
+  text-indent: 0;
+  color: #555;
+}
+
+#main .left p.alias a {
+  color: #555;
+}
+
+#main .left .question a {
+  color: #555;
+}
+
+#main .left ul {
+  margin: 10px 0 10px 30px;
+  padding: 0;
+}
+
+#main .left ul li {
+  text-align: left;
+  line-height: 27px;
+  list-style: circle outside;
+}
+
+#main .left ul.suc {
+  margin: 10px 0 10px 10px;
+  padding: 0;
+}
+
+#main .left ul.suc li {
+  float: left;
+  width: 188px;
+  text-align: center;
+  list-style: none;
+}
+
+#main .left ol {
+  margin: 10px 0 10px 30px;
+  padding: 0;
+}
+
+#main .left ol li {
+  text-align: left;
+  line-height: 24px;
+  list-style: disc;
+}
+
+#main .left .redAds {
+  color: #C00;
+}
+
+#main .left ul.suc li {
+  height: 158px;
+  display: block;
+  width: 210px;
+}
+
+#main .left p {
+  text-indent: 28px;
+  margin: 0 auto 14px;
+}
+
+#main .left p.callMe {
+  margin: 20px 0 0;
+  line-height: 36px;
+  color: #c00;
+  text-indent: 0;
+  font-size: 1.4em;
+}
+
+#main .left dl {
+  padding: 0 20px;
+}
+
+#main .left dl dt {
+  font-weight: bold;
+}
+
+#main .left dl dd {
+  line-height: 24px;
+  list-style: disc inside;
+}
+
+#main .left .emcMachine {
+  margin: 0 20px;
+}
+
+#main .left .emcMachine li {
+  float: left;
+  width: 125px;
+  height: 145px;
+  list-style: none;
+  margin: 10px auto;
+  overflow:hidden;
+}
+
+#main .emcMachine li a {
+  padding: 120px 0 0 0;
+  text-align: center;
+  display: block;
+  color: #555;
+  background: url(../condensate-cecovery/images/product.png) 0 0 no-repeat;
+}
+
+#main .emcMachine li a.svln {
+  background-position: -359px 0;
+}
+
+#main .emcMachine li a.svln:hover {
+  background-position: -359px -162px;
+}
+
+#main .emcMachine li a.svlj {
+  background-position: -237px 0;
+}
+
+#main .emcMachine li a.svlj:hover {
+  background-position: -237px -162px;
+}
+
+#main .emcMachine li a.svqd {
+  background-position: -602px 0;
+}
+
+#main .emcMachine li a.svqd:hover {
+  background-position: -602px -162px;
+}
+
+#main .emcMachine li a.svzj {
+  background-position: -972px 0;
+}
+
+#main .emcMachine li a.svzj:hover {
+  background-position: -972px -162px;
+}
+
+#main .emcMachine li a.svjc {
+  background-position: -117px 0;
+}
+
+#main .emcMachine li a.svjc:hover {
+  background-position: -117px -162px;
+}
+
+#main .emcMachine li a.svny {
+  background-position: -480px 0;
+}
+
+#main .emcMachine li a.svny:hover {
+  background-position: -480px -162px;
+}
+
+#main .emcMachine li a.svhj {
+  background-position: 5px 0;
+}
+
+#main .emcMachine li a.svhj:hover {
+  background-position: 5px -162px;
+}
+
+#main .emcMachine li a.svwt {
+  background-position: -724px 0;
+}
+
+#main .emcMachine li a.svwt:hover {
+  background-position: -724px -162px;
+}
+
+#main .emcMachine li a.svyt {
+  background-position: -848px 0;
+}
+
+#main .emcMachine li a.svyt:hover {
+  background-position: -848px -162px;
+}
+
+#main .left #pinRen {
+  padding: 0 20px
+}
+
+#main #proList li {
+  text-align: left;
+  padding: 40px 25px 40px 0;
+  list-style: none;
+  height: 130px;
+  border-bottom: 1px dashed #CCC
+}
+
+#main #proList li h2 {
+  background: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+#main #proList li h2 a {
+  color: #555;
+  text-decoration: none;
+}
+
+#main #proList li img {
+  float: left;
+}
+
+#main #proList li div.body {
+  float: left;
+  margin: 0 0 0 30px;
+  width: 500px;
+}
+
+#main #proList li.body p {
+  margin: 10px 0
+}
+
+#main .right {
+  float: right;
+  width: 27%;
+  text-align: left;
+}
+
+#main .right h2 {
+  margin: 0 0 14px 0;
+  padding: 0 20px;
+  color: #496d02;
+  background-color: #FFF;
+}
+
+#main .right dl {
+  margin: 0 0 0 15px;
+  padding: 10px 0;
+  line-height: 25px;
+}
+
+#main .right dt {
+  font-weight: bold;
+}
+
+#main .right dd {
+  margin: 0 35px;
+}
+
+#main .right dd a {
+  color: #555;
+}
+
+@include minWidth(1180px){
+  #main {width: 1180px;}
+}
+
+@include maxWidth(1180px){
+  #main {width: 940px;}
+}

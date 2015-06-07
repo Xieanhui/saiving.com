@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="gb2312"?>
+<rss version="2.0">
+<classlist>
+<item>
+		<classcname>成功案例</classcname>
+		<link>case</link>
+		<classename>case</classename>
+		<classid>CBF5K3FF2I4J81K</classid>
+		<addtime>2014-11-15 19:34:01</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>公司客户</classcname>
+		<link>custom</link>
+		<classename>custom</classename>
+		<classid>C84GH6316IGAAKC</classid>
+		<addtime>2013-4-2 10:57:28</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>产品目录</classcname>
+		<link>product</link>
+		<classename>product</classename>
+		<classid>5D0CC9BA9KB0F28</classid>
+		<addtime>2013-1-18 11:29:36</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>联系我们</classcname>
+		<link>contact</link>
+		<classename>contact</classename>
+		<classid>499BD2DF0A6BDHI</classid>
+		<addtime>2013-1-18 11:27:24</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>人才招聘</classcname>
+		<link>hr</link>
+		<classename>hr</classename>
+		<classid>5ABFKDAIE5G0C13</classid>
+		<addtime>2013-1-18 10:51:58</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>企业新闻</classcname>
+		<link>news</link>
+		<classename>news</classename>
+		<classid>20KB397D448G6D3</classid>
+		<addtime>2013-1-18 10:45:18</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+</classlist>
+</rss>

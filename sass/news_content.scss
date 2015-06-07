@@ -1,0 +1,301 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+#main {
+  width: 100%;
+  margin: 20px auto 0;
+  border: 1px solid #CCC
+}
+
+#main .left {
+  float: left;
+  width: 72%;
+  text-align: left;
+  border-right: 1px solid #CCC
+}
+
+#main .left h1 {
+  font-size: 30px;
+  padding: 20px 0;
+  text-align: center
+}
+
+#main .left h2 {
+  padding: 6px 20px;
+  color: #555
+}
+
+#main .left h3 {
+  padding: 15px 20px
+}
+
+#main .left h4 {
+  padding: 15px 20px
+}
+
+#main .left dl {
+  padding: 0 20px
+}
+
+#main .left dl dt {
+  font-weight: bold
+}
+
+#main .left dl dd {
+  line-height: 24px;
+  list-style: disc inside
+}
+
+#main .left ol {
+  margin: 10px 0 10px 30px;
+  padding: 0
+}
+
+#main .left ol li {
+  text-align: left;
+  line-height: 24px;
+  list-style: disc
+}
+
+#main .left ul {
+  margin: 10px 0 10px 30px;
+  padding: 0
+}
+
+#main .left ul li {
+  text-align: left;
+  line-height: 27px;
+  list-style: circle outside
+}
+
+#main .left ul.Related li a {
+  color: #555
+}
+
+#main .left ul.suc {
+  margin: 10px 0 10px 10px;
+  padding: 0
+}
+
+#main .left ul.suc li {
+  float: left;
+  text-align: center;
+  list-style: none;
+  height: 158px;
+  display: block;
+  width: 210px
+}
+
+#main .left p {
+  padding: 20px 20px;
+  margin: 0 auto 14px;
+  text-indent: 28px
+}
+
+#main .left p.callMe {
+  margin: 20px 0 0;
+  line-height: 36px;
+  color: #c00;
+  text-indent: 0;
+  font-size: 1.4em
+}
+
+#main .left p.callMe a {
+  color: #F00
+}
+
+#main .left p.adswords {
+  text-align: left;
+  color: #999;
+  line-height: 50px;
+  text-indent: 0
+}
+
+#main .left p.shortwords {
+  text-indent: 0
+}
+
+#main .left p.shortwords span {
+  color: #C00;
+}
+
+#main .left p.alias {
+  text-indent: 0;
+  color: #555
+}
+
+#main .left p.alias a {
+  color: #555
+}
+
+#main .left .question a {
+  color: #555
+}
+
+#main .left .redAds {
+  color: #C00;
+}
+
+#main .left #pinRen {
+  padding: 0 20px
+}
+
+#main .fill {
+  height: 20px;
+  background-color: #FFF;
+  display: block;
+  clear: both
+}
+
+#main .emcMachine {
+  margin: 0 20px
+}
+
+#main .emcMachine li {
+  float: left;
+  width: 130px;
+  list-style: none;
+  margin: 10px auto
+}
+
+#main .emcMachine li a {
+  padding: 120px 0 0 0;
+  text-align: center;
+  display: block;
+  color: #555
+}
+
+#main .emcMachine li a .svln {
+  background: url(../images/svln_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svln:hover {
+  background: url(../images/svln_1.jpg) 0 -159px no-repeat
+}
+
+#main .emcMachine li a.svlj {
+  background: url(../images/svlj_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svlj:hover {
+  background: url(../images/svlj_1.jpg) 0 - 162 px no-repeat
+}
+
+#main .emcMachine li a.svqd {
+  background: url(../images/svqd_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svqd:hover {
+  background: url(../images/svqd_1.jpg) 0 -160px no-repeat
+}
+
+#main .emcMachine li a.svzj {
+  background: url(../images/svzj_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svzj:hover {
+  background: url(../images/svzj_1.jpg) 0 -160px no-repeat
+}
+
+#main .emcMachine li a.svzj {
+  background: url(../images/svzj_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svzj:hover {
+  background: url(../images/svzj_1.jpg) 0 -162px no-repeat
+}
+
+#main .emcMachine li a .svjc {
+  background: url(../images/svjc_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svjc:hover {
+  background: url(../images/svjc_1.jpg) 0 - 160 px no-repeat
+}
+
+#main .emcMachine li a.svny {
+  background: url(../images/svny_1.gif) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svny:hover {
+  background: url(../images/svny_1.gif) 0 - 164 px no-repeat
+}
+
+#main .emcMachine li a.svhj {
+  background: url(../images/svhj_1.gif) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svhj:hover {
+  background: url(../images/svhj_1.gif) 0 - 164 px no-repeat
+}
+
+#main .emcMachine li a.svwt {
+  background: url(../images/svwt_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svwt:hover {
+  background: url(../images/svwt_1.jpg) 0 -164px no-repeat
+}
+
+#main .emcMachine li a.svyt {
+  background: url(../images/svyt_1.jpg) 0 0 no-repeat
+}
+
+#main .emcMachine li a.svyt:hover {
+  background: url(../images/svyt_1.jpg) 0 -164px no-repeat
+}
+
+#main .right {
+  float: right;
+  width: 27%;
+  text-align: left
+
+}
+
+#main .right h2 {
+  margin: 0 0 14px 0;
+  padding: 0 20px;
+  color: #496d02;
+  background-color: #FFF
+}
+
+#main .right dl {
+  margin: 0 0 0 15px;
+  padding: 10px 0;
+  line-height: 25px
+}
+
+#main .right dt {
+  font-weight: bold
+}
+
+#main .right dd {
+  margin: 0 35px
+}
+
+#main .right dd a {
+  color: #555
+}
+
+@include minWidth(1180px){
+  #main {
+    width: 1180px
+  }
+}
+@include maxWidth(1180px) {
+  #main {
+    width: 940px
+  }
+}

@@ -1,0 +1,37 @@
+/* b2c , 2011-10-10 */
+/* index */
+#xmFocus { *zoom: 1; width:100%;margin:0 auto;border:1px solid #CCC}
+#xmFocus:after { content: "\0020"; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+
+.xmFocus_main{float:left;width:100%;}
+.xmFocus_side{float:right;width:250px;}
+.xmFocus_side_tui{display:block;width:250px;height:248px;}
+.xmFocus_side_news{border:1px solid #f3f3f3;margin-top:5px;}
+.xmFocus_side_news h2{height:27px;border-bottom:1px solid #f3f3f3;padding-top:10px;}
+.xmFocus_side_news h2 span,.xmAcce_top h2 span,.xmbbs_s li span{background-image:url(http://p.www.xiaomi.com/images/xiaomi_index_icon.gif);background-color:transparent;}
+.xmFocus_side_news h2 span{display:block;background-position:-145px -33px;width:126px;height:18px;overflow:hidden;text-indent:-9999px;margin-left:10px;}
+.xmFocus_side_news ul{padding:12px 0 15px 15px;}
+.xmFocus_side_news ul li{height:24px;line-height:24px;overflow:hidden;background:url(http://p.www.xiaomi.com/images/xiaomi_indexNav_iconAll.png) no-repeat 0 -241px;padding-left:10px;}
+.xmFocus_side_news ul li a{color:#666666;font-size:13px;}
+
+.slides_container { width:100%;}
+.slides_container a {width:100%;height:360px;display:block; }
+.xmFocus_main{width:100%;height:360px;overflow:hidden;}
+#slides{position:relative;}
+.pagination{height:30px;position:absolute;right:10px;bottom:10px;z-index:9999;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#B2FFFFFF', endColorstr='#B2FFFFFF');background:rgba(255,255,255,0.7);-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+.pagination li{float:left;width:30px;text-align:center;line-height:30px;font-size:16px;}
+.pagination li a{color:#666666;width:30px;display:block;background-image:url(about:blank);}
+.pagination li a:hover{text-decoration:none;}
+.pagination li.current a{color:#f60;font-weight:bold;}
+/*add 20111114 by 150*/
+.slides_container{height: 360px; width: 4900px; left: -100%;}
+.slides_container li{float:left;}
+#slides{width:100%; height: 360px; overflow-x: hidden; overflow-y: hidden;}
+#slides{position:relative;}
+#slides ul{position: absolute;}
+@media only screen and (min-width: 1280px){
+	#xmFocus {width:1180px;} 
+}
+@media only screen and (max-width: 1000px){
+	#xmFocus {width:940px;}
+}

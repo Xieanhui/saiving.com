@@ -1,0 +1,47 @@
+@import "response";
+
+#pro_List {
+  margin: 15px 0 0;
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+  border-top: 0;
+  background-color: #CECECE;
+  color: #EEE
+}
+
+#pro_List table {
+  width: 100%;
+  line-height: 24px;
+  margin: auto
+}
+
+#pro_List th {
+  width: 20%;
+  text-align: left
+}
+
+#pro_List th a {
+  text-decoration: none
+}
+
+#pro_List td {
+  text-align: left
+}
+
+#pro_List td a {
+  color: #555;
+  text-decoration: none
+}
+
+#pro_List td a:hover {
+  color: #496d02
+}
+
+@include minWidth (1180px) {
+  #pro_List{width: 1180px}
+}
+
+@include maxWidth (1180px) {
+ #pro_List{width: 940px}
+}

@@ -1,0 +1,24 @@
+@import "response";
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  width:61px;
+  height: 60px;
+  background: url("../images/sprite.png") 0 0 no-repeat;
+  display: none;
+  cursor: pointer;
+
+  &:hover{
+    background-position:0 -66px;
+  }
+}
+
+@include minWidth(1180px){
+  #backToTop {margin-left: 591px ;}
+}
+
+@include maxWidth(1180px){
+  #backToTop {margin-left: 471px ;}
+}

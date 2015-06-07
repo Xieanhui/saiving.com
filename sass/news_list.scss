@@ -1,0 +1,102 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+#main {
+  width: 100%;
+  margin: 20px auto 0;
+  border: 1px solid #CCC;
+  padding: 20px 0
+}
+
+#main .location {
+  text-align: left;
+  color: #777;
+  font-size: 0.875em;
+  padding: 0 20px 20px
+}
+
+#main .location a {
+  color: #777
+}
+
+#main .left {
+  float: left;
+  width: 72%;
+  text-align: left;
+  border-right: 1px solid #CCC
+}
+
+#main .left ul {
+  margin: 10px 0 10px 30px;
+  padding: 0
+}
+
+#main .left ul li {
+  text-align: left;
+  line-height: 27px;
+  list-style: circle outside
+}
+
+#main .left h1 {
+  padding: 0 20px 20px
+}
+
+#main .left h2 {
+  padding: 6px 20px;
+  color: #555
+}
+
+#main .left h3, #main .left h4 {
+  padding: 15px 20px
+}
+
+#main .right {
+  float: right;
+  width: 27%;
+  text-align: left
+}
+
+#main .right h2 {
+  margin: 0 0 14px 0;
+  padding: 0 20px;
+  color: #496d02;
+  background-color: #FFF
+}
+
+#main .right dl {
+  margin: 0 0 0 15px;
+  padding: 10px 0;
+  line-height: 25px
+}
+
+#main .right dt {
+  font-weight: bold
+}
+
+#main .right dd {
+  margin: 0 35px
+}
+
+#main .right dd a {
+  color: #555
+}
+
+@include minWidth(1180px){
+  #main {width: 1180px}
+}
+
+@include maxWidth(1180px){
+  #main {width: 940px}
+}

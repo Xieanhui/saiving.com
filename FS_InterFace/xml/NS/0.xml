@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="gb2312"?>
+<rss version="2.0">
+<classlist>
+<item>
+		<classcname>软化水设备</classcname>
+		<link>soften</link>
+		<classename>soften</classename>
+		<classid>34844I7JG86AJJ0</classid>
+		<addtime>2013-1-18 10:41:13</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>换热器</classcname>
+		<link>exchanger</link>
+		<classename>exchanger</classename>
+		<classid>1KB5D078IB60GF1</classid>
+		<addtime>2013-1-18 10:39:56</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>锅炉辅机</classcname>
+		<link>boiler</link>
+		<classename>boiler</classename>
+		<classid>8JKDGI4DDDEKFF1</classid>
+		<addtime>2013-1-18 10:38:05</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>凝结水精处理</classcname>
+		<link>polishing</link>
+		<classename>polishing</classename>
+		<classid>585610DJ1A0C2C6</classid>
+		<addtime>2013-1-18 10:35:46</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>低位热力除氧器</classcname>
+		<link>deaerator</link>
+		<classename>deaerator</classename>
+		<classid>91EHJIC415B453E</classid>
+		<addtime>2013-1-18 10:32:29</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>蒸汽冷凝水回收</classcname>
+		<link>condensate-cecovery</link>
+		<classename>condensate-cecovery</classename>
+		<classid>BJI2D6BEDD34F4F</classid>
+		<addtime>2013-1-18 10:23:33</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>公司介绍</classcname>
+		<link>about</link>
+		<classename>about</classename>
+		<classid>JF5BE69A87IEEAF</classid>
+		<addtime>2007-6-20 16:26:34</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>售前售后指导</classcname>
+		<link>direction</link>
+		<classename>direction</classename>
+		<classid>HF57J96KKG17HAB</classid>
+		<addtime>2012-12-20 13:35:17</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+</classlist>
+</rss>

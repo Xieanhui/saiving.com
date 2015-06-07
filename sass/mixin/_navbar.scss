@@ -1,0 +1,144 @@
+#navigate {
+  height: 48px;
+  background: #3f7500; /*url(../images/sprite.png) 0 -253px repeat-x*/
+  z-index: 100;
+  margin: 0 auto;
+  width: 100%
+}
+
+#navigate ul {
+  overflow: hidden;
+  margin: 0 auto
+}
+
+#navigate ul li {
+  float: left;
+  text-align: center;
+  width: 10%;
+  height: 48px;
+  position: relative;
+  list-style: none;
+  line-height: 48px;
+  font-size: 18px;
+}
+
+#navigate ul li a {
+  display: block;
+  color: #FFF;
+  text-decoration: none
+}
+
+#navigate ul li a:hover {
+  background: #294b00;
+  color: #FFF;
+  display: block
+}
+
+@include minWidth(1180px) {
+  #navigate {
+    width: 100%
+  }
+}
+
+@include maxWidth(1180px) {
+  #navigate {
+    width: 940px
+  }
+}
+
+@include minWidth(1180px) {
+  #navigate ul {
+    width: 1180px
+  }
+}
+
+@include maxWidth(1180px) {
+  #navigate ul {
+    width: 940px
+  }
+}
+
+#home #navigate li.home {
+  background: #294b00;
+
+  a {
+    color: #FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }
+
+}
+
+#about #navigate li.about {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }
+
+}
+
+#contact #navigate li.contact {
+  background: #294b00;
+  a {
+    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }
+
+}
+
+#product #navigate li.product {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }  }
+
+#condensate #navigate li.condensate {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }
+
+}
+
+#deaerator #navigate li.deaerator {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }
+
+}
+
+#polishing #navigate li.polishing {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }
+
+}
+#boiler #navigate li.boiler {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -210px repeat-x*/
+  }
+
+}
+
+#exchanger #navigate li.exchanger {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -210px repeat-x*/
+  }
+
+}
+
+#soften #navigate li.soften {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
+  }
+
+}
+
+#custom #topnav li.custom {
+  background: #294b00;
+  a{
+    color:#FFF;/*url(../images/sprite.png) 0 -210px repeat-x*/
+  }
+}

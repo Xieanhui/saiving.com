@@ -1,0 +1,191 @@
+@import "mixin/font-face";
+@import "mixin/font-awesome.min";
+@import "mixin/variables";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+.container {
+  width: 100%;
+  padding: 80px 0;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.container a {
+  color: #555555
+}
+
+.secondPage, .fourthPage, .sixthPage {
+  background-color: #F2F2F2;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6
+}
+
+.fourthPage {
+  padding: 80px 0 280px;
+  background: url(../condensate-cecovery/images/Staff.png) bottom center no-repeat #EFEFEF
+}
+
+h1 {
+  margin:-30px 0 0;
+  padding: 0 0 15px;
+  font-size: 4em;
+  font-family: $specialHeadingFontFamily;
+  text-align: center;
+}
+
+h2 {
+  padding: 0 0 30px;
+  width: 100%;
+  text-align: center;
+  font-family: $specialHeadingFontFamily;
+  font-size: 3.2em
+}
+
+.adswords {
+  margin: 0 auto;
+  padding: 0 0 30px;
+  width: 100%;
+  line-height: 45px;
+  font-size: 2em;
+  font-family: $specialKeywordFontFamily;
+  text-align: center;
+  color: #555;
+}
+
+.more {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px
+}
+
+.mainProduct {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mainProduct li {
+  float: left;
+  width: 25%;
+  text-align: center
+}
+
+.mainProduct li a {
+  display: block;
+  margin: 10px auto;
+}
+
+#turnPage {
+  position: absolute;
+  left: 50%;
+  top:490px;
+  margin-left:-35px;
+  cursor: pointer;
+}
+
+.assitProduct {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0 0
+}
+
+.assitProduct li {
+  float: left;
+  width: 14%;
+  text-align: center
+}
+
+.assitProduct li a {
+  display: block;
+  padding: 5px 0;
+  color: #555
+}
+
+.assitProduct li img {
+  border: 0
+}
+
+.case {
+  margin: 20px auto;
+  width: 100%
+}
+
+.case li {
+  float: left;
+  width: 20%;
+  height: 150px;
+  display: block;
+  text-align: center
+}
+
+.case li a {
+  padding: 2px;
+  border: 1px solid #cccccc;
+  display: inline-block;
+  color: #555
+}
+
+.case li img {
+  border: 1px solid #ffffff
+}
+
+.copartner {
+  margin: 20px auto;
+  width: 100%
+}
+
+.copartner li {
+  float: left;
+  width: 25%;
+  height: 80px;
+  text-align: center
+}
+
+.copartner li a {
+  color: #555
+}
+
+.copartner li a:hover {
+  color: #496d02
+}
+
+.Office {
+  margin: 0 auto;
+  width: 100%
+}
+
+@include minWidth(1180px){
+  .container {
+    width: 100%
+  }
+}
+
+@include maxWidth(940px){
+  .container {
+    width: 940px
+  }
+}
+
+@include minWidth(1180px){
+  .container  ul {
+    width: 1180px
+  }
+}
+
+@include maxWidth(940px){
+  .container  ul {
+    width: 940px
+  }
+}

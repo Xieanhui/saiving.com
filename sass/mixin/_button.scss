@@ -1,0 +1,36 @@
+.btn {
+  margin: 0 auto;
+  width: 160px;
+  height: 54px;
+  line-height: 54px;
+  display: inline-block;
+  border: 1px solid #496d02;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  background-color: transparent;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #3f7500;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+
+  i {
+    color: #999999;
+  }
+
+  &:hover {
+    background-color: #3f7500;
+    text-decoration: none;
+    color: #FFF;
+
+    i {
+      color: #ffffff;
+    }
+  }
+}
+

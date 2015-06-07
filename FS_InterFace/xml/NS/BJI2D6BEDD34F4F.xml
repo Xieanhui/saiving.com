@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="gb2312"?>
+<rss version="2.0">
+<classlist>
+<item>
+		<classcname>蒸汽冷凝水回收辅助设备</classcname>
+		<link>condensate_assist</link>
+		<classename>condensate_assist</classename>
+		<classid>J195EA1IB4BKKHK</classid>
+		<addtime>2014-11-2 10:28:47</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>蒸汽冷凝水回收设备</classcname>
+		<link>product</link>
+		<classename>product</classename>
+		<classid>FDC0C8FC0FI568E</classid>
+		<addtime>2013-1-18 11:23:45</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>蒸汽冷凝水回收_业界动态</classcname>
+		<link>news</link>
+		<classename>news</classename>
+		<classid>B64A78DAIHDFCAF</classid>
+		<addtime>2013-1-18 11:17:51</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>蒸汽冷凝水回收_常见问题</classcname>
+		<link>faq</link>
+		<classename>faq</classename>
+		<classid>5J5D07HA193K96J</classid>
+		<addtime>2013-1-18 11:14:49</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>蒸汽冷凝水回收_成功案例</classcname>
+		<link>case</link>
+		<classename>case</classename>
+		<classid>D5EK1KEFECEA7HD</classid>
+		<addtime>2013-1-18 11:12:06</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+<item>
+		<classcname>蒸汽冷凝水回收_解决方案</classcname>
+		<link>solutions</link>
+		<classename>solutions</classename>
+		<classid>JG2D36012556D28</classid>
+		<addtime>2013-1-18 11:03:48</addtime>
+		<isshow>1</isshow>
+		<domain>0</domain>
+</item>
+</classlist>
+</rss>

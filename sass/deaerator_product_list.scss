@@ -1,0 +1,136 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+#main {
+  width: 100%;
+  margin: 20px auto 0;
+  border: 1px solid #CCC;
+  padding: 19px 0
+}
+
+#main h1 {
+  padding: 0 20px
+}
+
+#main ul.proIntro li {
+  height: 185px;
+  clear: both;
+  list-style: none;
+  margin: 0 auto 15px
+}
+
+#main ul.proIntro li a.askPrice {
+  margin: 5px auto;
+  padding: 6px 6px;
+  width: 90px;
+  height: 25px;
+  border: 1px solid #496d02;
+  background: #496d02;
+  color: #FFF;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  text-decoration: none;
+  cusor: pointer;
+  font-size: 0.95em;
+  font-weight: bold
+}
+
+#main ul.proIntro li a.askPrice:hover {
+  background: #093
+}
+
+#main .leftbg {
+  float: left;
+  height: 185px;
+  width: 8px
+}
+
+#main .middle {
+  height: 185px;
+  float: left
+}
+
+#main .rightbg {
+  float: right;
+  height: 185px;
+  width: 7px
+}
+
+#main .middle h3 {
+  float: left;
+  width: 280px;
+  padding: 20px 20px;
+  font-size: 18px
+}
+
+#main .middle h3 a {
+  font-size: 18px;
+  color: #555;
+  text-decoration: none
+}
+
+#main .middle p {
+  float: left;
+  width: 300px;
+  padding: 20px 20px
+}
+
+#main .middle p a {
+  color: #777;
+  text-decoration: none
+}
+
+#main .middle p a.credit {
+  color: #c00;
+  text-decoration: underline
+}
+
+#main .middle p img {
+  margin: 0 0 0 50px
+}
+
+#main .disc {
+  width: 415px
+}
+
+#main .relNews {
+  width: 900px;
+  padding: 19px;
+  border: 1px solid #CCC;
+  margin: 0 auto;
+  text-align: left
+}
+
+#main .relNews ul {
+  margin: 10px 0 0
+}
+
+#main .relNews li {
+  float: left;
+  width: 440px;
+  line-height: 27px
+}
+
+@include minWidth(1180px){
+  #main {
+    width: 1180px
+  }
+}
+@include maxWidth(940px){
+  #main {
+    width: 940px
+  }
+}

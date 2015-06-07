@@ -1,0 +1,1 @@
+copy jquery-1.8.0.min.js+jquery.SuperSlide.2.1.1.js+Slide.js indexSlide.js /b

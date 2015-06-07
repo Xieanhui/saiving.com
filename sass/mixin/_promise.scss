@@ -1,0 +1,34 @@
+@import "response";
+
+#promise {
+  width: 100%;
+  margin: 15px auto;
+  padding: 19px 0;
+  border: 1px solid #CCC;
+  text-align: center;
+  background: url(../images/service.jpg) left 7px no-repeat #FFF;
+  font-size: 1em;
+}
+
+#promise p {
+  margin-left: 20%;
+  font-weight: bold;
+  line-height: 1.3em;
+  font-size: 2em;
+  text-align: center
+}
+
+#promise span {
+  color: #C00;
+  font-style: italic;
+  margin: 10px 0;
+  vertical-align: middle
+}
+
+@include minWidth (1180px) {
+  #promise{ width: 1180px}
+}
+
+@include maxWidth (1180px) {
+  #promise{ width: 940px}
+}

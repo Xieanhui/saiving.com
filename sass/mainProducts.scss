@@ -1,0 +1,124 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+#main{
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.firstPage, .thirthPath, .fifthPage, .seventhPage, .ninthPage {
+  background-color: #ffffff;
+}
+
+.secondPage, .fourthPage, .sixthPage, .eighthPage, .tenthPage {
+  background-color: #EFEFEF;
+}
+
+.firstPage {
+  padding: 50px 0 80px;
+}
+
+#main h1 {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#main h2{
+  margin: 10px auto;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#main h3{
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#catalog {
+  position: fixed;
+  top:50%;
+  left:50%;
+}
+
+#catalog li{
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 0 10px;
+  border: 2px solid #cccccc;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#catalog li a{
+  display: block;
+  padding: 5px;
+}
+
+#catalog li.current{
+  background: $linkColor;
+}
+
+#catalog li.current a{
+  color: #ffffff;
+}
+
+@include minWidth(1180px){
+  #catalog {  margin-left: -620px }
+}
+@include maxWidth(1180px){
+  #catalog{ margin-left: -500px}
+}
+
+#main p{
+  text-align: center;
+  line-height: 26px;
+  margin: 0 auto;
+}
+
+.adswords {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 100%;
+  line-height: 45px;
+  font-size: 28px;
+  text-align: center;
+  color: #444444
+}
+
+.descripteion{
+  width: 60%;
+  padding:20px 20%;
+}
+
+#main ul{
+
+}
+
+#main ul li{
+  line-height: 26px;
+}

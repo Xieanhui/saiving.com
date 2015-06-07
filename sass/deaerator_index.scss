@@ -1,0 +1,225 @@
+@import "mixin/variables";
+@import "mixin/font-awesome.min";
+@import "mixin/reset";
+@import "mixin/clearFix";
+@import "mixin/header";
+@import "mixin/navbar";
+@import "mixin/breadcrumb";
+@import "mixin/promise";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/productList";
+@import "mixin/response";
+@import "mixin/footer";
+@import "mixin/backToTop";
+
+#main {
+  width: 100%;
+  margin: 20px auto 0
+}
+
+#main h1 {
+  font-size: 3em;
+  margin: 10px 8px 0 20px;
+  text-align: center
+}
+
+#main .pro_list {
+  width: 100%;
+  padding: 19px 0;
+  border: 1px solid #CCC;
+  margin: 0 auto;
+  text-align: left
+}
+
+.pro_list h2 {
+  width: 60%;
+  float: left;
+  padding: 0 20px
+}
+
+.pro_list h2 a {
+  color: #496d02
+}
+
+.pro_list span.more {
+  font-size: 12px;
+  float: right;
+  padding-right: 10px
+}
+
+.pro_list span.more a {
+  color: #496d02
+}
+
+#main ul {
+  zoom: 1;
+  overflow: hidden;
+  padding: 0 20px;
+  clear: both
+}
+
+#main ul.proIntro li {
+  clear: both;
+  list-style: none;
+  margin: 0 auto 15px
+}
+
+#main ul.proIntro li.split {
+  border-top: 1px dashed #CCC
+}
+
+#main ul.proIntro h3 {
+  float: left;
+  width: 30%;
+  padding: 20px 0;
+  font-size: 18px
+}
+
+#main ul.proIntro h3 a {
+  font-size: 18px;
+  color: #555;
+  text-decoration: none
+}
+
+#main ul.proIntro p {
+  float: left;
+  width: 30%;
+  padding: 20px 0
+}
+
+#main ul.proIntro p a {
+  color: #777;
+  text-decoration: none
+}
+
+#main ul.proIntro p a.credit {
+  color: #c00;
+  text-decoration: underline
+}
+
+#main ul.proIntro p img {
+  margin: 0 0 0 50px
+}
+
+#main ul.proIntro li a.askPrice {
+  margin: 5px auto 0;
+  padding: 5px;
+  width: 90px;
+  height: 25px;
+  border: 1px solid #3f7500;
+  color: #3f7500;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-decoration: none;
+  cusor: pointer;
+  font-size: 0.95em;
+  font-weight: bold
+}
+
+#main ul.proIntro li a.askPrice:hover {
+  background: #3f7500;
+  color:#ffffff;
+}
+
+.relNews {
+  width: 100%;
+  padding: 19px 0;
+  border: 1px solid #CCC;
+  margin: 0 auto;
+  text-align: left
+}
+
+.relNews ul {
+  margin: 10px 0 0;
+  zoom: 1;
+  overflow: hidden;
+  padding: 0 20px;
+  clear: both
+}
+
+.relNews li {
+  float: left;
+  width: 50%;
+  line-height: 27px
+}
+
+.relNews h2 {
+  width: 70%;
+  float: left;
+  padding: 0 20px
+}
+
+.relNews h2 a {
+  color: #496d02
+}
+
+.relNews span.more {
+  font-size: 12px;
+  float: right;
+  padding-right: 10px
+}
+
+.relNews span.more a {
+  color: #496d02
+}
+
+.relNews ul li a {
+  color: #555
+}
+
+.relNews ul li a:hover {
+  color: #496d02
+}
+
+.copartner li {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  height: 80px
+}
+
+.relCase li {
+  float: left;
+  width: 225px;
+  line-height: 27px;
+  text-align: center
+}
+
+@include minWidth(1180px) {
+  #banner {
+    width: 1180px
+  }
+}
+
+@include maxWidth(1180px) {
+  #banner {
+    width: 940px
+  }
+}
+
+@include minWidth(1180px) {
+  #main .pro_list {
+    width: 1180px
+  }
+}
+
+@include maxWidth(1180px) {
+  #main .pro_list {
+    width: 940px
+  }
+}
+
+@include minWidth(1180px) {
+  .relNews {
+    width: 1180px
+  }
+}
+
+@include maxWidth(1180px) {
+  .relNews {
+    width: 940px
+  }
+}
