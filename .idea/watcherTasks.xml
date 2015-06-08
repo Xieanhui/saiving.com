@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
+<<<<<<< HEAD
       <option name="arguments" value="--no-cache --update $FileName$:$FileParentDir$\css\$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
+=======
+      <option name="arguments" value="--no-cache --update --style compressed $FileName$:$FileParentDir$\css\$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="false" />
+>>>>>>> dev
       <option name="description" value="Compiles .scss files into .css files" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="scss" />
