@@ -1,80 +1,82 @@
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('fontawesome-webfont.eot?v=4.3.0');
-  src: url('fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'FontAwesome';
+    src: url('fontawesome-webfont.eot?v=4.3.0');
+    src: url('fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('fontawesome-webfont.woff?v=4.3.0') format('woff'), url('fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0);
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
 }
 
 .fa-lg {
-  font-size: 1.33333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
 }
 
 .fa-comments-o:before {
-  content: "\f0e6";
+    content: "\f0e6";
 }
 
 .fa-home:before {
-  content: "\f015";
+    content: "\f015";
 }
 
 .fa-phone:before {
-  content: "\f095";
+    content: "\f095";
 }
 
 .fa-print:before {
-  content: "\f02f";
+    content: "\f02f";
 }
 
 .fa-envelope:before {
-  content: "\f0e0";
+    content: "\f0e0";
 }
 
 .fa-users:before {
-  content: "\f0c0";
+    content: "\f0c0";
 }
 
 .fa-plane:before {
-  content: "\f072";
+    content: "\f072";
 }
 
 .fa-spinner:before {
-  content: "\f110";
+    content: "\f110";
 }
 
 .fa-pulse {
-  -webkit-animation: fa-spin 1s infinite steps(8);
-  animation: fa-spin 1s infinite steps(8);
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
 }
+
 @-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
 }
+
 @keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
 }
