@@ -5,7 +5,7 @@ define(['eventUtil','utilities'],function(eventUtil,utilities){
         oModalCloser = document.getElementById("modalCloser");
 
     eventUtil.addHandler(oModalCloser, "click", function(event){
-        utilities.displayElts(eventUtil.target.parentNode.parentNode, "none");//隐藏模态框
+        utilities.displayElts(oModalWindow, "none");//隐藏模态框
     });
 
     function displayModalWindow(status) {//显示模态框 or 隐藏模态框
