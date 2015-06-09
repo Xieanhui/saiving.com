@@ -75,7 +75,6 @@ define(['eventUtil', 'ajax', 'modal'], function(eventUtil, ajax, modal) {
         for (var i = 0; i < arrAgency.length; i++) {
             if (arrAgency[i][0] == agencyStr) {
                 return arrAgency[i][1];
-                break;
             }
         }
     }
@@ -89,21 +88,18 @@ define(['eventUtil', 'ajax', 'modal'], function(eventUtil, ajax, modal) {
             arrContact[i].setAttribute("href", "http://www.saiving.com/about/contact/index.html#" + hash);
         }
 
-        eventUtil.addHandler(document, "click", function(event) {            
+        eventUtil.addHandler(document, "click", function(event) {
             var ev = event || window.event;
             var tg = ev.target || ev.srcElement;
             var url = tg.href || "";
-                url = url.toString();
+            url = url.toString();
             if (url && url.substring(0, url.indexOf("#")) == "http://www.saiving.com/about/contact/index.html") {
                 eventUtil.preventDefault(ev);
                 ajax.loadXMLDoc("http://www.saiving.com/contactHtml/" + hash + ".txt", modal.oModalContent);
                 modal.displayModalWindow('block');
             }
-
         });
     }
-
-
 
     return {
         setAnchor: setAnchor
