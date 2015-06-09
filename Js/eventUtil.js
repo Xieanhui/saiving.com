@@ -1,7 +1,11 @@
 define(function() {
 
+<<<<<<< HEAD
     function preventDefault(event) {
         var ev = event || window.event;
+=======
+    function preventDefault(ev) {
+>>>>>>> dev
         if (ev && ev.preventDefault) {
             ev.preventDefault();
         } else {
@@ -9,8 +13,12 @@ define(function() {
         }
     }
 
+<<<<<<< HEAD
     function stopPropagation(event) {
         var ev = event || window.event;
+=======
+    function stopPropagation(ev) {
+>>>>>>> dev
         if (ev && ev.stopPropagation) {
             ev.stopPropagation();
         } else {

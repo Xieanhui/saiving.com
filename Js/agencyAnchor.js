@@ -74,25 +74,36 @@ define(['eventUtil', 'ajax', 'modal'], function(eventUtil, ajax, modal) {
     function getHash(agencyStr) {
         for (var i = 0; i < arrAgency.length; i++) {
             if (arrAgency[i][0] == agencyStr) {
-                return arrAgency[i][1];               
+                return arrAgency[i][1];
+                break;
             }
         }
     }
 
     function setAnchor(agencyStr) {
-        var hash = getHash(agencyStr);
+        var hash = getHash(agencyStr) || "beijing";
         var arrContact = document.getElementsByName("contact");
         var i;
 
         for (i = 0; i < arrContact.length; i++) {
             arrContact[i].setAttribute("href", "http://www.saiving.com/about/contact/index.html#" + hash);
-            eventUtil.addHandler(arrContact[i], "click", function(event) {
-                eventUtil.preventDefault(event);
+        }
+
+        eventUtil.addHandler(document, "click", function(event) {            
+            var ev = event || window.event;
+            var tg = ev.target || ev.srcElement;
+            var url = tg.href || "";
+                url = url.toString();
+            if (url && url.substring(0, url.indexOf("#")) == "http://www.saiving.com/about/contact/index.html") {
+                eventUtil.preventDefault(ev);
                 ajax.loadXMLDoc("http://www.saiving.com/contactHtml/" + hash + ".txt", modal.oModalContent);
                 modal.displayModalWindow('block');
-            });
-        }
+            }
+
+        });
     }
+
+
 
     return {
         setAnchor: setAnchor
