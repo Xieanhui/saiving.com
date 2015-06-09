@@ -23,10 +23,10 @@ define(function(){
                 var end = document.cookie.indexOf(";", offset);
                 if(end == -1) end = document.cookie.length;
                 return unescape(document.cookie.substring(offset,end));
-            }else{
+            } else {
                 return "";
             }
-        }
+        }       
 
     }
 

@@ -13,7 +13,7 @@ define(function () {
         if (xmlhttp != null) {
             xmlhttp.onreadystatechange = function () {
                 if (xmlhttp.readyState === 4) {
-                    if (xmlhttp.status === 200) {
+                    if (xmlhttp.status === 200) {                       
                         element.innerHTML = xmlhttp.responseText;
                     } else {
                         console.log("The data request failed:" + xmlhttp.statusText);

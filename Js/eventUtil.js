@@ -1,9 +1,7 @@
-define(function (event) {
-
-    var ev = event || window.event;
-    var tg = ev.srcElement || ev.target;
-
+define(function () {
+   
     function preventDefault(){
+        var ev = event || window.event;
         if(ev && ev.preventDefault){
             ev.preventDefault();
         }else{
@@ -12,6 +10,8 @@ define(function (event) {
     }
 
     function stopPropagation(){
+        var ev = event || window.event;
+        var tg = ev.srcElement || ev.target;
         if(ev && ev.stopPropagation){
             ev.stopPropagation();
         }else {
@@ -76,8 +76,6 @@ define(function (event) {
 
 
     return {
-        event : ev,
-        target : tg,
         preventDefault: preventDefault,
         stopPropagation: stopPropagation,
         addHandler: addHandler,
