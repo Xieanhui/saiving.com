@@ -9,11 +9,8 @@ html, body, h1, h2, h3, h4, h5, h6, p, b, strong, i, em, blockquote, pre, span, 
 }
 
 body {
-  font-family: $headingFontFamily;
-  font-size: 1em;
+  font: 14px/1.5 $headingFontFamily;
   color: $contentFontColor;
-  font-style: normal;
-  font-weight: normal
 }
 
 h1, h2, h3, h4, h5, h6 {

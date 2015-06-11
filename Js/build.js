@@ -11,7 +11,6 @@
         'agency': 'agency',
         'agencyAnchor': 'agencyAnchor',
         'agencyDetail': 'agencyDetail',
-        'backToTop': 'backToTop'
     },
     name: "main",
     out: "main-built.js"
