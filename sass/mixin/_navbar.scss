@@ -1,144 +1,105 @@
 #navigate {
-  height: 48px;
-  background: $navBgcolor; /*url(../images/sprite.png) 0 -253px repeat-x*/
-  z-index: 100;
-  margin: 0 auto;
-  width: 100%
+    height: 50px;
+    background: $themeColor;
+    z-index: 100;
+    margin: 0 auto;
+    width: 100%
+}
+
+#navigate ul,
+#navigate li,
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
 }
 
 #navigate ul {
-  overflow: hidden;
-  margin: 0 auto
+    margin: 0 auto
 }
 
 #navigate ul li {
-  float: left;
-  text-align: center;
-  width: 10%;
-  height: 48px;
-  position: relative;
-  list-style: none;
-  line-height: 48px;
-  font-size: 18px;
-}
-
-#navigate ul li a {
-  display: block;
-  color: #FFF;
-  text-decoration: none
-}
-
-#navigate ul li a:hover {
-  background: $hoverNavBgcolor;
-  color: #FFF;
-  display: block
+    float: left;
+    text-align: center;
+    width: 10%;
+    height: 50px;
+    a {
+        line-height: 50px;
+        font-size: 18px;
+        display: block;
+        color: #FFF;
+        text-decoration: none
+    }
+    &:hover {
+        background: $themeColorDeep;
+    }
 }
 
 @include minWidth($maxWidth) {
-  #navigate {
-    width: 100%
-  }
+    #navigate {
+        width: $fullScreenWidth;
+    }
 }
 
 @include maxWidth($maxWidth) {
-  #navigate {
-    width: $minWidth;
-  }
+    #navigate {
+        width: $minWidth;
+    }
 }
 
 @include minWidth($maxWidth) {
-  #navigate ul {
-    width: $maxWidth
-  }
+    #navigate ul {
+        width: $maxWidth
+    }
 }
 
 @include maxWidth($maxWidth) {
-  #navigate ul {
-    width: $minWidth;
-  }
+    #navigate ul {
+        width: $minWidth;
+    }
 }
 
 #home #navigate li.home {
-  background: $hoverNavBgcolor;
-
-  a {
-    color: #FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
 
 #about #navigate li.about {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
 
 #contact #navigate li.contact {
-  background: $hoverNavBgcolor;
-  a {
-    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
 
 #product #navigate li.product {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }  }
+    background: $themeColorDeep;
+}
 
 #condensate #navigate li.condensate {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
 
 #deaerator #navigate li.deaerator {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
 
 #polishing #navigate li.polishing {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
-#boiler #navigate li.boiler {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -210px repeat-x*/
-  }
 
+#boiler #navigate li.boiler {
+    background: $themeColorDeep;
 }
 
 #exchanger #navigate li.exchanger {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -210px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
 
 #soften #navigate li.soften {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -296px repeat-x*/
-  }
-
+    background: $themeColorDeep;
 }
 
 #custom #topnav li.custom {
-  background: $hoverNavBgcolor;
-  a{
-    color:#FFF;/*url(../images/sprite.png) 0 -210px repeat-x*/
-  }
+    background: $themeColorDeep;
 }

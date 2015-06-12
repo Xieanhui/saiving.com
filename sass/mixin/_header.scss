@@ -1,92 +1,88 @@
-#header {
-  margin: 0 auto;
-  font-size: 0.875em;
+#header ul,
+#header li,
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0
 }
 
 #header ul {
-  margin: 0 auto;
-  height: 110px;
-  padding: 10px 0 0
+    margin: 5px auto 0;
+    height: 110px;
 }
 
 #header li {
-  float: left;
-  display: block;
-  list-style: none
+    float: left;
+    display: block;
 }
 
 #header li.logo {
-  margin: 15px 0 0
+    margin: 15px 0 0
 }
 
 #header li.headflash {
-  width: 300px;
-  height: 60px;
-  display: block;
-  text-align: left;
-  margin: 23px 0 0 10px;
-  border-left: 1px solid #888;
-  padding-left: 10px;
-  font-size: 2.2em
-}
+    width: 300px;
+    height: 62px;
+    display: block;
+    text-align: left;
+    margin: 20px 0 0 10px;
+    border-left: 1px solid #888;
+    padding-left: 10px;
 
-#header li.headflash span {
-  margin:-4px 0 0;
-  display: block;
-  font-weight: bold
-}
-
-#header li.headflash span a {
-  color: #555555;
-  text-decoration: none;
-}
-
-#header li.headflash strong {
-  display: block;
-  font-size:16px;
-  font-weight:normal;
-  line-height:30px;
-  height:30px;
-  padding: 2px 0 0;
-
-  a {
-    color:#C00;
-  }
+    span {        
+        font-size: 2em;
+        display: block;
+        font-weight: bold;
+        margin: -6px 0 0;
+        a {
+            color: #555;
+            text-decoration: none;
+        }
+    }
+    strong {
+        display: block;
+        font-weight: normal;
+        line-height: 20px;
+        height: 20px;
+        a {
+            color: #C00;
+        }
+    }
 }
 
 #header li.hotline {
-  float: right;
-  margin: 25px 0 0;
-}
-
-#header li.hotline a {
-  display: block;
-  width: 280px;
-  height: 56px;
-  background: url(../images/sprite.png) 0 -126px no-repeat;
-  text-indent: -9999px
-}
-
-@include minWidth($maxWidth) {
-  #header {
-    width: $fullScreenWidth
-  }
-}
-
-@include maxWidth($maxWidth) {
-  #header {
-    width: $minWidth
-  }
+    float: right;
+    margin: 25px 0 0;
+    a {
+        display: block;
+        width: 280px;
+        height: 56px;
+        background: url(../images/sprite.png) -60px 0 no-repeat;
+        text-indent: -9999px
+    }
 }
 
 @include minWidth($maxWidth) {
-  #header ul {
-    width: $maxWidth
-  }
+    #header {
+        width: $fullScreenWidth
+    }
 }
 
 @include maxWidth($maxWidth) {
-  #header ul {
-    width: $minWidth
-  }
+    #header {
+        width: $minWidth;
+        margin: 0 auto;
+    }
+}
+
+@include minWidth($maxWidth) {
+    #header ul {
+        width: $maxWidth
+    }
+}
+
+@include maxWidth($maxWidth) {
+    #header ul {
+        width: $minWidth;
+    }
 }

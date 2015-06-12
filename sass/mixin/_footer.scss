@@ -4,6 +4,10 @@
   background-color: #cecece
 }
 
+#footer ul, #footer li{
+  list-style-type: none
+}
+
 #footer ul {
   margin: 0 auto;
   padding: 50px 20px;
@@ -24,7 +28,7 @@
   margin-left:10%;
   width:310px;
   height:64px;
-  background: url(../images/sprite.png) 0 -126px no-repeat;
+  background: url(../images/sprite.png) -60px 0 no-repeat;
 }
 
 @include minWidth($maxWidth) {

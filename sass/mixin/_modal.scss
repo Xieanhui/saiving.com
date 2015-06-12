@@ -1,81 +1,76 @@
 #modalWindow {
-  z-index: 1000;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: none;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
 }
 
 #modalBackground {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8) !important;
-  background: #000000;
-  filter: alpha(opacity=80);
-  *background: #000000;
-  *filter: alpha(opacity=80);
-  *zoom: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    background: #000000;
+    filter: alpha(opacity=80);
+    *background: #000000;
+    *filter: alpha(opacity=80);
+    *zoom: 1;
 }
 
 #modalContent {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 590px;
-  height: auto;
-  margin-top: -10em;
-  margin-left: -17.5em;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  color: #333;
-
-  i{
-    color: #777;
-  }
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 590px;
+    height: auto;
+    margin-top: -10em;
+    margin-left: -17.5em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333;
+    i {
+        color: #777;
+    }
 }
 
 #modalContent h2 {
-  margin:0;
-  padding: 0.5em 0;
-  text-align: center;
-  font-size: 1.8em;
-  color:#ffffff;
-  background-color:#3f7500
+    margin: 0;
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 1.8em;
+    color: #ffffff;
+    background-color: #3f7500
+}
+
+#modalContent ul,
+#modalContent li {
+    list-style-type: none;
 }
 
 #modalContent ul {
-  padding: 1.5em 2em;
-  line-height: 2em;
-}
-
-#modalContent p {
-  padding:30px;
-  text-align:center;
+    padding: 1.5em 2em;
+    line-height: 2em;
 }
 
 #modalCloser {
-  position: absolute;
-  display: block;
-  top: 10px;
-  right: 30px;
-  padding: 0;
-  margin: 0;
-  height: 150px;
-  width: 110px;
-  font-size: 8em;
-  color: #999999;
-  font-weight:lighter;
-  cursor: pointer;
-  overflow: hidden;
-
-  &:hover {
-    color:#ffffff;
-  }
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    padding: 0;
+    margin: 0;
+    height: 58px;
+    width: 58px;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    background: url(../images/sprite.png) 0 0 no-repeat;
+    &:hover {
+         background: url(../images/sprite.png) 0 -68px no-repeat;
+    }
 }

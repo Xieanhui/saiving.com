@@ -20,7 +20,7 @@ html {
  */
 
 body {
-    margin: 0;   
+    margin: 0;
     font: 1em/1.5 $globalFontFamily;
     color: $contentFontColor;
 }
@@ -89,7 +89,7 @@ template {
 
 a {
     background-color: transparent;
-    color: #8c8c8c;
+    color: $contentFontColor;
     text-decoration: none
 }
 /**
@@ -100,7 +100,7 @@ a {
 a:active,
 a:hover {
     outline: 0;
-    color: #ff4a00;
+    color: $linkColor;
     text-decoration: none
 }
 /* Text-level semantics
@@ -410,5 +410,3 @@ td,
 th {
     padding: 0;
 }
-
-ul, ol, li, dl, dt, dd {list-style:none}
