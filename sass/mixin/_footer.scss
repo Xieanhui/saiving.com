@@ -1,9 +1,6 @@
-@import "response";
-
 #footer {
-  margin: 0 auto;
   position: relative;
-  width:100%;
+  width: $fullScreenWidth;
   background-color: #cecece
 }
 
@@ -30,27 +27,28 @@
   background: url(../images/sprite.png) 0 -126px no-repeat;
 }
 
-@include minWidth(1180px) {
+@include minWidth($maxWidth) {
   #footer  {
-    width: 100%
+    width: $fullScreenWidth
   }
 }
 
-@include maxWidth(1180px) {
+@include maxWidth($maxWidth) {
   #footer {
-    width: 940px
+    width: $minWidth;
+      margin: 0 auto;
   }
 }
 
 
-@include minWidth(1180px) {
+@include minWidth($maxWidth) {
   #footer ul {
-    width: 1140px
+    width: $maxWidth
   }
 }
 
-@include maxWidth(1180px) {
+@include maxWidth($maxWidth) {
   #footer ul{
-    width: 900px
+    width: 900px;     
   }
 }

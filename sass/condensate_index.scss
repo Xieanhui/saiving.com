@@ -1,190 +1,187 @@
-@import "mixin/font-face";
-@import "mixin/font-awesome";
 @import "mixin/variables";
-@import "mixin/reset";
-@import "mixin/clearFix";
+@import "mixin/normalize";
+@import "mixin/clearfix";
+@import "mixin/font-face";
+@import "mixin/icon-tab";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/mixin";
 @import "mixin/header";
 @import "mixin/navbar";
 @import "mixin/breadcrumb";
 @import "mixin/promise";
-@import "mixin/button";
-@import "mixin/modal";
 @import "mixin/productList";
-@import "mixin/response";
 @import "mixin/footer";
-
 .container {
-  width: 100%;
-  padding: 80px 0;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
+    width: $fullScreenWidth;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
 }
 
 .container a {
-  color: #555555
+    color: #555
 }
 
-.secondPage, .fourthPage, .sixthPage {
-  background-color: #F2F2F2;
-  border-top: 1px solid #E6E6E6;
-  border-bottom: 1px solid #E6E6E6
+.secondPage,
+.fourthPage,
+.sixthPage {
+    background-color: #F2F2F2;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6
 }
 
 .fourthPage {
-  padding: 80px 0 280px;
-  background: url(../condensate-cecovery/images/Staff.png) bottom center no-repeat #EFEFEF
+    padding: 50px 0 280px;
+    background: url(../condensate-cecovery/images/Staff.png) bottom center no-repeat #EFEFEF
+}
+
+h1,
+h2 {
+    margin: 0.3em 0;
+    width: $fullScreenWidth;
+    font-family: $fzltxhk;
+    font-weight: normal;
+    text-align: center;
 }
 
 h1 {
-  margin:-30px 0 0;
-  padding: 0 0 15px;
-  font-size: 4em;
-  font-family: $specialHeadingFontFamily;
-  text-align: center;
+    font-size: 4em;
 }
 
 h2 {
-  padding: 0 0 30px;
-  width: 100%;
-  text-align: center;
-  font-family: $specialHeadingFontFamily;
-  font-size: 3.2em
+    font-size: 3.5em
 }
 
 .adswords {
-  margin: 0 auto;
-  padding: 0 0 30px;
-  width: 100%;
-  line-height: 45px;
-  font-size: 1.8em;
-  font-family: $specialKeywordFontFamily;
-  text-align: center;
-  color: #555;
+    margin: 0 auto;
+    padding: 0 0 30px;
+    width: $fullScreenWidth;
+    line-height: 45px;
+    font-size: 1.8em;
+    font-family: $fzltxhk;
+    text-align: center;
 }
 
 .more {
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
-  font-size: 20px
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px
 }
 
 .mainProduct {
-  width: 100%;
-  margin: 0 auto;
+    width: $fullScreenWidth;
+    margin: 0 auto;
 }
 
 .mainProduct li {
-  float: left;
-  width: 25%;
-  text-align: center
+    float: left;
+    width: 25%;
+    text-align: center
 }
 
 .mainProduct li a {
-  display: block;
-  margin: 10px auto;
+    display: block;
+    margin: 10px auto;
 }
 
 #turnPage {
-  position: absolute;
-  left: 50%;
-  top:490px;
-  margin-left:-35px;
-  cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 490px;
+    margin-left: -35px;
+    cursor: pointer;
 }
 
 .assitProduct {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 0 0
+    width: $fullScreenWidth;
+    margin: 0 auto;
+    padding: 30px 0 0
 }
 
 .assitProduct li {
-  float: left;
-  width: 14%;
-  text-align: center
+    float: left;
+    width: 14%;
+    text-align: center
 }
 
 .assitProduct li a {
-  display: block;
-  padding: 5px 0;
-  color: #555
+    display: block;
+    padding: 5px 0;
+    color: #555
 }
 
 .assitProduct li img {
-  border: 0
+    border: 0
 }
 
 .case {
-  margin: 20px auto;
-  width: 100%
+    margin: 20px auto;
+    width: $fullScreenWidth
 }
 
 .case li {
-  float: left;
-  width: 20%;
-  height: 150px;
-  display: block;
-  text-align: center
+    float: left;
+    width: 20%;
+    height: 150px;
+    display: block;
+    text-align: center
 }
 
 .case li a {
-  padding: 2px;
-  border: 1px solid #cccccc;
-  display: inline-block;
-  color: #555
+    padding: 2px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    color: #555
 }
 
 .case li img {
-  border: 1px solid #ffffff
+    border: 1px solid #ffffff
 }
 
 .copartner {
-  margin: 20px auto;
-  width: 100%
+    margin: 20px auto;
+    width: $fullScreenWidth
 }
 
 .copartner li {
-  float: left;
-  width: 25%;
-  height: 80px;
-  text-align: center
+    float: left;
+    width: 25%;
+    height: 80px;
+    text-align: center
 }
 
-.copartner li a {
-  color: #555
-}
-
-.copartner li a:hover {
-  color: #496d02
+.copartner li a:link {
+    color: #555
 }
 
 .Office {
-  margin: 0 auto;
-  width: 100%
+    margin: 0 auto;
+    width: $fullScreenWidth
 }
 
-@include minWidth(1180px){
-  .container {
-    width: 100%
-  }
+@include minWidth($maxWidth) {
+    .container {
+        width: $fullScreenWidth
+    }
 }
 
-@include maxWidth(940px){
-  .container {
-    width: 940px
-  }
+@include maxWidth($minWidth) {
+    .container {
+        width: $minWidth
+    }
 }
 
-@include minWidth(1180px){
-  .container  ul {
-    width: 1180px
-  }
+@include minWidth($maxWidth) {
+    .container ul {
+        width: $maxWidth
+    }
 }
 
-@include maxWidth(940px){
-  .container  ul {
-    width: 940px
-  }
+@include maxWidth($minWidth) {
+    .container ul {
+        width: $minWidth
+    }
 }

@@ -67,26 +67,26 @@
   text-indent: -9999px
 }
 
-@include minWidth(1180px) {
+@include minWidth($maxWidth) {
   #header {
-    width: 100%
+    width: $fullScreenWidth
   }
 }
 
-@include maxWidth(1180px) {
+@include maxWidth($maxWidth) {
   #header {
-    width: 940px
+    width: $minWidth
   }
 }
 
-@include minWidth(1180px) {
+@include minWidth($maxWidth) {
   #header ul {
-    width: 1180px
+    width: $maxWidth
   }
 }
 
-@include maxWidth(1180px) {
+@include maxWidth($maxWidth) {
   #header ul {
-    width: 940px
+    width: $minWidth
   }
 }

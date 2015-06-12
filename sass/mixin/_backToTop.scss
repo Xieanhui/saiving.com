@@ -1,5 +1,3 @@
-@import "response";
-
 #backToTop {
   position: fixed;
   bottom: 30px;
@@ -15,10 +13,10 @@
   }
 }
 
-@include minWidth(1180px){
+@include minWidth($maxWidth){
   #backToTop {margin-left: 591px ;}
 }
 
-@include maxWidth(1180px){
+@include maxWidth($maxWidth){
   #backToTop {margin-left: 471px ;}
 }

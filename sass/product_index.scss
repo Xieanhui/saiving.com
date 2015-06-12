@@ -1,18 +1,17 @@
-@import "mixin/font-face";
 @import "mixin/variables";
-@import "mixin/font-awesome";
-@import "mixin/reset";
-@import "mixin/clearFix";
+@import "mixin/normalize";
+@import "mixin/clearfix";
+@import "mixin/font-face";
+@import "mixin/icon-tab";
+@import "mixin/button";
+@import "mixin/modal";
+@import "mixin/mixin";
 @import "mixin/header";
 @import "mixin/navbar";
 @import "mixin/breadcrumb";
 @import "mixin/promise";
-@import "mixin/button";
-@import "mixin/modal";
 @import "mixin/productList";
-@import "mixin/response";
 @import "mixin/footer";
-@import "mixin/backToTop";
 
 table, tr, td {
   clear: both;

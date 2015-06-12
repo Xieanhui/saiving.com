@@ -1,5 +1,3 @@
-@import "response";
-
 #promise {
   width: 100%;
   margin: 15px auto;
@@ -25,10 +23,10 @@
   vertical-align: middle
 }
 
-@include minWidth (1180px) {
-  #promise{ width: 1180px}
+@include minWidth ($maxWidth) {
+  #promise{ width: $maxWidth}
 }
 
-@include maxWidth (1180px) {
-  #promise{ width: 940px}
+@include maxWidth ($maxWidth) {
+  #promise{ width: $minWidth}
 }
