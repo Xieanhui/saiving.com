@@ -8,9 +8,10 @@
         'ScrollNav': 'ScrollNav',
         'AskOnline': 'AskOnline',
         'modal': 'modal',
-        'agency': 'agency',
         'agencyAnchor': 'agencyAnchor',
         'agencyDetail': 'agencyDetail',
+        'agency': 'agency',
+        'condensate_slide': 'condensate_slide'
     },
     name: "main",
     out: "main-built.js"
