@@ -12,87 +12,80 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
 #main {
-  width: 100%;
-  margin: 20px auto 20px;
-  border: 1px solid #CCC;
-  padding: 19px 0
+    width: 1180px;
+    margin: 20px auto 20px;
+    border: 1px solid #CCC;
+    padding: 19px 0
 }
 
 h1 {
-  text-indent: -10000px;
-  background: url(../images/contactTitle.jpg) center top no-repeat;
-  padding: 30px 0 0
+    text-indent: -10000px;
+    background: url(../images/contactTitle.jpg) center top no-repeat;
+    padding: 30px 0 0
 }
 
 h2 {
-  font-size: 2em;
-  margin: 0 auto 20px;
-  text-align: left;
-  color: #333
+    font-size: 2em;
+    margin: 0 auto 20px;
+    text-align: left;
+    color: #333
 }
 
 .crazy {
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 30px
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 30px
 }
 
 .bigTel {
-  margin: 10px auto;
-  text-align: center
+    margin: 10px auto;
+    text-align: center
 }
 
 .cute {
-  padding: 20px 60px 40px
-}
-
-.cute ul {
-  list-style: none;
-  margin: 0 auto
-}
-
-.cute ul li {
-  float: left;
-  width: 150px;
-  line-height: 30px
+    padding: 20px 60px 40px;
+    ul {
+        list-style: none;
+        margin: 0 auto;
+        li {
+            float: left;
+            width: 150px;
+            line-height: 30px
+        }
+    }
 }
 
 .container {
-  padding: 80px 60px;
-  margin: 0 auto;
-  border-top: 1px dashed #ccc
+    padding: 80px 60px;
+    margin: 0 auto;
+    border-top: 1px dashed #ccc;
+    .info {
+        float: left;
+        line-height: 30px;
+        color: #555;
+        i {
+            color: #888;
+        }
+    }
+    .pic {
+        width: 370px;
+        float: right;
+        a {
+            border: 1px solid #cccccc;
+            display: block
+        }
+    }
 }
 
-.container .info {
-  float: left;
-  line-height: 30px;
-  color:#555;
-
-  i{
-    color:#888;
-  }
-}
-
-.container .pic {
-  width: 370px;
-  float: right
-}
-
-.container .pic a {
-  border: 1px solid #cccccc;
-  display: block
-}
-
-@include minWidth($maxWidth){
-  #main {
-    width: $maxWidth
-  }
+@include minWidth($maxWidth) {
+    #main {
+        width: $maxWidth
+    }
 }
 
 @include maxWidth($maxWidth) {
-  #main {
-    width: $minWidth
-  }
+    #main {
+        width: $minWidth
+    }
 }

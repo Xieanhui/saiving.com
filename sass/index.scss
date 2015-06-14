@@ -13,7 +13,7 @@
 @import "mixin/productList";
 @import "mixin/footer";
 .fullSlide {
-    width: 100%;
+    width: 1180px;
     position: relative;
     height: 480px;
     background: #fff;
@@ -39,7 +39,11 @@
         width: 100% !important;
         height: 480px;
         overflow: hidden;
-        text-align: center
+        text-align: center;
+        a {
+            height: 480px;
+            display: block;
+        }
     }
 }
 
@@ -92,18 +96,6 @@
     left: auto;
     right: 10%;
     background-position: -6px -137px
-}
-
-@include minWidth(1180px) {
-    .fullSlide {
-        width: 100%
-    }
-}
-
-@include maxWidth(940px) {
-    .fullSlide {
-        width: 940px
-    }
 }
 
 .common {
@@ -197,98 +189,82 @@
     margin: 0 auto;
     border: 1px solid #CCC;
     border-top: 0;
-    padding: 19px 0
-}
-
-.proList table {
-    width: 92%;
-    margin: 0 auto;
-    line-height: 24px
-}
-
-.proList table th {
-    text-align: left
-}
-
-.proList table td {
-    text-align: left
+    padding: 19px 0;
+    table {
+        width: 92%;
+        margin: 0 auto;
+        line-height: 24px;
+        th {
+            text-align: left
+        }
+        td {
+            text-align: left
+        }
+    }
 }
 
 #case {
-    margin: 15px auto 0
-}
-
-#case ul {
-    clear: both
-}
-
-#case ul li {
-    float: left;
-    width: 20%;
-    height: 165px;
-    margin: 0 0 10px;
-    overflow: hidden
-}
-
-#case ul li a {
-    margin: 10px 0;
-    display: block;
-    line-height: 24px;
-    text-align: center
-}
-
-#case ul li a:hover img {
-    border: 1px solid #496d02
+    margin: 15px auto 0;
+    ul {
+        clear: both;
+        li {
+            float: left;
+            width: 20%;
+            height: 165px;
+            margin: 0 0 10px;
+            overflow: hidden;
+            a {
+                margin: 10px 0;
+                display: block;
+                line-height: 24px;
+                text-align: center
+            }
+            &:hover img {
+                border: 1px solid #496d02
+            }
+        }
+    }
 }
 
 #custom {
-    margin: 15px auto 0
-}
-
-#custom ul {
-    clear: both
-}
-
-#custom ul li {
-    float: left;
-    width: 25%;
-    height: 80px;
-    text-align: center;
-    overflow: hidden;
-    display: block
+    margin: 15px auto 0;
+    ul {
+        clear: both;
+        li {
+            float: left;
+            width: 25%;
+            text-align: center;
+            overflow: hidden;
+            display: block
+        }
+    }
 }
 
 @include minWidth(1180px) {
+    .fullSlide {
+        width: 100%
+    }
     .common {
         width: 1180px
     }
-}
-
-@include maxWidth(1180px) {
-    .common {
-        width: 940px
-    }
-}
-
-@include minWidth(1180px) {
     #specil {
         width: 1180px
     }
-}
-
-@include maxWidth(1180px) {
-    #specil {
-        width: 940px
-    }
-}
-
-@include minWidth(1180px) {
     .proList {
         width: 1180px
     }
 }
 
 @include maxWidth(1180px) {
+    .fullSlide {
+        width: 940px
+    }
+    .common {
+        width: 940px
+    }
+    #specil {
+        width: 940px
+    }
     .proList {
         width: 940px
     }

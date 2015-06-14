@@ -12,95 +12,86 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
 #main {
-  width: 100%;
-  margin: 20px auto 0;
-  padding: 19px 0;
-  border: 1px solid #CCC
+    width: 1180px;
+    margin: 20px auto 0;
+    padding: 19px 0;
+    border: 1px solid #CCC;
+    h1 {
+        background: url(../images/hrTitle.png) center top no-repeat;
+        text-indent: -10000px
+    }
+    img {
+        margin: 30px auto
+    }
+    p a {
+        display: inline
+    }
+    table {
+        width: 96%;
+        margin: 0 auto;
+        th {
+            font-size: 14px;
+            color: #777;
+            padding: 20px auto
+        }
+        td {
+            line-height: 27px;
+            border-top: 1px dashed #ccc;
+            padding: 10px 0;
+            text-align: justify
+        }
+    }
+    li {
+        display: list-item
+    }
+    ol {
+        margin: 0 auto 10px
+    }
 }
 
-#main h1 {
-  background: url(../images/hrTitle.png) center top no-repeat;
-  text-indent: -10000px
+p.adwords {
+    background: url(../images/hrconcept.png) center center no-repeat;
+    text-indent: -10000px;
+    height: 65px
 }
 
-#main p.adwords {
-  background: url(../images/hrconcept.png) center center no-repeat;
-  text-indent: -10000px;
-  height: 65px
-}
-
-#main p.shortwords {
-  width: 650px;
-  background-color: #f8ee9f;
-  border: 1px solid #c00;
-  padding: 20px 30px;
-  margin: 30px auto
+p.shortwords {
+    width: 650px;
+    background-color: #f8ee9f;
+    border: 1px solid #c00;
+    padding: 20px 30px;
+    margin: 30px auto
 }
 
 p.emailMe {
-  width: 650px;
-  background-color: #f8ee9f;
-  border: 1px solid #c00;
-  padding: 20px 30px;
-  margin: 30px auto
-}
-
-#main img {
-  margin: 30px auto
-}
-
-#main p a {
-  display: inline
-}
-
-#main table {
-  width: 96%;
-  margin: 0 auto
-}
-
-#main th {
-  font-size: 14px;
-  color: #777;
-  padding: 20px auto
-}
-
-#main td {
-  line-height: 27px;
-  border-top: 1px dashed #ccc;
-  padding: 10px 0;
-  text-align: justify
-}
-
-#main li {
-  display: list-item
-}
-
-#main ol {
-  margin: 0 auto 10px
+    width: 650px;
+    background-color: #f8ee9f;
+    border: 1px solid #c00;
+    padding: 20px 30px;
+    margin: 30px auto
 }
 
 .jobtitle {
-  width: 200px;
-  font-size: 16px;
-  color: #555
+    width: 200px;
+    font-size: 16px;
+    color: #555
 }
 
 .jobmoney {
-  width: 200px;
-  color: #C00;
-  font-size: 18px
+    width: 200px;
+    color: #C00;
+    font-size: 18px
 }
 
 @include minWidth(1180px) {
-  #main {
-    width: 1180px
-  }
+    #main {
+        width: 1180px
+    }
 }
 
 @include maxWidth(1180px) {
-  #main {
-    width: 940px
-  }
+    #main {
+        width: 940px
+    }
 }

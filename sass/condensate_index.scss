@@ -138,7 +138,10 @@ h2 {
     padding: 2px;
     border: 1px solid #cccccc;
     display: inline-block;
-    color: #555
+    color: #555;
+    &:hover {
+    border: 1px solid $linkColor;
+    }
 }
 
 .case li img {
@@ -146,19 +149,11 @@ h2 {
 }
 
 .copartner {
-    margin: 20px auto;
-    width: $fullScreenWidth
-}
-
-.copartner li {
-    float: left;
-    width: 25%;
-    height: 80px;
-    text-align: center
-}
-
-.copartner li a:link {
-    color: #555
+    margin: 0 auto;
+    width: $fullScreenWidth;
+    height: 512px;
+    display: block;
+    background: url(../condensate-cecovery/images/corp_logo.jpg) center center no-repeat;    
 }
 
 .Office {
@@ -170,21 +165,15 @@ h2 {
     .container {
         width: $fullScreenWidth
     }
-}
-
-@include maxWidth($minWidth) {
-    .container {
-        width: $minWidth
-    }
-}
-
-@include minWidth($maxWidth) {
     .container ul {
         width: $maxWidth
     }
 }
 
 @include maxWidth($minWidth) {
+    .container {
+        width: $minWidth
+    }
     .container ul {
         width: $minWidth
     }

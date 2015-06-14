@@ -13,7 +13,7 @@ define(['eventUtil'], function(eventUtil){
             var sParam = 'height=' + iHeight + ',width=' + iWidth + ',top=' + iTop + ',left=' + iLeft + ',toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no,status=no';
             for (var i = 0; i < oAskOnline.length; i++){
                 eventUtil.addHandler(oAskOnline.item(i),"click", function(event){
-                    eventUtil.preventDefault();
+                    eventUtil.preventDefault(event);
                     window.open(sUrl, sName, sParam);
                 });
             }

@@ -12,101 +12,56 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
 #main {
-  width: 100%;
-  margin: 20px auto 0;
-  border: 1px solid #CCC;
-  padding: 19px 0
-}
-
-#main h1 {
-  margin: 20px auto 30px 0;
-  text-align: center;
-  font-size: 2.5em;
-  padding: 0 20px
-}
-
-#main ol li {
-  text-align: left;
-  line-height: 25px;
-  width: 200px;
-  list-style: circle inside;
-  float: left
-}
-
-#main ol li a {
-  color: #C00
-}
-
-#main table {
-  border-collapse: collapse;
-  margin: 0 auto;
-  line-height: 30px;
-  width: 100%
-}
-
-#main table th {
-  text-align: center
-}
-
-#main table td {
-  padding: 0 10px 0 10px;
-  text-align: center;
-  height: 180px;
-  line-height: 24px
+    width: 1180px;
+    margin: 20px auto 0;
+    border: 1px solid #CCC;
+    padding: 19px 0;
+    h1 {
+        margin: 20px auto 30px 0;
+        text-align: center;
+        font-size: 2.5em;
+        padding: 0 20px
+    }
 }
 
 #main ul {
-  margin: 0 20px
-}
-
-#main ul li {
-  float: left;
-  width: 25%;
-  height: 160px;
-  padding: 25px 0 15px;
-  text-align: center;
-  border-top: 1px solid #CCC
-}
-
-#case ul {
-  padding: 0 20px
-}
-
-#case ul li {
-  width: 25%;
-  float: left;
-  text-align: center
-}
-
-#case ul li a {
-  display: block
-}
-
-#case ul li a.tlt {
-  height: 48px
-}
-
-#case ul li p {
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 30px 0
-}
-
-#case ul li.precentWidth {
-  width: 900px
+    margin: 0 20px;
+    padding: 0;
+    li {
+        list-style-type: none;
+        padding: 25px 0 15px;
+        width: 25%;
+        float: left;
+        height: 160px;
+        border-top: 1px solid #CCC;
+        text-align: center;
+        a {
+            display: block;
+            &.tlt {
+                height: 48px
+            }
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 30px 0
+        }
+        &.precentWidth {
+            width: 900px
+        }
+    }
 }
 
 @include minWidth(1180px) {
-  #main {
-    width: 1180px
-  }
+    #main {
+        width: 1180px
+    }
 }
 
 @include maxWidth(1180px) {
-  #main {
-    width: 940px
-  }
+    #main {
+        width: 940px
+    }
 }

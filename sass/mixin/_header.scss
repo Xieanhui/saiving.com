@@ -1,3 +1,8 @@
+#header {
+    width: 1180px;
+    margin: 0 auto;
+}
+
 #header ul,
 #header li,
 {
@@ -9,6 +14,7 @@
 #header ul {
     margin: 5px auto 0;
     height: 110px;
+    width: 1180px;
 }
 
 #header li {
@@ -28,8 +34,7 @@
     margin: 20px 0 0 10px;
     border-left: 1px solid #888;
     padding-left: 10px;
-
-    span {        
+    span {
         font-size: 2em;
         display: block;
         font-weight: bold;
@@ -66,22 +71,15 @@
     #header {
         width: $fullScreenWidth
     }
-}
-
-@include maxWidth($maxWidth) {
-    #header {
-        width: $minWidth;
-        margin: 0 auto;
-    }
-}
-
-@include minWidth($maxWidth) {
     #header ul {
         width: $maxWidth
     }
 }
 
 @include maxWidth($maxWidth) {
+    #header {
+        width: $minWidth;
+    }
     #header ul {
         width: $minWidth;
     }

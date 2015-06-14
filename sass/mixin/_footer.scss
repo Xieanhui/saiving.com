@@ -1,58 +1,53 @@
 #footer {
-  position: relative;
-  width: $fullScreenWidth;
-  background-color: #cecece
+    position: relative;
+    width: $fullScreenWidth;
+    background-color: #cecece;
+    margin: 0 auto;
 }
 
-#footer ul, #footer li{
-  list-style-type: none
+#footer ul,
+#footer li {
+    list-style-type: none
 }
 
 #footer ul {
-  margin: 0 auto;
-  padding: 50px 20px;
-  line-height:26px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    line-height: 26px;
+    width: 1180px;
 }
 
 #footer a {
-  text-decoration: none;
-  color: #777;
-  display: inline
+    text-decoration: none;
+    color: #777;
+    display: inline
 }
 
-#footer .tel400{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-top:-32px;
-  margin-left:10%;
-  width:310px;
-  height:64px;
-  background: url(../images/sprite.png) -60px 0 no-repeat;
+#footer .tel400 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -32px;
+    margin-left: 10%;
+    width: 310px;
+    height: 64px;
+    background: url(../images/sprite.png) -60px 0 no-repeat;
 }
 
 @include minWidth($maxWidth) {
-  #footer  {
-    width: $fullScreenWidth
-  }
+    #footer {
+        width: $fullScreenWidth
+    }
+    #footer ul {
+        width: $maxWidth
+    }
 }
 
 @include maxWidth($maxWidth) {
-  #footer {
-    width: $minWidth;
-      margin: 0 auto;
-  }
-}
-
-
-@include minWidth($maxWidth) {
-  #footer ul {
-    width: $maxWidth
-  }
-}
-
-@include maxWidth($maxWidth) {
-  #footer ul{
-    width: 900px;     
-  }
+    #footer {
+        width: $minWidth;
+    }
+    #footer ul {
+        width: 900px;
+    }
 }

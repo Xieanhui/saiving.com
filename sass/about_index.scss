@@ -12,208 +12,150 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
 #main {
-  width: 100%;
-  margin: 20px auto;
-  border: 1px solid #CCC;
-  overflow: hidden;
-  padding: 19px 0;
-  text-align: center
+    width: 1180px;
+    margin: 20px auto;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    padding: 19px 0;
+    text-align: center;
+    .location {
+        text-align: left;
+        color: #777;
+        font-size: 0.875em;
+        padding: 0 20px 20px;
+        a {
+            color: #777
+        }
+    }
+
+    li{
+      text-align: left;
+      list-style-type: none
+    }
 }
 
-#main .location {
-  text-align: left;
-  color: #777;
-  font-size: 0.875em;
-  padding: 0 20px 20px
-}
-
-#main .location a {
-  color: #777
-}
 
 h1 {
-  background: url(../images/companyTitle.png) left top no-repeat;
-  width: 940px;
-  margin: 30px auto 0;
-  height: 96px;
-  text-indent: -10000px
+    background: url(../images/companyTitle.png) left top no-repeat;
+    width: 940px;
+    margin: 30px auto 0;
+    height: 96px;
+    text-indent: -10000px
 }
 
 .body {
-  width: 900px;
-  margin: 30px auto 0;
-  height: 405px
-}
-
-.body p {
-  margin-bottom: 10px
-}
-
-.body a {
-  display: inline
+    width: 900px;
+    margin: 30px auto 0;
+    height: 405px;
+    p {
+        margin-bottom: 10px
+    }
+    a {
+        display: inline
+    }
 }
 
 .bd_lt_1 {
-  width: 116px;
-  float: left;
-  height: 300px
+    width: 116px;
+    float: left;
+    height: 300px
 }
 
 .bd_lt_2 {
-  width: 294px;
-  float: left
+    width: 294px;
+    float: left
 }
 
 .bd_lt_2 img {
-  margin-bottom: 8px
+    margin-bottom: 8px
 }
 
 .bd_rt_1 {
-  width: 294px;
-  float: left;
-  margin: 0 0 0 60px
+    width: 294px;
+    float: left;
+    margin: 0 0 0 60px
 }
 
 .bd_rt_2 {
-  width: 126px;
-  height: 375px;
-  float: right;
-  background: url(../images/douhou_right.png) bottom right no-repeat
+    width: 126px;
+    height: 375px;
+    float: right;
+    background: url(../images/douhou_right.png) bottom right no-repeat
 }
 
 #power {
-  width: 900px;
-  margin: 20px auto 0
-}
-
-#power h2 {
-  font-size: 30px;
-  margin: 5px auto 40px;
-  text-align: center
-}
-
-#power ul {
-  width: 400px;
-  padding: 0;
-  display: inline-block
-}
-
-#power li {
-  list-style: none;
-  overflow: hidden
-}
-
-#power li h3 {
-  height: 20px;
-  text-align: left;
-  padding: 7px 40px 6px;
-  font-size: 18px;
-  font-weight: lighter
-}
-
-#power a {
-  display: inline;
-  color: #C00
-}
-
-#power p {
-  padding: 15px 0 15px
-}
-
-#power ul.lt_power {
-  float: left;
-  margin: 0 0 0 20px
+    width: 900px;
+    margin: 20px auto 0;
+    h2 {
+        font-size: 30px;
+        margin: 5px auto 40px;
+        text-align: center
+    }
+    ul {
+        width: 400px;
+        padding: 0;
+        display: inline-block
+    }
+    li {
+       
+        overflow: hidden;
+        h3 {
+            height: 20px;            
+            padding: 7px 40px 6px;
+            font-size: 18px;
+            font-weight: lighter
+        }
+    }
+    a {
+        display: inline;
+        color: #C00
+    }
+    p {
+        padding: 15px 0 15px
+    }
+    ul.lt_power {
+        float: left;
+        margin: 0 0 0 20px
+    }
 }
 
 .lt_pw_1 h3 {
-  background: url(../images/shili.png) left top no-repeat
+    background: url(../images/shili.png) left top no-repeat
 }
 
 .lt_pw_2 h3 {
-  background: url(../images/pinpan.png) left top no-repeat
+    background: url(../images/pinpan.png) left top no-repeat
 }
 
 .lt_pw_3 h3 {
-  background: url(../images/successor.png) left top no-repeat
+    background: url(../images/successor.png) left top no-repeat
 }
 
 .lt_pw_4 h3 {
-  background: url(../images/culture.png) left top no-repeat
-}
-
-#power ul.rt_power {
-  float: right;
-  margin: 0 20px 0 0
+    background: url(../images/culture.png) left top no-repeat
 }
 
 .rt_pw_1 h3 {
-  background: url(../images/humanresource.png) left top no-repeat
+    background: url(../images/humanresource.png) left top no-repeat
 }
 
 .rt_pw_2 h3 {
-  background: url(../images/prof.png) left top no-repeat
+    background: url(../images/prof.png) left top no-repeat
 }
 
 .rt_pw_3 h3 {
-  background: url(../images/sellafter.png) left top no-repeat
-}
-
-#compNews {
-  width: 900px;
-  padding: 19px;
-  border: 1px solid #CCC;
-  margin: 15px auto 0;
-  text-align: left;
-  background: #FFF
-}
-
-#compNews a {
-  color: #496d02;
-  text-decoration: none
-}
-
-#compNews a:hover {
-  color: #496d02;
-  text-decoration: underline
-}
-
-#compNews h2 {
-  margin: 0 auto 10px;
-  text-align: left
-}
-
-#compNews h2 a {
-  color: #555
-}
-
-#compNews h2 a:hover {
-  color: #555;
-  text-decoration: none
-}
-
-#compNews ul {
-  margin: 0 0 0 6px;
-  padding: 0;
-  list-style: inside circle
-}
-
-#compNews ul li {
-  float: left;
-  width: 440px;
-  line-height: 24px;
-  text-align: left
+    background: url(../images/sellafter.png) left top no-repeat
 }
 
 @include minWidth(1180px) {
-  #main {
-    width: 1180px
-  }
+    #main {
+        width: 1180px
+    }
 }
 
 @include maxWidth(1180px) {
-  #main {
-    width: 940px
-  }
+    #main {
+        width: 940px
+    }
 }

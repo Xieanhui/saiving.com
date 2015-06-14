@@ -14,7 +14,7 @@
 @import "mixin/footer";
 
 #main {
-  width: 100%;
+  width: 1180px;
   margin: 20px auto 0
 }
 
@@ -131,6 +131,10 @@
   text-align: left
 }
 
+.relNews ul, .relNews li{
+  list-style-type: none
+}
+
 .relNews ul {
   margin: 10px 0 0;
   zoom: 1;
@@ -178,7 +182,6 @@
   float: left;
   overflow: hidden;
   text-align: center;
-  height: 80px
 }
 
 .relCase li {
@@ -189,36 +192,24 @@
 }
 
 @include minWidth(1180px) {
-  #banner {
-    width: 1180px
+  #main {
+    width: 1180px;
   }
-}
-
-@include maxWidth(1180px) {
-  #banner {
-    width: 940px
-  }
-}
-
-@include minWidth(1180px) {
   #main .pro_list {
     width: 1180px
   }
-}
-
-@include maxWidth(1180px) {
-  #main .pro_list {
-    width: 940px
-  }
-}
-
-@include minWidth(1180px) {
   .relNews {
     width: 1180px
   }
 }
 
 @include maxWidth(1180px) {
+  #main {
+    width: 940px;
+  }
+   #main .pro_list {
+    width: 940px
+  }
   .relNews {
     width: 940px
   }
