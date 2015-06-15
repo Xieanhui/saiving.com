@@ -2,7 +2,6 @@
 @import "mixin/normalize";
 @import "mixin/clearfix";
 @import "mixin/font-face";
-@import "mixin/icon-tab";
 @import "mixin/button";
 @import "mixin/modal";
 @import "mixin/mixin";
@@ -12,17 +11,6 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
-html{
-scrollbar-3dlight-color:#D4D0C8; 
-scrollbar-highlight-color:#fff; 
-scrollbar-face-color:#E4E4E4; 
-scrollbar-arrow-color:#666; 
-scrollbar-shadow-color:#808080;
-scrollbar-darkshadow-color:#D7DCE0; 
-scrollbar-base-color:#D7DCE0; 
-scrollbar-track-color:#D7DCE0;
-}
 
 body {
     overflow-x: hidden;
@@ -163,29 +151,47 @@ h2 {
 
 .case {
     margin: 20px auto;
-    width: $fullScreenWidth
-}
-
-.case li {
-    float: left;
-    width: 20%;
-    height: 150px;
-    display: block;
-    text-align: center
-}
-
-.case li a {
-    padding: 2px;
-    border: 1px solid #cccccc;
-    display: inline-block;
-    color: #555;
-    &:hover {
-        border: 1px solid $linkColor;
+    width: $fullScreenWidth;
+    li {
+        float: left;
+        width: 20%;
+        height: 150px;
+        display: block;
+        text-align: center;
+        a {
+            position: relative;
+            padding: 2px;
+            margin: 0 auto;
+            border: 1px solid #cccccc;
+            display: inline-block;
+            color: #fff;
+            width: 179px;
+            height: 120px;
+            overflow: hidden;
+            text-align: center;
+            span {
+                width: 100%;
+                display: block;
+                opacity: 0;
+                background-color: rgba(0, 0, 0, 0);
+                filter: alpha(opacity=0);
+                position: absolute;
+                bottom: 0;
+                background-color: #000;
+                text-align: center;
+            }
+            &:hover {
+                span {
+                    opacity: 0.8;
+                    background-color: rgba(0, 0, 0, .8);
+                    filter: alpha(opacity=80);
+                }
+            }
+            img {
+                border: 1px solid #ffffff
+            }
+        }
     }
-}
-
-.case li img {
-    border: 1px solid #ffffff
 }
 
 .copartner {

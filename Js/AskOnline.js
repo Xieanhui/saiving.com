@@ -3,6 +3,7 @@ define(['eventUtil'], function(eventUtil){
     function askOnline(){
 
         var oAskOnline = document.getElementsByName("askOnline") || null;
+        
         if (oAskOnline != null) {
             var sUrl = 'http://qiao.baidu.com/v3/?module=default&controller=im&action=index&ucid=7225288&type=n&siteid=4628760';
             var sName = '\u5728\u7ebf\u54a8\u8be2';

@@ -37,24 +37,6 @@
     }
 }
 
-@include minWidth($maxWidth) {
-    #navigate {
-        width: $fullScreenWidth;
-    }
-    #navigate ul {
-        width: $maxWidth
-    }
-}
-
-@include maxWidth($maxWidth) {
-    #navigate {
-        width: $minWidth;
-    }
-    #navigate ul {
-        width: $minWidth;
-    }
-}
-
 #home #navigate li.home {
     background: $themeColorDeep;
 }
@@ -97,4 +79,22 @@
 
 #custom #topnav li.custom {
     background: $themeColorDeep;
+}
+
+@include minWidth($maxWidth) {
+    #navigate {
+        width: $fullScreenWidth;
+    }
+    #navigate ul {
+        width: $maxWidth
+    }
+}
+
+@include maxWidth($maxWidth) {
+    #navigate {
+        width: $minWidth;
+    }
+    #navigate ul {
+        width: $minWidth;
+    }
 }

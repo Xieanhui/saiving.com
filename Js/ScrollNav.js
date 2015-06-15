@@ -1,12 +1,11 @@
-define(function() { //固定顶部导航
-    var scrollTop = null;
-    var clientWidth = null;
-    var pos = null;
-    var nav = document.getElementById("navigate");
+define(['utilities'],function(utilities) { //固定顶部导航
+    var scrollTop,
+        pos,
+        nav = utilities.g("navigate");
 
     function fixNav() {
         scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+       // clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
         pos = scrollTop - nav.offsetTop;
 
         if (pos > 10) {

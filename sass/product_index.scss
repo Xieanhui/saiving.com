@@ -2,7 +2,6 @@
 @import "mixin/normalize";
 @import "mixin/clearfix";
 @import "mixin/font-face";
-@import "mixin/icon-tab";
 @import "mixin/button";
 @import "mixin/modal";
 @import "mixin/mixin";
@@ -12,92 +11,95 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
-table, tr, td {
-  clear: both;
-  text-align: left;
-  line-height: 25px
+table,
+tr,
+td {
+    clear: both;
+    text-align: left;
+    line-height: 25px
 }
 
 table {
-  width: 95%;
-  margin: auto
+    width: 95%;
+    margin: auto
 }
 
 h1 {
-  text-align: center;
-  margin: 0 auto 20px 0;
-  font-size: 3em
+    text-align: center;
+    margin: 0 auto 20px 0;
+    font-size: 3em
 }
 
 #main {
-  width: 1180px;
-  margin: 20px auto 0;
-  border: 1px solid #ccc;
-  padding: 19px 0
+    width: 1180px;
+    margin: 20px auto 0;
+    border: 1px solid #ccc;
+    padding: 19px 0
 }
 
 #main h2 {
-  font-size: 1.5em;
-  margin: 20px auto 20px;
-  background: #ececec;
-  padding: 6px 0 6px 20px;
-  text-align: left
+    font-size: 1.5em;
+    margin: 20px auto 20px;
+    background: #ececec;
+    padding: 6px 0 6px 20px;
+    text-align: left
 }
 
 #main h2 a {
-  color: $headingFontColor;
-  text-decoration: none
+    color: $headingFontColor;
+    text-decoration: none
 }
 
 #main ul {
-  margin:0 auto;
-  zoom: 1;
-  overflow: hidden
+    margin: 0 auto;
+    zoom: 1;
+    overflow: hidden
 }
 
 #main li {
-  text-align: center;
-  width: 260px;
-  float: left;
-  list-style: none;
-
+    text-align: center;
+    width: 260px;
+    float: left;
+    list-style: none;
 }
 
 #main li a {
-  white-space: nowrap;
-  color: $contentFontColor
+    white-space: nowrap;
+    color: $contentFontColor
 }
 
 #main li img {
-  margin: 10px auto
+    margin: 10px auto
 }
 
 #main td a {
-  color: $contentFontColor
+    color: $contentFontColor
 }
 
-#main .bigPic li{
-  text-align: center;
-  width: 20%;
-  height: 310px;
-  float: left;
-  list-style: none;
-  overflow: hidden;
+#main .bigPic li {
+    text-align: center;
+    width: 20%;
+    height: 310px;
+    float: left;
+    list-style: none;
+    overflow: hidden;
 }
 
-#main .bigPic li a.btn{
-  color:#3f7500;
-
-  &:hover {
-  color:#ffffff;
-  }
+#main .bigPic li a.btn {
+    color: #3f7500;
+    &:hover {
+        color: #ffffff;
+    }
 }
 
-
-@include minWidth(1180px){
-  #main {width: 1180px;}
+@include minWidth(1180px) {
+    #main {
+        width: 1180px;
+    }
 }
-@include maxWidth(1180px){
-  #main {width: 940px;}
+
+@include maxWidth(1180px) {
+    #main {
+        width: 940px;
+    }
 }

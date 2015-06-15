@@ -4,6 +4,7 @@ require.config({
         'ajax': 'ajax',
         'eventUtil': 'eventUtil',
         'cookie': 'cookie',
+        'Browser': 'Browser',
         'utilities': 'utilities',
         'ScrollNav': 'ScrollNav',
         'AskOnline': 'AskOnline',
@@ -22,6 +23,6 @@ require(['eventUtil', 'ScrollNav', 'AskOnline', 'agency', 'condensate_slide'], f
 
     AskOnline.askOnline(); //点击打开在线咨询
 
-    eventUtil.addLoadEvent(condensate_slide.slide());
+    eventUtil.addLoadEvent(condensate_slide.slide);
 
 });

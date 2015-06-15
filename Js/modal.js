@@ -1,8 +1,8 @@
-define(['eventUtil','utilities'],function(eventUtil,utilities){
+define(['eventUtil','utilities'],function(eventUtil, utilities){
 
-    var oModalWindow = document.getElementById("modalWindow"),
-        oModalContent = document.getElementById("modalContent"),
-        oModalCloser = document.getElementById("modalCloser");
+    var oModalWindow = utilities.g("modalWindow"),
+        oModalContent = utilities.g("modalContent"),
+        oModalCloser = utilities.g("modalCloser");
 
     eventUtil.addHandler(oModalCloser, "click", function(event){
         utilities.displayElts(oModalWindow, "none");//隐藏模态框

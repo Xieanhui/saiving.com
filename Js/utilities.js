@@ -1,5 +1,9 @@
 define(function() {
 
+    function g(id) {
+        return document.getElementById(id);
+    }
+
     function displayElts(arrElements, status) { //操作元素:显示或隐藏
         try {
             if (arrElements instanceof Array) {
@@ -21,6 +25,7 @@ define(function() {
         var head = document.getElementsByTagName("head")[0];
         var js = document.createElement("script");
         js.src = url;
+        js.defer = true;
         js.onload = js.onreadystatechange = function() {
             if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
                 fn();
@@ -30,13 +35,12 @@ define(function() {
             }
         };
         head.appendChild(js);
-    }
+    }    
 
     return {
-
+        g: g,
         displayElts: displayElts,
         proxyResponse: proxyResponse
-
     };
 
 });

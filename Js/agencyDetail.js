@@ -1,7 +1,7 @@
-define(function() {
+define(['utilities'], function(utilities) {
 
-    var m = "";
-    var oGency = document.getElementById("agency");
+    var m = "",
+        oGency = utilities.g("agency");
 
     function showAgency(agencyText) {
 
