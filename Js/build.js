@@ -4,7 +4,7 @@
         'ajax': 'ajax',
         'eventUtil': 'eventUtil',
         'cookie': 'cookie',
-        'Browser' : 'Browser',
+        'Browser': 'Browser',
         'utilities': 'utilities',
         'ScrollNav': 'ScrollNav',
         'AskOnline': 'AskOnline',

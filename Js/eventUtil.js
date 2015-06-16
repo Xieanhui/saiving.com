@@ -17,22 +17,67 @@ define(['eventUtil', 'Browser'], function(eventUtil, Browser) {
         }
     }
 
-    function addHandler(element, type, handler) { //给对象添加事件
-        if (element.addEventListener) {
-            element.addEventListener(type, handler, false);
-        } else if (element.attachEvent) {
-            element.attachEvent("on" + type, handler);
-        } else {
-            element['on' + type] = handler;
+    function addHandler(el, type, fn) { //给对象添加事件
+        // if (element.addEventListener) {
+        //     element.addEventListener(type, handler, false);
+        // } else if (element.attachEvent) {
+        //     element.attachEvent("on" + type, handler);
+        // } else {
+        //     element['on' + type] = handler;
+        // }
+        if (document.addEventListener) {
+            var _len = el.length;
+            if (_len) {
+                for (var i = 0; i < _len; i++) {
+                    arguments.callee(el[i], type, fn);
+                }
+            } else {
+                el.addEventListener(type, fn, false);
+            }
+        } else if (document.attachEvent) {
+
+            var _len = el.length;
+            if (_len) {
+                for (var i = 0; i < _len; i++) {
+                    arguments.callee(el[i], type, fn);
+                }
+            } else {
+                el.attachEvent('on' + type, function() {
+                    return fn.call(el, window.event);
+                });
+            }
         }
     }
 
     function removeHandler(element, type, handler) { //移除对象事件
-        if (element.removeEventListener) {
-            element.removeEventListener(type, handler, false);
-        } else if (element.detachEvent) {
-            element.detachEvent("on" + type, handler);
+        // if (element.removeEventListener) {
+        //     element.removeEventListener(type, handler, false);
+        // } else if (element.detachEvent) {
+        //     element.detachEvent("on" + type, handler);
+        // }
+
+        if (document.removeEventListener) {
+            var _len = el.length;
+            if (_len) {
+                for (var i = 0; i < _len; i++) {
+                    arguments.callee(el[i], type, fn);
+                }
+            } else {
+                el.removeEventListener(type, fn, false);
+            }
+        } else if (document.detachEvent) {
+            var _len = el.length;
+            if (_len) {
+                for (var i = 0; i < _len; i++) {
+                    arguments.callee(el[i], type, fn);
+                }
+            } else {
+                el.detachEvent('on' + type, function() {
+                    return fn.call(el, window.event);
+                });
+            }
         }
+
     }
 
     function addLoadEvent(func) { //添加文档ONLOAD事件处理函数

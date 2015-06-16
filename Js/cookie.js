@@ -20,7 +20,7 @@ define(function() {
     function getCookie(name) {
 
         var search = name + "=";
-        
+
         if (document.cookie.length > 0) {
             var offset = document.cookie.indexOf(search);
             if (offset != -1) {

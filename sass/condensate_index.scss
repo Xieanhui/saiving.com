@@ -11,7 +11,6 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
 body {
     overflow-x: hidden;
     overflow-y: auto;
@@ -58,7 +57,7 @@ body {
         position: absolute;
         top: 250px;
         left: 50%;
-        margin-left: -100px;
+        margin-left: -80px;
         border-color: #ffffff;
         color: #ffffff;
         &:hover {
@@ -66,6 +65,41 @@ body {
         }
         .fa {
             color: #ffffff
+        }
+    }
+    .live {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 6000px;
+        height: 698px;
+        overflow: hidden;
+        display: block;
+        li {
+            float: left;
+        }
+    }
+    #liveCtrl {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        width: 80px;
+        display: block;
+        margin-left: -30px;
+        padding: 0;
+        list-style-type: none;
+        li {
+            float: left;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            border:3px solid #fff;
+            border-radius: 15px;
+            webkit-border-radius: 15px;
+            moz-border-radius: 15px;
+            ms-border-radius: 15px;
+            o-border-radius: 15px;
+            background-color: #555555;
         }
     }
 }
@@ -130,23 +164,20 @@ h2 {
 .assitProduct {
     width: $fullScreenWidth;
     margin: 0 auto;
-    padding: 30px 0 0
-}
-
-.assitProduct li {
-    float: left;
-    width: 14%;
-    text-align: center
-}
-
-.assitProduct li a {
-    display: block;
-    padding: 5px 0;
-    color: #555
-}
-
-.assitProduct li img {
-    border: 0
+    padding: 30px 0 0;
+    li {
+        float: left;
+        width: 14%;
+        text-align: center;
+        a {
+            display: block;
+            padding: 5px 0;
+            color: #555
+        }
+    }
+    img {
+        border: 0
+    }
 }
 
 .case {
@@ -183,7 +214,7 @@ h2 {
             &:hover {
                 span {
                     opacity: 0.8;
-                    background-color: rgba(0, 0, 0, .8);
+                    background-color: rgba(0, 0, 0, 0.8);
                     filter: alpha(opacity=80);
                 }
             }
@@ -205,20 +236,6 @@ h2 {
 .Office {
     margin: 0 auto;
     width: $fullScreenWidth
-}
-
-.live {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 6000px;
-    height: 698px;
-    overflow: hidden;
-    display: block;
-    background-color: red;
-    li {
-        float: left;
-    }
 }
 
 @include minWidth($maxWidth) {
