@@ -39,10 +39,6 @@
         display: block;
         font-weight: bold;
         margin: -6px 0 0;
-        a {
-            color: #555;
-            text-decoration: none;
-        }
     }
     strong {
         display: block;
@@ -58,13 +54,11 @@
 #header li.hotline {
     float: right;
     margin: 25px 0 0;
-    a {
-        display: block;
-        width: 280px;
-        height: 56px;
-        background: url(../images/sprite.png) -60px 0 no-repeat;
-        text-indent: -9999px
-    }
+    display: block;
+    width: 280px;
+    height: 56px;
+    background: url(../images/sprite.png) -60px 0 no-repeat;
+    text-indent: -9999px
 }
 
 @include minWidth($maxWidth) {

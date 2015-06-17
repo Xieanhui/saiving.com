@@ -6,23 +6,17 @@ require.config({
         'cookie': 'cookie',
         'Browser': 'Browser',
         'utilities': 'utilities',
-        'ScrollNav': 'ScrollNav',
         'AskOnline': 'AskOnline',
         'modal': 'modal',
         'agencyAnchor': 'agencyAnchor',
         'agencyDetail': 'agencyDetail',
-        'agency': 'agency',
-        'condensate_slide': 'condensate_slide'
+        'agency': 'agency'
     }
 
 });
 
-require(['eventUtil', 'ScrollNav', 'AskOnline', 'agency', 'condensate_slide'], function(eventUtil, ScrollNav, AskOnline, agency, condensate_slide) {
-
-    eventUtil.addScrollEvent(ScrollNav.fixNav); //固定导航
+require(['eventUtil', 'AskOnline', 'agency'], function(eventUtil, AskOnline, agency) {
 
     AskOnline.askOnline(); //点击打开在线咨询
-
-    eventUtil.onDOMContentLoaded(condensate_slide.slide); //冷凝水回收设备页内滚动图片
 
 });

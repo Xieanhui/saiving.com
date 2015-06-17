@@ -6,13 +6,11 @@
         'cookie': 'cookie',
         'Browser': 'Browser',
         'utilities': 'utilities',
-        'ScrollNav': 'ScrollNav',
         'AskOnline': 'AskOnline',
         'modal': 'modal',
         'agencyAnchor': 'agencyAnchor',
         'agencyDetail': 'agencyDetail',
-        'agency': 'agency',
-        'condensate_slide': 'condensate_slide'
+        'agency': 'agency'
     },
     name: "main",
     out: "main-built.js"

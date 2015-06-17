@@ -86,19 +86,14 @@ define(['eventUtil', 'ajax', 'modal'], function(eventUtil, ajax, modal) {
 
         for (i = 0; i < arrContact.length; i++) {
             arrContact[i].setAttribute("href", "http://www.saiving.com/about/contact/index.html#" + hash);
-        }
-
-        eventUtil.addHandler(document, "click", function(event) {
-            var ev = event || window.event;
-            var tg = ev.target || ev.srcElement;
-            var url = tg.href || "";
-            url = url.toString();
-            if (url && url.substring(0, url.indexOf("#")) == "http://www.saiving.com/about/contact/index.html") {
-                eventUtil.preventDefault(ev);
+            eventUtil.addHandler(arrContact[i], "click", function(event) {
+                eventUtil.preventDefault(event);
                 ajax.loadXMLDoc("http://www.saiving.com/contactHtml/" + hash + ".txt", modal.oModalContent);
                 modal.displayModalWindow('block');
-            }
-        });
+
+            });
+        }
+
     }
 
     return {

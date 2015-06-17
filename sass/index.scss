@@ -7,96 +7,10 @@
 @import "mixin/mixin";
 @import "mixin/header";
 @import "mixin/navbar";
-@import "mixin/breadcrumb";
+@import "mixin/slider";
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
-.fullSlide {
-    width: 1180px;
-    position: relative;
-    height: 480px;
-    background: #fff;
-    margin: 0 auto;
-}
-
-.fullSlide ul,
-.fullSlide li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.fullSlide .bd {
-    margin: 0 auto;
-    position: relative;
-    z-index: 0;
-}
-
-.fullSlide .bd ul {
-    width: 100% !important;
-    li {
-        width: 100% !important;
-        height: 480px;
-        overflow: hidden;
-        text-align: center;
-        a {
-            height: 480px;
-            display: block;
-        }
-    }
-}
-
-.fullSlide .hd {
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    bottom: 20px;
-    left: 0;
-    text-align: center;
-    ul {
-        margin: 0;
-        padding: 0;
-        li {
-            cursor: pointer;
-            display: inline-block;
-            *display: inline;
-            zoom: 1;
-            width: 42px;
-            height: 11px;
-            margin: 1px;
-            overflow: hidden;
-            background: #000;
-            filter: alpha(opacity=50);
-            opacity: 0.5;
-            &.on {
-                background: #3f7500
-            }
-        }
-    }
-}
-
-.fullSlide .prev,
-.fullSlide .next {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    margin: -30px;
-    left: 10%;
-    width: 40px;
-    height: 60px;
-    background: url(../images/slider-arrow.png) -126px -137px #000 no-repeat;
-    cursor: pointer;
-    filter: alpha(opacity=50);
-    opacity: 0.5;
-    display: none
-}
-
-.fullSlide .next {
-    left: auto;
-    right: 10%;
-    background-position: -6px -137px
-}
 
 .common {
     width: 100%;
@@ -241,9 +155,6 @@
 }
 
 @include minWidth(1180px) {
-    .fullSlide {
-        width: 100%
-    }
     .common {
         width: 1180px
     }
@@ -256,9 +167,6 @@
 }
 
 @include maxWidth(1180px) {
-    .fullSlide {
-        width: 940px
-    }
     .common {
         width: 940px
     }

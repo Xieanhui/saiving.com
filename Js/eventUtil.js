@@ -49,7 +49,7 @@ define(['eventUtil', 'Browser'], function(eventUtil, Browser) {
         }
     }
 
-    function removeHandler(element, type, handler) { //移除对象事件
+    function removeHandler(el, type, fn) { //移除对象事件
         // if (element.removeEventListener) {
         //     element.removeEventListener(type, handler, false);
         // } else if (element.detachEvent) {

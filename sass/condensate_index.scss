@@ -11,6 +11,7 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
+
 body {
     overflow-x: hidden;
     overflow-y: auto;
@@ -231,11 +232,6 @@ h2 {
     height: 512px;
     display: block;
     background: url(../condensate-cecovery/images/corp_logo.jpg) center center no-repeat;
-}
-
-.Office {
-    margin: 0 auto;
-    width: $fullScreenWidth
 }
 
 @include minWidth($maxWidth) {
