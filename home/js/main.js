@@ -6,7 +6,7 @@ require.config({
         'cookie': '../../js/cookie',
         'Browser': '../../js/Browser',
         'utilities': '../../js/utilities',
-        'AskOnline': '../../js/AskOnline',
+        'AskOnline': './AskOnline',
         'modal': '../../js/modal',
         'agencyAnchor': '../../js/agencyAnchor',
         'agencyDetail': '../../js/agencyDetail',
@@ -20,6 +20,6 @@ require(['eventUtil', 'AskOnline', 'agency', 'indexSlide'], function(eventUtil, 
 
     AskOnline.askOnline(); //点击打开在线咨询
 
-    eventUtil.addLoadEvent(indexSlide.init);
-    eventUtil.addLoadEvent(indexSlide.slide);
+    indexSlide.init();
+    indexSlide.slide();
 });

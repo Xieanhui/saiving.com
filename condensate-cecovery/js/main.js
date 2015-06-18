@@ -11,15 +11,15 @@ require.config({
         'agencyAnchor': '../../js/agencyAnchor',
         'agencyDetail': '../../js/agencyDetail',
         'agency': '../../js/agency',
+        'Counter': 'Counter',
         'condensate_slide': 'condensate_slide'
     }
 
 });
 
-require(['eventUtil', 'AskOnline', 'agency', 'condensate_slide'], function(eventUtil, AskOnline, agency, condensate_slide) {
+require(['eventUtil', 'AskOnline', 'agency', 'Counter', 'condensate_slide'], function(eventUtil, AskOnline, agency, Counter, condensate_slide) {
 
     AskOnline.askOnline(); //点击打开在线咨询
 
-    eventUtil.onDOMContentLoaded(condensate_slide.slide); //冷凝水回收设备页内滚动图片
-
+    condensate_slide.slide(); //冷凝水回收设备页内滚动图片
 });

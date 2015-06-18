@@ -234,6 +234,11 @@ h2 {
     background: url(../condensate-cecovery/images/corp_logo.jpg) center center no-repeat;
 }
 
+#industryNum, #enterpriseNum {
+    font-family: $globalFontFamily;
+    font-size: 1.5em;
+}
+
 @include minWidth($maxWidth) {
     .container {
         width: $fullScreenWidth;

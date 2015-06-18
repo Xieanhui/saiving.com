@@ -11,7 +11,6 @@
 @import "mixin/service";
 @import "mixin/productList";
 @import "mixin/footer";
-
 .common {
     width: 100%;
     padding: 19px 0;
@@ -36,67 +35,24 @@
     }
 }
 
-#prodBorad_1 {
-    margin: 15px auto 0
-}
-
-#prodBorad_2 {
-    margin: 0 auto;
-    border-top: 0;
-}
-
-#prodBorad_1,
-#prodBorad_2 {
+#prodBorad {
+    margin: 15px auto 0;
     padding: 0;
-}
-
-#prodBorad_1 li,
-#prodBorad_2 li {
-    padding: 30px 0;
-    float: left;
-    width: 24.9%;
-    border-right: 1px solid #CCCCCC;
-    text-align: center
-}
-
-#prodBorad_1 li.last,
-#prodBorad_2 li.last {
-    border-right: 0;
-}
-
-#prodBorad_1 li a,
-#prodBorad_2 li a {
-    margin: 10px auto;
-}
-
-#prodBorad_1 li a.askPrice,
-#prodBorad_2 li a.askPrice {
-    margin: 5px auto;
-    padding: 8px 0;
-    width: 110px;
-    height: 20px;
-    display: block;
-    border: 1px solid #3f7500;
-    color: #3f7500;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    text-decoration: none;
-    cusor: pointer;
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 20px;
-    -webkit-transition: backgroundColor 0.2s;
-    -moz-transition: backgroundColor 0.2s;
-    -ms-transition: backgroundColor 0.2s;
-    -o-transition: backgroundColor 0.2s;
-    transition: backgroundColor 0.2s
-}
-
-#prodBorad_1 li a.askPrice:hover,
-#prodBorad_2 li a.askPrice:hover {
-    background: #3f7500;
-    color: #ffffff
+    border-bottom: 0;
+    li {
+        padding: 30px 0;
+        float: left;
+        width: 24.9%;
+        border-right: 1px solid #CCCCCC;
+        border-bottom: 1px solid #CCCCCC;
+        text-align: center;
+        &.last {
+            border-right: 0;
+        }
+        a {
+            margin: 10px auto;
+        }
+    }
 }
 
 .proList {

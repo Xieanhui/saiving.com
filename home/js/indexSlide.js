@@ -11,144 +11,64 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
     var prev = utilities.getElementsByClassName(oFullSlide, 'span', 'prev')[0];
     var next = utilities.getElementsByClassName(oFullSlide, 'span', 'next')[0];
 
-    obd.style.marginLeft = -(obd.offsetWidth / 2) + "px";
-
-    for (var i = ohdLi.length - 1; i >= 0; i--) {
-        ohdLi[i].index = i;
+    function slideMove(cur) {
+        if (timer) {
+            clearInterval(timer);
+            clearTimeout(timer);
+        }
+        step = -(cur * 1920);
+        obdUl.style.left = step + "px";
+        for (var j = ohdLi.length - 1; j >= 0; j--) {
+            ohdLi[j].className = "";
+        }
+        ohdLi[cur].className = "on";
+        timer = setTimeout(slide, 3000);
     }
 
     function init() {
 
-        eventUtil.addHandler(oFullSlide, 'mouseover', function(event) {
+        obd.style.marginLeft = -(obd.offsetWidth / 2) + "px";
+        obd.style.left = "50%";
 
+        for (var i = ohdLi.length - 1; i >= 0; i--) {
+            ohdLi[i].index = i;
+        }
+
+        eventUtil.addHandler(oFullSlide, 'mouseover', function() {
             prev.style.display = "block";
             next.style.display = "block";
-
-            eventUtil.addHandler(prev, 'click', function() {
-                if (timer) {
-                    clearInterval(timer);
-                    clearTimeout(timer);
-                }
-                current -= 1;
-                if (current < 0) current = 3;
-                step = -(current * 1920);
-                obdUl.style.left = step + "px";
-                for (var j = ohdLi.length - 1; j >= 0; j--) {
-                    ohdLi[j].className = "";
-                }
-                if (current == 3) {
-                    ohdLi[2].className = "on";
-                } else {
-                    ohdLi[current].className = "on";
-                }
-                timer = setTimeout(slide, 3000);
-            });
-
-            eventUtil.addHandler(next, 'click', function() {
-                if (timer) {
-                    clearInterval(timer);
-                    clearTimeout(timer);
-                }
-                current += 1;
-                if (current > 3) current = 0;
-                step = -(current * 1920);
-                obdUl.style.left = step + "px";
-                for (var j = ohdLi.length - 1; j >= 0; j--) {
-                    ohdLi[j].className = "";
-                }
-                if (current == 3) {
-                    ohdLi[2].className = "on";
-                } else {
-                    ohdLi[current].className = "on";
-                }
-                timer = setTimeout(slide, 3000);
-            });
-
-            eventUtil.addHandler(ohdLi, 'click', function() {
-                if (timer) {
-                    clearInterval(timer);
-                    clearTimeout(timer);
-                }
-                current = this.index;
-                step = -(current * 1920);
-                obdUl.style.left = step + "px";
-                for (var j = ohdLi.length - 1; j >= 0; j--) {
-                    ohdLi[j].className = "";
-                }
-                this.className = "on";
-                setTimeout(slide, 3000);
-            });
-
-
         });
 
-
-        eventUtil.addHandler(oFullSlide, 'mouseout', function(event) {
+        eventUtil.addHandler(oFullSlide, 'mouseout', function() {
             prev.style.display = "none";
             next.style.display = "none";
-
-            eventUtil.removeHandler(prev, 'click', function() {
-                if (timer) {
-                    clearInterval(timer);
-                    clearTimeout(timer);
-                }
-                current -= 1;
-                if (current < 0) current = 3;
-                step = -(current * 1920);
-                obdUl.style.left = step + "px";
-                for (var j = ohdLi.length - 1; j >= 0; j--) {
-                    ohdLi[j].className = "";
-                }
-                if (current == 3) {
-                    ohdLi[2].className = "on";
-                } else {
-                    ohdLi[current].className = "on";
-                }
-                timer = setTimeout(slide, 3000);
-            });
-
-            eventUtil.removeHandler(next, 'click', function() {
-                if (timer) {
-                    clearInterval(timer);
-                    clearTimeout(timer);
-                }
-                current += 1;
-                if (current > 3) current = 0;
-                step = -(current * 1920);
-                obdUl.style.left = step + "px";
-                for (var j = ohdLi.length - 1; j >= 0; j--) {
-                    ohdLi[j].className = "";
-                }
-                if (current == 3) {
-                    ohdLi[2].className = "on";
-                } else {
-                    ohdLi[current].className = "on";
-                }
-                timer = setTimeout(slide, 3000);
-            });
-
-            eventUtil.removeHandler(ohdLi, 'click', function() {
-                if (timer) {
-                    clearInterval(timer);
-                    clearTimeout(timer);
-                }
-                current = this.index;
-                step = -(current * 1920);
-                obdUl.style.left = step + "px";
-                for (var j = ohdLi.length - 1; j >= 0; j--) {
-                    ohdLi[j].className = "";
-                }
-                this.className = "on";
-                setTimeout(slide, 3000);
-            });
-
-
         });
 
+        eventUtil.addHandler(prev, 'click', function() {
+            current -= 1;
+            if (current < 0) current = 2;
+            slideMove(current);
+        });
+
+        eventUtil.addHandler(next, 'click', function() {
+            current += 1;
+            if (current > 2) current = 0;
+            slideMove(current);
+        });
+
+        eventUtil.addHandler(ohd, 'click', function(event) {
+            var ev = event || window.event;
+            var target = ev.target || ev.srcElement;
+            if (!isNaN(target.index)) {
+                current = target.index;
+                slideMove(current);
+            }
+
+        });
     }
 
-
     eventUtil.addResizeEvent(function() {
+        obd.style.left = "50%";
         if (oFullSlide.offsetWidth > 940) {
             obd.style.width = "120%";
             obd.style.marginLeft = -(obd.offsetWidth / 2) + "px";
@@ -156,7 +76,6 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
             obd.style.width = "1900px";
             obd.style.marginLeft = "-960px";
         }
-
     });
 
     function slide() {
@@ -172,12 +91,18 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
                 clearInterval(timer);
                 timer = setTimeout(slide, 3000);
             }
+            for (var j = ohdLi.length - 1; j >= 0; j--) {
+                ohdLi[j].className = "";
+            }
+            if (current == 3) {
+                ohdLi[0].className = "on";
+            } else {
+                ohdLi[current].className = "on";
+            }
             obdUl.style.left = step + "px";
 
         }, 100);
     }
-
-
 
     return {
         init: init,

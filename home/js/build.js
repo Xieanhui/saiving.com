@@ -6,7 +6,7 @@
         'cookie': '../../js/cookie',
         'Browser': '../../js/Browser',
         'utilities': '../../js/utilities',
-        'AskOnline': '../../js/AskOnline',
+        'AskOnline': './AskOnline',
         'modal': '../../js/modal',
         'agencyAnchor': '../../js/agencyAnchor',
         'agencyDetail': '../../js/agencyDetail',

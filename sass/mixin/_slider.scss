@@ -19,7 +19,6 @@
     width: 120%;
     height: 480px;
     position: absolute;
-    left: 50%;
     z-index: 0;
     overflow: hidden;
     display: block;
@@ -40,7 +39,7 @@
         text-align: center;
         a {
             width: 1920px;
-            height: 480px;
+            height: 480px;            
         }
     }
 }
