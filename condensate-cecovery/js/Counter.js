@@ -44,6 +44,6 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
             }
             oenterpriseNum.innerHTML = j;
         }
-    }, 50);
+    }, 30);
 
 });

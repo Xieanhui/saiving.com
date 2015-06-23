@@ -1,0 +1,112 @@
+ BODY   {border: 0; margin: 0; cursor: default; background: #EFEFEF;font-family:ËÎÌו; font-size:9pt;}
+.AncestorsMouseUp {
+	border: 1px solid buttonface;
+	font-weight: bold;
+	color: #000000;
+	height: 10px;
+	cursor: default;
+}
+.AncestorsMouseUpOver {
+	font-weight: bold;
+	color: #000000;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #FFFFFF;
+	height: 10px;
+	cursor: default;
+}
+.AncestorsMouseDown {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #000000;
+	cursor: default;
+	font-weight: bold;
+	color: #000000;
+	height: 10px;
+}
+.AncestorsMouseOver {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+	cursor: default;
+	height: 10px;
+}
+ #Toolbar {
+	 height:250px;
+	 width:100%
+	 }
+.Toolbar_row {
+	height:32px;
+	width:100%;
+	border-bottom: 1px outset #F0F0F0;
+}
+.Toolbar_row_Button {
+	padding-top:3px;
+	height:30px;
+	width:30px;
+	float:left;
+	text-align:center;
+	border: 1px solid #EBEBEB;
+	cursor: default;
+}
+.Toolbar_row_Button img {
+	border:0;}
+.Toolbar_row_Button a:hover {
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #CCC;
+	cursor: default;
+}
+.Toolbar_row_Button a:active {
+	border-top: 1px solid #000;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #000;
+	cursor: default;
+}
+.ToolSelectStyle {
+	height: 20px;
+}
+#Toolbar_Area {
+	 height:90px;
+	 width:100%
+	 }
+.Toolbar_row_Button2 {
+	padding-top:3px;
+	height:25px;
+	width:60px;
+	float:left;
+	text-align:center;
+	}
+.ModeBarBtnOff {
+	border-top: 1px solid #FFF;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #FFF;
+}
+.ModeBarBtnOn {
+	border-top: 1px solid #666;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	border-left: 1px solid #666;
+}

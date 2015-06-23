@@ -19,6 +19,10 @@ define(function() {
         return (arrReturnElements);
     }
 
+     function getStyle(el, att) {
+        return el.currentStyle ? el.currentStyle[att] : document.defaultView.getComputedStyle(el, false)[att];
+    }
+
     // var get = {
     //     byId: function(id) {
     //         return document.getElementById(id)
@@ -71,6 +75,7 @@ define(function() {
 
     return {
         g: g,
+        getStyle: getStyle,
         getElementsByClassName: getElementsByClassName,
         displayElts: displayElts,
         proxyResponse: proxyResponse

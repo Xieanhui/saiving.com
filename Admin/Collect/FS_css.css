@@ -1,0 +1,252 @@
+/* 网站链接总的css定义:可定义内容为链接字体颜色、样式等 */
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #000000;} /* 未访问的链接 */
+a:visited {color: #000000;} /* 已访问的链接 */
+a:hover{color: #FF0000;} /* 鼠标在链接上 */ 
+a:active {color: #FF0000;} /* 点击激活链接 */
+/*BodyCSS定义*/
+td	{font-family:  "Verdana, Arial, Helvetica, sans-serif"; font-size: 11.5px; color: #000000; text-decoration:none ; text-decoration:none ; }
+BODY {
+background:center;
+font-family:  "Verdana, Arial, Helvetica, sans-serif"; font-size: 11.5px;
+FONT-SIZE: 9pt;
+color: #000000;
+text-decoration: none;
+scrollbar-face-color: #f6f6f6;
+scrollbar-highlight-color: #ffffff; scrollbar-shadow-color: #cccccc; scrollbar-3dlight-color: #cccccc; scrollbar-arrow-color: #000000; scrollbar-track-color: #EFEFEF; scrollbar-darkshadow-color: #ffffff;
+}
+.HighlightItem {
+	padding-left:10;
+	cursor:default;
+	font-size:9pt;
+	background-Color:highlight;
+	color:white;
+	/*height: 26px;*/
+	width: 100%;
+	line-height: 25px;
+}
+.LableDefault
+{
+	border-right: 1px solid;
+	border-top: 1px solid;
+	font-size: 12px;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-color: Black;
+	cursor: default;
+
+}
+.LableSelected
+{
+	border-right: 1px solid;
+	border-top: 1px solid;
+	font-size: 12px;
+	border-left: 1px solid;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-color: Black;
+	cursor: default;
+
+}
+.ToolBarButtonLine {
+	border-bottom: 1px solid;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-color: Black;
+}
+.LableUP {
+	border-top-width: 1px;
+	border-right-width: 2px;
+	border-bottom-width: 1px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	cursor: default;
+	background-color: #FFFFFF;
+}
+.LableDown {
+	border-top-width: 1px;
+	border-top-style: none;
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	cursor: default;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+.BtnMouseOver {
+	cursor: hand;
+	background-color: #DBDBDB;
+	border: 1px solid #999999;
+}
+.BtnMouseOut {
+	cursor: hand;
+	border: 1px solid #EEEEEE;
+}
+.Btn {
+	background-color: #E6E6E6;
+	cursor: default;
+}
+.Lable {
+	background-color: #E6E6E6;
+}
+.BtnMouseDown {
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #666666;
+	cursor: default;
+}
+.Btns {
+}
+.VLine {
+	border-right: 1px solid #999999;
+}
+.MenuItemBg {
+	background-repeat: no-repeat;
+	background-position: center;
+	/*height: 24px;*/
+	width: 34px;
+	line-height: 25px;
+}
+.MenuItemSelectBg {
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #FFFFFF;
+}
+.ButtonList {
+	background-color: #EFEFEF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-color: #EEEEEE;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	cursor: default;
+}
+.ButtonListOther {
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	font-size: 12px;
+	border-left: 1px solid;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-color: Black;
+	cursor: default;
+	background-color: #EFEFEF;
+}
+.TempletItem {
+	cursor: default;
+}
+.TempletSelectItem {
+	background-color:highlight;
+	cursor: default;
+	color: white;
+}
+.LableUP {
+	background-color: #E6E6E6;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #000000;
+	cursor: hand;
+}
+.LableDown {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #333333;
+	border-right-color: #333333;
+	border-bottom-color: #000000;
+	border-left-color: #333333;
+	cursor: hand;
+	background-color: #CCCCCC;
+}
+.input {
+	BACKGROUND-COLOR: #FFFFFF; BORDER-BOTTOM: #737373 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; COLOR: #000000; FONT-SIZE: 9pt; HEIGHT: 18px; WIDTH: 80px
+}
+.select {
+	BACKGROUND-COLOR: #FFFFFF; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; COLOR: #000000; FONT-SIZE: 9pt; HEIGHT: 18px; WIDTH: 80px
+}
+submit,select,option{font-family:  "Verdana, Arial, Helvetica, sans-serif"; font-size: 11.5px; line-height: 25px;BACKGROUND-COLOR: #FFFFFF; BORDER-BOTTOM: #4D4D4D 1px solid; BORDER-LEFT: #4D4D4D 1px solid; BORDER-RIGHT: #4D4D4D 1px solid; BORDER-TOP: #4D4D4D 1px solid; COLOR: #000000; }
+iframe,input,Textarea,{font-family:  "Verdana, Arial, Helvetica, sans-serif"; font-size: 11.5px; line-height: 15px;}
+.Gray {
+color: #999999;
+}
+.TableHead{
+	background-color: #EEEEEE;
+	border: 1px solid #999999;
+
+}
+.ButtonListLeft {
+	background-color: #EFEFEF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-color: #999999;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	cursor: default;
+}
+.PageBorder
+{
+	background-color: #EFEFEF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-left-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+}

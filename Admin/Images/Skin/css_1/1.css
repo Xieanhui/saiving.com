@@ -1,0 +1,263 @@
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #CDE7CD;} /* 未访问的链接 */
+a:visited {color: #CDE7CD;} /* 已访问的链接 */
+a:hover{color: #FFCC00;} /* 鼠标在链接上 */ 
+a:active {color: #FFCC00;} /* 点击激活链接 */
+.nav_l2{text-decoration:none;font-size:14px;color:#0099CC;height:0;filter:dropshadow(offX=1,offY=1,color=002E5B);}
+A.nav_l2:link{text-decoration:none;font-size:14px;color:#0099CC;height:0;filter:dropshadow(offX=1,offY=1,color=002E5B);}
+A.nav_l2:visited{text-decoration:none;font-size:14px;color:#FFFFFF;height:0;filter:dropshadow(offX=1,offY=1,color=002E5B);}
+A.nav_l2:active{text-decoration:underline;font-size:14px;color:#fff;height:0;filter:dropshadow(offX=1,offY=1,color=#00FF33);}
+A.nav_l2:hover{text-decoration:underline;font-size:14px;color:#fff;height:0;filter:dropshadow(offX=1,offY=1,color=#FF9900);}
+body{
+    FONT-FAMILY: "新宋体";
+    FONT-SIZE: 12px;
+    text-decoration: none;
+    line-height: 150%;
+    background:#0B8290;
+    SCROLLBAR-FACE-COLOR: #016E7B;
+    SCROLLBAR-HIGHLIGHT-COLOR: #013D44;
+    SCROLLBAR-SHADOW-COLOR: #70A9E9;
+    SCROLLBAR-3DLIGHT-COLOR: #70A9E9;
+    SCROLLBAR-ARROW-COLOR: #013D44;
+    SCROLLBAR-TRACK-COLOR: #01383E;
+    SCROLLBAR-DARKSHADOW-COLOR: #01383E;
+    padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+ /* 表单类 */
+Button,input,textarea{
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 12px;
+	COLOR:#F3F3F3;
+    text-decoration: none;
+    line-height: 150%;
+   background:#037987;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+   /* border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #013036;
+	border-right-color: #013036;
+	border-bottom-color: #013036;
+	border-left-color: #013036;*/
+	padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+ /* 下拉菜单 */
+select{
+    FONT-FAMILY: "Verdana, 新宋体";
+    FONT-SIZE: 12px;
+	COLOR:#CDE7CD;
+    text-decoration: none;
+    line-height: 150%;
+    background:#037987;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width:0px;
+	border-left-width: 0px;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #038291;
+	border-right-color: #038291;
+	border-bottom-color: #038291;
+	border-left-color: #038291;
+	padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.xk {
+	border: 1px solid #01393F;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background:#018A9B;
+}
+ /* 定义表CSS */
+.table{
+	border: 1px solid #013D44;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background:#087579;
+}
+ /* 菜单部分定义表CSS  */
+.leftframetable{
+	border: 1px solid #01393F;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background:#0B8290;
+}
+.bt {
+	font-size: 12px;
+	font-weight: bold;
+	color: #EBEBEB;
+	text-decoration: none;
+}
+td {
+	color:#B6D8B6;
+	font-size:12px;
+    line-height: 18px;
+}
+ /* 定义大字体标题CSS  */
+.xingmu {
+	font-family: "Verdana, 新宋体";
+	color:#B0D6B0;
+	font-size:12px;
+	font-weight:bolder;
+	background:#014952;
+    line-height: 22px;
+}
+.titledaohang {
+	FONT-SIZE: 12px; 
+	FILTER: Glow(Color=#024361, Strength=2) dropshadow(Color=#024361, OffX=1, OffY=1,); 
+	COLOR: #B0D6B0; 
+	font-weight:bolder;
+	FONT-FAMILY: '宋体'
+}
+A.admintx:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #B0D6B0; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #B0D6B0; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #023389; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #023389; TEXT-DECORATION: none;font-weight:bolder;
+}
+
+.back {
+	background:#016470;
+}
+.Leftback {
+	background:#017280;
+}
+.hback {
+	background:#097B88;
+}
+.hback_1 {
+	background:#0A8A98;
+}
+ /* 框架CSS  */
+.bordercolor {
+cursor:col-resize;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:solid;
+border-right-width:3px;
+border-right-color:#0B8290;
+}
+ /* 大字体CSS  */
+.pagetile {
+	font-weight:bolder;
+	font-size:20px;
+}
+.ischeck
+{
+	color:#FF9900;
+}
+/*自定义CSS样式一，黄色*/
+a.CusCss1.link
+{
+	color:#FFFFFF;
+}
+/*自定义CSS样式二,黄蓝*/
+.CusCss2
+{
+	color:#00CCCC;
+}
+/*自定义CSS样式二,黄白*/
+.CusCss3
+{
+	color:#FFCCCC;
+}
+.alps {
+FONT-SIZE: 9pt; 
+FILTER: Glow(Color=#0F42A6, Strength=2) dropshadow(Color=#0F42A6, OffX=2, OffY=1,); 
+COLOR: #8AADE9; 
+FONT-FAMILY: '宋体'
+}
+A.top:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #B0D6B0; TEXT-DECORATION: none
+}
+A.top:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #B0D6B0; TEXT-DECORATION: none
+}
+A.top:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF9900; TEXT-DECORATION: none
+}
+A.top:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF9900; TEXT-DECORATION: none
+}
+A.otherset:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #B0D6B0; TEXT-DECORATION: none
+}
+A.otherset:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #B0D6B0; TEXT-DECORATION: none
+}
+A.otherset:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+A.otherset:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+.tx
+{
+Color:B0FF9D;
+}
+A.sd:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #CDE7CD; TEXT-DECORATION: none
+}
+A.sd:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #CDE7CD; TEXT-DECORATION: none
+}
+A.sd:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FCDE11; TEXT-DECORATION: none
+}
+A.sd:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FCDE11; TEXT-DECORATION: none
+}
+.RightInput{
+	font-size:12px
+	border-bottom:solid;
+	border-bottom-color:#FFFFFF;
+	border-bottom-width:1;
+	border-left:solid;
+	border-left-color:#FFFFFF;
+	border-left-width:1;
+	border-right:solid;
+	border-right-color:#FFFFFF;
+	border-right-width:1;
+	border-top:solid;
+	border-top-color:#FFFFF;
+	border-top-width:1;
+}
+.WarnInput{
+	font-size:12px
+	border-bottom:solid;
+	border-bottom-color:#FF0000;
+	border-bottom-width:1;
+	border-left:solid;
+	border-left-color:#FF0000;
+	border-left-width:1;
+	border-right:solid;
+	border-right-color:#FF0000;
+	border-right-width:1;
+	border-top:solid;
+	border-top-color:#FF0000;
+	border-top-width:1;
+}

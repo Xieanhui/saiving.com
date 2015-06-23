@@ -64,7 +64,7 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
                 slideMove(current);
             }
 
-        });
+        });        
     }
 
     eventUtil.addResizeEvent(function() {
@@ -83,21 +83,13 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
         timer = setInterval(function() {
             step -= 192;
             current = Math.abs(Math.floor(step / 1920));
-            if (current == 4) {
+            if (current == 3) {
                 step = 0;
                 current = 0
             };
             if (step % 1920 == 0) {
                 clearInterval(timer);
                 timer = setTimeout(slide, 3000);
-            }
-            for (var j = ohdLi.length - 1; j >= 0; j--) {
-                ohdLi[j].className = "";
-            }
-            if (current == 3) {
-                ohdLi[0].className = "on";
-            } else {
-                ohdLi[current].className = "on";
             }
             obdUl.style.left = step + "px";
 

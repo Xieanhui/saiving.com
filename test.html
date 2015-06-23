@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style>
+* {margin:0;padding:0}
+* html,* html body{background-image:url(about:blank);background-attachment:fixed}
+#dialogBg {z-index:9999; position:fixed; _position:absolute; left:0; top:0; _left:expression(eval(document.documentElement.scrollLeft)); _top:expression(eval(document.documentElement.scrollTop)); background:#777; width:100%; height:100%;filter:alpha(opacity:30); opacity:0.5; display:none;}
+#dialog{width:350px; height:170px; position:fixed;  _position:absolute; _left:expression(eval(document.documentElement.scrollLeft - (document.documentElement.clientWidth - this.offsetWidth)/2));_top:expression(eval(document.documentElement.scrollTop + (document.documentElement.clientHeight - this.offsetHeight)/2));font-family:'微软雅黑', '黑体', Arial, Helvetica, sans-serif; color:#FFF;text-align:center; font-weight:bold; border:10px solid #777; margin:0; padding:25px 30px 20px; z-index:10000;background:#A00; display:none; border-radius: 15px; -moz-border-radius:15px; -webkit-border-radius:15px;}
+.boardTitle {font-size:30px; }
+.boardContent {font-size:20px; font-weight:normal;margin:20px auto 0;line-height:28px;}
+#dialog span { width:17px;position:absolute; top:-30px; right:-25px;display:block; cursor:pointer; font-size:12px; font-weight:normal;padding:0; margin:0px; border:8px solid #777; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;background:#000}
+</style>
+<script>
+var oDialogBg;
+var oDialog;
+var oClose;
+
+var oClientWidth;
+var oClientHeight;
+var oScrollTop;
+var oScrollLeft;
+
+var isShow = null;
+
+function setCookie()
+{
+	var expDate = new Date();	
+	document.cookie = "isShow=true; expires="+ expDate.setTime(expDate.getTime + 24*60*60*1000*1);	
+}
+
+function getCookie(objName)
+{
+	var aStr = document.cookie;
+	var aCookie = aStr.split("; ");
+	
+	for(var i=0; i< aCookie.length; i++)
+	{
+		var aTmp = aCookie[i].split("=");	
+		if (aTmp[i]==objName) return unescape(aTmp[i+1]);				
+	}
+}
+
+window.onload = function () {
+	
+	var isShow = getCookie('isShow');
+	if (isShow)
+	{
+		//不显示对话框；
+	}
+	else
+	{
+		//设置Cookie;并显示对话框;
+		setCookie();		
+	
+		oDialogBg = document.getElementById("dialogBg");
+		oDialog = document.getElementById("dialog");		
+		oClose = oDialog.getElementsByTagName("span");
+		
+		oClientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+		oClientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+		oScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+		oScrollLeft = document.documentElement.scrollLeft || document.body.scrollLeft;
+		
+		oDialogBg.style.display = 'block';
+		oDialog.style.display = 'block';	
+		
+		oDialogBg.style.width = oClientWidth +"px";
+		oDialogBg.style.height = oClientHeight +"px";
+			
+		oDialog.style.top =  (oClientHeight/2 - oDialog.offsetHeight/2) + "px";
+		oDialog.style.left = (oClientWidth/2 - oDialog.offsetWidth/2) + "px";
+			
+		oClose[0].onclick = function (){
+			oDialogBg.style.display = 'none';
+			oDialog.style.display = 'none';
+			};		
+	}	
+};
+</script>
+
+</head>
+
+<body>
+
+a;ldkf;lakvmaskdfl;askdfoiwjef
+<h1>asdfasdf</h1>
+<h2>agsdfgstyhdfgh</h2>
+<h3>sdghsdfghfgh</h3>
+<ul>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+<li>sdfgsdfgsvb</li>
+<li>sdf</li>
+</ul>
+<div id="dialogBg">
+</div>
+<div id="dialog"><p class='boardTitle'>* 热烈庆祝 *</p><p class='boardContent'>2013年4月10日，北京思赛文科技有限公司于获得独立投资人赵磊先生第二段发展投资1000万美金。</p><span title="关闭">X</span></div>
+</body>
+</html>

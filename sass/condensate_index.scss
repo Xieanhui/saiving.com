@@ -41,11 +41,6 @@ body {
     border-bottom: 1px solid #E6E6E6
 }
 
-.fifthPage {
-    padding: 50px 0 280px;
-    background: url(../condensate-cecovery/images/Staff.png) bottom center no-repeat #EFEFEF
-}
-
 .fourthPage {
     margin: 0 auto;
     padding: 0;
@@ -62,9 +57,6 @@ body {
         color: #ffffff;
         &:hover {
             border-color: #496d02;
-        }
-        .fa {
-            color: #ffffff
         }
     }
     .live {
@@ -103,6 +95,35 @@ body {
             o-border-radius: 15px;
             background-color: #555555;
         }
+    }
+}
+
+.fifthPage {
+    padding: 50px 0 280px;
+    background: url(../condensate-cecovery/images/Staff.png) bottom center no-repeat #EFEFEF
+}
+
+.firstPage {
+    position: relative;
+    height: 600px;
+    ul {
+        height: 373px;
+        position: absolute;
+        top: 0px;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
+.seventhPage {
+    position: relative;
+    height: 600px;
+    ul {
+        height: 373px;
+        position: absolute;
+        top: 600px;
+        opacity: 0;
+        filter: alpha(opacity=0);
     }
 }
 
@@ -148,7 +169,7 @@ h2 {
 .mainProduct li {
     float: left;
     width: 25%;
-    text-align: center
+    text-align: center;
 }
 
 .mainProduct li a {
@@ -219,9 +240,13 @@ h2 {
                     background-color: rgba(0, 0, 0, 0.8);
                     filter: alpha(opacity=80);
                 }
+                img {
+                    opacity: 0.7;
+                    filter: alpha(opacity=70);
+                }
             }
             img {
-                border: 1px solid #ffffff
+                border: 1px solid #ffffff;
             }
         }
     }

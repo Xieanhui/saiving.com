@@ -1,0 +1,10 @@
+<%
+Function GetData()
+
+end Function 
+%>
+
+
+
+
+

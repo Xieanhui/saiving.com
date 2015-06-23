@@ -1,0 +1,324 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 00:31:53
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 00:31:53 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 77.88.29.248 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 404 0 2 1201 185 812
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 00:50:12
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 00:50:12 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 223.243.41.66 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0) - - www.saiving.com 200 0 0 21605 390 703
+2012-05-23 00:56:08 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 77.88.29.248 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 15263 280 1656
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 01:32:45
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 01:32:45 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 220.181.108.96 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - saiving.com 304 0 0 281 307 375
+2012-05-23 01:38:08 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.210 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 404 0 2 1201 261 78
+2012-05-23 01:38:09 W3SVC12455 GAMMA 106.3.96.10 GET /technology.html - 80 - 66.249.67.171 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 4347 290 625
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 02:03:24
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 02:03:24 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 61.155.149.213 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.1;+.NET+CLR+2.0.50727) - http://www.baidu.com/s?wd=a saiving.com 200 0 0 10087 411 843
+2012-05-23 02:03:32 W3SVC12455 GAMMA 106.3.96.10 GET /css/style.css - 80 - 61.155.149.213 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.1;+.NET+CLR+2.0.50727) - http://saiving.com/company.html saiving.com 200 0 0 2055 282 46
+2012-05-23 02:19:22 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.125.71.44 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 404 0 2 1220 233 15
+2012-05-23 02:27:05 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.177 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 404 0 2 1201 265 93
+2012-05-23 02:27:05 W3SVC12455 GAMMA 106.3.96.10 GET /svyt.html - 80 - 203.208.60.177 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 304 0 0 214 288 250
+2012-05-23 02:36:21 W3SVC12455 GAMMA 106.3.96.10 GET /images/svzhprocess.jpg - 80 - 222.35.163.81 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.56+Safari/535.11 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098 http://saiving.b2b.youboy.com/show0sp65274758.html www.saiving.com 200 0 0 28756 504 812
+2012-05-23 02:36:35 W3SVC12455 GAMMA 106.3.96.10 GET /images/svzhtable.jpg - 80 - 222.35.163.81 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.56+Safari/535.11 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098 http://saiving.b2b.youboy.com/show0sp65274758.html www.saiving.com 200 0 0 25705 502 14437
+2012-05-23 02:47:27 W3SVC12455 GAMMA 106.3.96.10 GET /images/svljdot.jpg - 80 - 222.35.163.81 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.56+Safari/535.11 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098 http://saiving.b2b.youboy.com/show0sp65269063.html www.saiving.com 200 0 0 560 500 187
+2012-05-23 02:47:27 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlj_stand.jpg - 80 - 222.35.163.81 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.56+Safari/535.11 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098 http://saiving.b2b.youboy.com/show0sp65269063.html www.saiving.com 200 0 0 32728 503 390
+2012-05-23 02:47:29 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlj_table.jpg - 80 - 222.35.163.81 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.56+Safari/535.11 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098 http://saiving.b2b.youboy.com/show0sp65269063.html www.saiving.com 200 0 0 24539 503 1781
+2012-05-23 02:47:29 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlj_liucheng.jpg - 80 - 222.35.163.81 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.56+Safari/535.11 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098 http://saiving.b2b.youboy.com/show0sp65269063.html www.saiving.com 200 0 0 33155 506 2187
+2012-05-23 02:47:37 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlj_lie.jpg - 80 - 222.35.163.81 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.56+Safari/535.11 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337735196098 http://saiving.b2b.youboy.com/show0sp65269063.html www.saiving.com 200 0 0 33929 501 10171
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 04:23:25
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://lixiuli2012.net114.com/contactus.html www.saiving.com 200 0 0 15263 366 546
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /css/style.css - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 2055 358 62
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/logo.png - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 8317 360 125
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/energy-supply.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 4438 369 78
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/rouzi.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 4543 361 109
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/cell.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 7081 360 171
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/iso9001Logo.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 5538 367 156
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/website.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 16759 363 203
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/index.html - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 2420 626 62
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/hotline.png - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 4454 363 46
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon3_2.gif - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 5058 363 62
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon1_2.gif - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 7880 363 140
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon4_2.gif - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 5920 363 109
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/dot.png - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 3058 359 140
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/more.png - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 3605 360 140
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/default.css - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1845 402 93
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/pascal/pascal.css - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 2471 400 93
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon2_2.gif - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/ www.saiving.com 200 0 0 5300 363 93
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/orman/orman.css - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 2365 398 109
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/css/nivo-slider.css - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1754 388 109
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/css/style.css - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 2313 382 93
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/nohead.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 34308 386 265
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/juanye.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 67713 386 375
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/loading.gif - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337743703215;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337743703215 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1988 521 62
+2012-05-23 04:23:25 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/info.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 87870 384 375
+2012-05-23 04:23:27 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery.nivo.slider.pack.js - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 16186 398 546
+2012-05-23 04:23:27 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/emc.jpg - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 82931 383 671
+2012-05-23 04:23:27 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery-1.6.1.min.js - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 91608 391 765
+2012-05-23 04:23:28 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/bullets.png - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337743703215;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337743703215 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1532 521 62
+2012-05-23 04:23:32 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/arrows.png - 80 - 116.246.38.26 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+InfoPath.2;+MS-RTC+LM+8;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E) Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337743703215;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337743703215 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1073 520 203
+2012-05-23 04:38:14 W3SVC12455 GAMMA 106.3.96.10 GET /lffuinclude/mapcms.php - 80 - 61.187.98.69 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 404 0 3 1220 117 46
+2012-05-23 04:38:14 W3SVC12455 GAMMA 106.3.96.10 GET /include/mapcms.php - 80 - 61.187.98.69 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 404 0 3 1220 113 31
+2012-05-23 04:38:14 W3SVC12455 GAMMA 106.3.96.10 GET /include/mapcms.php - 80 - 61.187.98.69 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 404 0 3 1220 113 31
+2012-05-23 04:38:46 W3SVC12455 GAMMA 106.3.96.10 GET /swyt.html - 80 - 110.75.173.132 HTTP/1.1 Yahoo!+Slurp+China - - www.saiving.com 404 0 2 1201 142 31
+2012-05-23 04:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /deaerator.html - 80 - 110.75.173.132 HTTP/1.1 Yahoo!+Slurp+China - - www.saiving.com 200 0 0 7368 147 78
+2012-05-23 04:38:54 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 110.75.173.131 HTTP/1.1 Yahoo!+Slurp+China - - www.saiving.com 200 0 0 12808 146 140
+2012-05-23 04:41:21 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 110.75.173.130 HTTP/1.1 Yahoo!+Slurp+China - - saiving.com 200 0 0 13299 145 156
+2012-05-23 04:41:27 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svyq.html - 80 - 110.75.173.132 HTTP/1.1 Yahoo!+Slurp+China - - saiving.com 200 0 0 13269 145 187
+2012-05-23 04:42:11 W3SVC12455 GAMMA 106.3.96.10 GET /svln.html - 80 - 110.75.173.131 HTTP/1.1 Yahoo!+Slurp+China - - saiving.com 200 0 0 21034 138 234
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 05:15:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 05:15:00 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 182.118.22.209 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.8.0.11)+Gecko/20070312+Firefox/1.5.0.11;+CollapsarTEXT - - www.saiving.com 200 0 0 15263 207 468
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 05:33:13
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 05:33:13 W3SVC12455 GAMMA 106.3.96.10 GET /needBook.html - 80 - 220.181.108.144 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - saiving.com 304 0 0 232 320 46
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 07:25:50
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 07:25:50 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 114.100.73.186 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0) - - www.saiving.com 200 0 0 15263 378 781
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 10:11:17
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 10:11:17 W3SVC12455 GAMMA 106.3.96.10 GET /images/iso9001Logo.jpg - 80 - 123.125.71.33 HTTP/1.1 Baiduspider-image+(+http://www.baidu.com/search/spider.htm) - - www.saiving.com 200 0 0 5557 191 515
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 10:28:06
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 10:28:06 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.125.71.100 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 404 0 2 1220 233 93
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 11:08:55
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /favicon.ico - 80 - 110.232.44.113 HTTP/1.1 Mozilla/5.0+(Windows+NT+5.1)+AppleWebKit/535.11+(KHTML,+like+Gecko)+Chrome/17.0.963.15+Safari/535.11+QQBrowser/6.0 - - www.saiving.com 200 0 0 1404 229 484
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /css/style.css - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 2055 295 265
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - - www.saiving.com 200 0 0 15263 248 1375
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /images/iso9001Logo.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 5538 304 250
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /images/hotline.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 4454 300 531
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /images/energy-supply.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 4438 306 546
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /slider/index.html - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 2420 403 281
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /images/rouzi.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 4543 298 531
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /images/logo.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 8317 297 953
+2012-05-23 11:08:55 W3SVC12455 GAMMA 106.3.96.10 GET /images/cell.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 7081 297 656
+2012-05-23 11:08:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/website.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 16759 300 1156
+2012-05-23 11:08:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/more.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 3605 297 468
+2012-05-23 11:08:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/dot.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 3058 296 718
+2012-05-23 11:08:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon1_2.gif - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 7880 300 281
+2012-05-23 11:08:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon2_2.gif - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 5300 300 281
+2012-05-23 11:08:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon3_2.gif - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 5058 300 296
+2012-05-23 11:08:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon4_2.gif - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/ www.saiving.com 200 0 0 5920 300 406
+2012-05-23 11:08:58 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/pascal/pascal.css - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 2471 337 281
+2012-05-23 11:08:58 W3SVC12455 GAMMA 106.3.96.10 GET /slider/css/nivo-slider.css - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1754 325 312
+2012-05-23 11:08:58 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/default.css - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1845 339 312
+2012-05-23 11:08:58 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/orman/orman.css - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 2365 335 312
+2012-05-23 11:08:58 W3SVC12455 GAMMA 106.3.96.10 GET /slider/css/style.css - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 2313 319 328
+2012-05-23 11:08:59 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/juanye.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 67713 323 1187
+2012-05-23 11:08:59 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/nohead.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 34308 323 1703
+2012-05-23 11:08:59 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/emc.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 82931 320 1703
+2012-05-23 11:08:59 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/info.jpg - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 87870 321 1828
+2012-05-23 11:09:00 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery-1.6.1.min.js - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 - http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 91608 328 2031
+2012-05-23 11:09:01 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/loading.gif - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1988 458 296
+2012-05-23 11:09:03 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/orman/slider.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 36345 455 1406
+2012-05-23 11:09:03 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery.nivo.slider.pack.js - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 16186 454 828
+2012-05-23 11:09:04 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/bullets.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1532 458 296
+2012-05-23 11:09:04 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/bullets.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1532 458 281
+2012-05-23 11:09:04 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/bullets.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1532 458 281
+2012-05-23 11:09:04 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/bullets.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1532 458 281
+2012-05-23 11:09:04 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/arrows.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1073 457 453
+2012-05-23 11:09:04 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/arrows.png - 80 - 110.232.44.113 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727)+QQBrowser/6.13.13719.201 Hm_lvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546;+Hm_lpvt_5762e14425e6ecea21aaf2051b1c7b78=1337767971546 http://www.saiving.com/slider/index.html www.saiving.com 200 0 0 1073 457 453
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 12:02:51
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 12:02:51 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 101.226.33.228 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 200 0 0 15282 170 593
+2012-05-23 12:03:12 W3SVC12455 GAMMA 106.3.96.10 GET /slider/index.html - 80 - 101.226.33.228 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 200 0 0 2439 187 31
+2012-05-23 12:03:31 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery.nivo.slider.pack.js - 80 - 101.226.33.228 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 200 0 0 16205 206 171
+2012-05-23 12:03:38 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery-1.6.1.min.js - 80 - 101.226.33.228 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 200 0 0 91627 199 6953
+2012-05-23 12:03:48 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery-1.6.1.min.js - 80 - 101.226.33.228 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 200 0 0 91627 199 1875
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 12:45:50
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 12:45:50 W3SVC12455 GAMMA 106.3.96.10 GET /svlj.html - 80 - 203.208.60.176 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 304 0 0 214 288 421
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 13:50:33
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 13:50:33 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 118.192.35.175 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1) - http://www.saiving.com/ www.saiving.com 200 0 0 15282 185 453
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 15:19:56
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 15:19:56 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.176 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 404 0 2 1201 265 500
+2012-05-23 15:19:56 W3SVC12455 GAMMA 106.3.96.10 GET /download/%E4%BA%A7%E5%93%81%E8%AF%A2%E4%BB%B7.doc - 80 - 203.208.60.176 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 304 0 0 213 328 234
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 15:46:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 15:45:59 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.210 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 404 0 2 1201 261 2796
+2012-05-23 15:46:00 W3SVC12455 GAMMA 106.3.96.10 GET /direction.html - 80 - 203.208.60.210 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 11610 289 312
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 16:27:57
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 16:27:56 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svdg.html - 80 - 220.181.108.140 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - saiving.com 200 0 0 11550 323 484
+2012-05-23 16:29:36 W3SVC12455 GAMMA 106.3.96.10 GET /index.html - 80 - 220.181.108.111 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 200 0 0 15229 233 62
+2012-05-23 16:29:36 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 220.181.108.183 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 200 0 0 15282 223 15
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 17:28:02
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 17:28:02 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 114.100.77.192 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0) - - www.saiving.com 200 0 0 21605 302 1234
+2012-05-23 17:36:58 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.125.71.16 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 404 0 2 1220 233 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 18:46:08
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 18:46:08 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 220.181.108.79 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - saiving.com 304 0 0 281 307 375
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 19:07:21
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 19:07:20 W3SVC12455 GAMMA 106.3.96.10 GET /product.html - 80 - 182.118.22.229 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.8.0.11)+Gecko/20070312+Firefox/1.5.0.11;+CollapsarTEXT - - www.saiving.com 200 0 0 24844 219 750
+2012-05-23 19:14:42 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.125.71.59 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 404 0 2 1220 233 0
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 20:52:29
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 20:52:29 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.125.71.110 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 404 0 2 1220 233 1421
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 21:11:37
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 21:11:36 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 124.115.6.16 HTTP/1.1 Sosospider+(+http://help.soso.com/webspider.htm) - - www.saiving.com 404 0 2 1201 224 31
+2012-05-23 21:14:30 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 404 0 2 1201 181 437
+2012-05-23 21:14:30 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 404 0 2 1201 185 437
+2012-05-23 21:14:31 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 12808 295 1312
+2012-05-23 21:14:31 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 12808 299 1312
+2012-05-23 21:14:31 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 12808 295 859
+2012-05-23 21:14:31 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 12808 299 859
+2012-05-23 21:14:33 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 13873 290 500
+2012-05-23 21:14:33 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11692 298 468
+2012-05-23 21:14:34 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 13873 290 437
+2012-05-23 21:14:35 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11692 298 437
+2012-05-23 21:14:37 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 13299 298 468
+2012-05-23 21:14:38 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svhg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11857 298 484
+2012-05-23 21:14:38 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 13299 298 437
+2012-05-23 21:14:39 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svhg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11857 298 421
+2012-05-23 21:14:41 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svjy.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11077 298 484
+2012-05-23 21:14:41 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svlp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 10919 298 468
+2012-05-23 21:14:42 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svjy.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11077 298 421
+2012-05-23 21:14:44 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svlp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 10919 298 437
+2012-05-23 21:14:45 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svpw.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11325 298 484
+2012-05-23 21:14:46 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svrj.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 12650 298 500
+2012-05-23 21:14:46 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svpw.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11325 298 421
+2012-05-23 21:14:48 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svrj.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 12650 298 453
+2012-05-23 21:14:49 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svsg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 13247 298 453
+2012-05-23 21:14:50 W3SVC12455 GAMMA 106.3.96.10 GET /svqd.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 14991 291 468
+2012-05-23 21:14:50 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svsg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 13247 298 421
+2012-05-23 21:14:52 W3SVC12455 GAMMA 106.3.96.10 GET /svqd.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 14991 291 421
+2012-05-23 21:14:52 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 13873 294 437
+2012-05-23 21:14:53 W3SVC12455 GAMMA 106.3.96.10 GET /svyt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 21466 291 515
+2012-05-23 21:14:53 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 13873 294 437
+2012-05-23 21:14:53 W3SVC12455 GAMMA 106.3.96.10 GET /svyt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 21466 291 437
+2012-05-23 21:14:54 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11692 302 437
+2012-05-23 21:14:55 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 13299 302 437
+2012-05-23 21:14:55 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11692 302 421
+2012-05-23 21:14:56 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 13299 302 437
+2012-05-23 21:14:58 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svhg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11857 302 421
+2012-05-23 21:14:59 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svjy.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11077 302 437
+2012-05-23 21:15:00 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svhg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11857 302 421
+2012-05-23 21:15:01 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svjy.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11077 302 437
+2012-05-23 21:15:02 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svlp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 10919 302 437
+2012-05-23 21:15:03 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svpw.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11325 302 437
+2012-05-23 21:15:04 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svlp.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 10919 302 437
+2012-05-23 21:15:04 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svpw.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11325 302 421
+2012-05-23 21:15:06 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svrj.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 12650 302 437
+2012-05-23 21:15:07 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svsg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 13247 302 437
+2012-05-23 21:15:08 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svrj.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 12650 302 437
+2012-05-23 21:15:09 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svsg.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 13247 302 437
+2012-05-23 21:15:10 W3SVC12455 GAMMA 106.3.96.10 GET /svqd.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 14991 295 437
+2012-05-23 21:15:11 W3SVC12455 GAMMA 106.3.96.10 GET /svyt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 21466 295 437
+2012-05-23 21:15:12 W3SVC12455 GAMMA 106.3.96.10 GET /svqd.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 14991 295 437
+2012-05-23 21:15:13 W3SVC12455 GAMMA 106.3.96.10 GET /svyt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 21466 295 437
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 22:07:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 22:07:00 W3SVC12455 GAMMA 106.3.96.10 GET /data/xlvemapcms.php - 80 - 183.60.197.225 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 404 0 3 1220 114 421
+2012-05-23 22:07:00 W3SVC12455 GAMMA 106.3.96.10 GET /data/mapcms.php - 80 - 183.60.197.225 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 404 0 3 1220 110 31
+2012-05-23 22:07:00 W3SVC12455 GAMMA 106.3.96.10 GET /data/mapcms.php - 80 - 183.60.197.225 HTTP/1.1 Mozilla/4.0 - - www.saiving.com 404 0 3 1220 110 31
+2012-05-23 22:19:28 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.126.50.71 HTTP/1.1 - - - saiving.com 404 0 2 1201 117 15
+2012-05-23 22:19:38 W3SVC12455 GAMMA 106.3.96.10 GET /svln.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - saiving.com 304 0 0 233 405 109
+2012-05-23 22:25:55 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - saiving.com 304 0 0 281 396 15
+2012-05-23 22:29:20 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.126.50.71 HTTP/1.1 - - - www.saiving.com 404 0 2 1201 121 15
+2012-05-23 22:29:29 W3SVC12455 GAMMA 106.3.96.10 GET /index.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 304 0 0 232 410 15
+2012-05-23 22:30:02 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.125.71.92 HTTP/1.1 Mozilla/5.0+(compatible;+Baiduspider/2.0;++http://www.baidu.com/search/spider.html) - - www.saiving.com 404 0 2 1220 233 0
+2012-05-23 22:31:41 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 304 0 0 233 416 0
+2012-05-23 22:43:59 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - saiving.com 304 0 0 233 404 140
+2012-05-23 22:56:01 W3SVC12455 GAMMA 106.3.96.10 GET /howmuch.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 304 0 0 233 412 78
+2012-05-23 22:56:47 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 114.100.73.47 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0) - - www.saiving.com 200 0 0 21605 390 1468
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-05-23 23:23:59
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-05-23 23:23:59 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html t=37894 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 - www.saiving.com 200 0 0 15282 1033 375
+2012-05-23 23:24:01 W3SVC12455 GAMMA 106.3.96.10 GET /css/style.css - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 2074 256 78
+2012-05-23 23:24:57 W3SVC12455 GAMMA 106.3.96.10 GET /slider/index.html - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 2439 1087 78
+2012-05-23 23:24:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/logo.png - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 8336 259 140
+2012-05-23 23:24:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/hotline.png - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 4473 262 156
+2012-05-23 23:24:58 W3SVC12455 GAMMA 106.3.96.10 GET /images/energy-supply.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 4457 269 140
+2012-05-23 23:24:58 W3SVC12455 GAMMA 106.3.96.10 GET /images/cell.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 7100 260 140
+2012-05-23 23:24:58 W3SVC12455 GAMMA 106.3.96.10 GET /images/rouzi.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 4562 261 187
+2012-05-23 23:24:58 W3SVC12455 GAMMA 106.3.96.10 GET /images/website.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 16778 263 265
+2012-05-23 23:24:58 W3SVC12455 GAMMA 106.3.96.10 GET /images/more.png - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 3624 259 140
+2012-05-23 23:24:59 W3SVC12455 GAMMA 106.3.96.10 GET /images/dot.png - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 3077 258 140
+2012-05-23 23:24:59 W3SVC12455 GAMMA 106.3.96.10 GET /images/iso9001Logo.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 5557 267 187
+2012-05-23 23:24:59 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon1_2.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 7899 262 140
+2012-05-23 23:25:00 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon2_2.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 5319 262 156
+2012-05-23 23:25:00 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon4_2.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 5939 262 140
+2012-05-23 23:25:00 W3SVC12455 GAMMA 106.3.96.10 GET /images/icon3_2.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/?t=37894 www.saiving.com 200 0 0 5077 262 156
+2012-05-23 23:25:00 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/default.css - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 1864 292 78
+2012-05-23 23:25:00 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/pascal/pascal.css - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 2490 290 93
+2012-05-23 23:25:02 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/orman/orman.css - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 2384 288 93
+2012-05-23 23:25:02 W3SVC12455 GAMMA 106.3.96.10 GET /slider/css/nivo-slider.css - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 1773 278 93
+2012-05-23 23:25:02 W3SVC12455 GAMMA 106.3.96.10 GET /slider/css/style.css - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 2332 272 93
+2012-05-23 23:25:04 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery-1.6.1.min.js - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 91627 295 562
+2012-05-23 23:25:07 W3SVC12455 GAMMA 106.3.96.10 GET /slider/js/jquery.nivo.slider.pack.js - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 16205 302 281
+2012-05-23 23:25:44 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/orman/orman.css - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 2384 288 78
+2012-05-23 23:25:45 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/themes/default/loading.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 2007 293 78
+2012-05-23 23:25:45 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/nohead.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 34327 278 421
+2012-05-23 23:25:45 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/juanye.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 67732 278 500
+2012-05-23 23:25:45 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/info.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 87889 276 578
+2012-05-23 23:25:45 W3SVC12455 GAMMA 106.3.96.10 GET /slider/images/emc.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=PJlvP9kJtT!-2718750 http://www.saiving.com:80/slider/index.html www.saiving.com 200 0 0 82950 275 593
+2012-05-23 23:27:07 W3SVC12455 GAMMA 106.3.96.10 GET /CondensatePolishing.html t=21611 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 - www.saiving.com 200 0 0 24699 1060 328
+2012-05-23 23:27:25 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - saiving.com 304 0 0 233 409 0
+2012-05-23 23:27:36 W3SVC12455 GAMMA 106.3.96.10 GET /images/svln_1.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/CondensatePolishing.html?t=21611 www.saiving.com 200 0 0 34613 289 406
+2012-05-23 23:27:36 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlj_1.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/CondensatePolishing.html?t=21611 www.saiving.com 200 0 0 34648 289 421
+2012-05-23 23:27:36 W3SVC12455 GAMMA 106.3.96.10 GET /images/svqd_1.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/CondensatePolishing.html?t=21611 www.saiving.com 200 0 0 29817 289 359
+2012-05-23 23:27:38 W3SVC12455 GAMMA 106.3.96.10 GET /images/svny_1.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/CondensatePolishing.html?t=21611 www.saiving.com 200 0 0 8972 288 250
+2012-05-23 23:27:38 W3SVC12455 GAMMA 106.3.96.10 GET /images/svzj_1.jpg - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/CondensatePolishing.html?t=21611 www.saiving.com 200 0 0 31313 289 406
+2012-05-23 23:27:38 W3SVC12455 GAMMA 106.3.96.10 GET /images/svhj_1.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/CondensatePolishing.html?t=21611 www.saiving.com 200 0 0 8661 288 250
+2012-05-23 23:39:25 W3SVC12455 GAMMA 106.3.96.10 GET /svln.html - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/CondensatePolishing.html?t=21611 www.saiving.com 200 0 0 21053 1106 312
+2012-05-23 23:39:28 W3SVC12455 GAMMA 106.3.96.10 GET /images/grey.gif - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/svln.html www.saiving.com 200 0 0 921 263 109
+2012-05-23 23:39:28 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnfour_03.png - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/svln.html www.saiving.com 200 0 0 25901 270 343
+2012-05-23 23:39:28 W3SVC12455 GAMMA 106.3.96.10 GET /js/scrolltopcontrol.js - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/svln.html www.saiving.com 200 0 0 4133 276 156
+2012-05-23 23:39:28 W3SVC12455 GAMMA 106.3.96.10 GET /js/jquery-1.7.2.min.js - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/svln.html www.saiving.com 200 0 0 95126 276 609
+2012-05-23 23:39:35 W3SVC12455 GAMMA 106.3.96.10 GET /js/jquery.lazyload.js - 80 - 211.138.45.17 HTTP/1.1 - jid=hRj7P9lBF1!-1334178060 http://www.saiving.com:80/svln.html www.saiving.com 200 0 0 7914 275 156
+2012-05-23 23:40:14 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html t=37894&t=13350 80 - 211.138.45.17 HTTP/1.1 - jid=kbQJP9yZQc!-1199406691 - www.saiving.com 200 0 0 15282 1043 187
+2012-05-23 23:47:42 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 61.135.190.112 HTTP/1.0 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1) - - saiving.com 200 0 0 15278 157 31
+2012-05-23 23:55:55 W3SVC12455 GAMMA 106.3.96.10 GET /CondensateRecovery.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 304 0 0 233 423 46

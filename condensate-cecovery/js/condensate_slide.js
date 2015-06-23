@@ -3,40 +3,32 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
     var olive = utilities.g("live"),
         step = 0,
         timer = null,
-        current = 0,
-        oLvCt = utilities.g("liveCtrl");
-    var oLiveCtrl = (oLvCt != null) ? oLvCt.getElementsByTagName('li') : null;
+        current = 0;
+    var oLiveCtrl = (utilities.g("liveCtrl") != null) ? utilities.g("liveCtrl").getElementsByTagName('li') : null;
 
-    if (olive != null) {
+if (olive != null && oLiveCtrl != null) {
         oLiveCtrl[0].style.backgroundColor = "#ffffff";
-
-        for (var i = 0; i < oLiveCtrl.length; i++) {
-            oLiveCtrl[i].index = i;
+        for (var j = 0; j < oLiveCtrl.length; j++) {
+            oLiveCtrl[j].index = j;
         }
-
-        eventUtil.addHandler(oLvCt, 'click', function(event) {
-            var ev = event || window.event;
-            var target = ev.target || ev.srcElement;
-            if (timer) {
-                clearInterval(timer);
-                clearTimeout(timer);
-            }
+        eventUtil.addHandler(oLiveCtrl, 'click', function(event) {
             for (var j = 0; j < oLiveCtrl.length; j++) {
                 oLiveCtrl[j].style.backgroundColor = "#555555";
             }
-            if (!isNaN(target.index)) {
-                step = -(target.index * 2000);
-            }
+            step = -(this.index * 2000);
             olive.style.left = step + "px";
-            oLiveCtrl[target.index].style.backgroundColor = "#ffffff";
+            this.style.backgroundColor = "#ffffff";
+            if (timer) clearInterval(timer);
             timer = setTimeout(slide, 3000);
         });
     }
 
-
     function slide() {
         if (olive != null) {
-            clearTimeout(timer);
+            if (timer) {
+                clearInterval(timer);
+                clearTimeout(timer);
+            }
             timer = setInterval(function() {
                 if (olive.offsetLeft <= -4000) step = 0;
                 if (step % 2000 == 0) {
@@ -51,7 +43,6 @@ define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
                 }
                 step -= 100;
                 olive.style.left = step + "px";
-
             }, 10);
         }
     }

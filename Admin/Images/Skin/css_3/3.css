@@ -1,0 +1,237 @@
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #000000;} /* 未访问的链接 */
+a:visited {color: #000000;} /* 已访问的链接 */
+a:hover{color: #FF0000;} /* 鼠标在链接上 */ 
+a:active {color: #FF0000;} /* 点击激活链接 */
+.nav_l2{text-decoration:none;font-size:14px;color:#FFFFFF;height:0;filter:dropshadow(offX=1,offY=1,color=002E5B);}
+A.nav_l2:link{text-decoration:none;font-size:14px;color:#FFFFFF;height:0;filter:dropshadow(offX=1,offY=1,color=002E5B);}
+A.nav_l2:visited{text-decoration:none;font-size:14px;color:#FFFFFF;height:0;filter:dropshadow(offX=1,offY=1,color=002E5B);}
+A.nav_l2:active{text-decoration:underline;font-size:14px;color:#FFFFFF;height:0;filter:dropshadow(offX=1,offY=1,color=#002E5B);}
+A.nav_l2:hover{text-decoration:underline;font-size:14px;color:#fff;height:0;filter:dropshadow(offX=1,offY=1,color=#ff0000);}
+body{
+    FONT-FAMILY: "新宋体";
+    FONT-SIZE: 12px;
+    text-decoration: none;
+    line-height: 150%;
+    background:#FFFFFF;
+	color:#000000;
+	SCROLLBAR-FACE-COLOR: #2B73F1;
+	SCROLLBAR-HIGHLIGHT-COLOR: #0650D2;
+	SCROLLBAR-SHADOW-COLOR: #449AE8;
+	SCROLLBAR-3DLIGHT-COLOR: #449AE8;
+	SCROLLBAR-ARROW-COLOR: #02338A;
+	SCROLLBAR-TRACK-COLOR: #0650D2;
+	SCROLLBAR-DARKSHADOW-COLOR: #0650D2;
+    padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+ /* 表单类 */
+Button,input,textarea,select{
+    FONT-FAMILY: "宋体";
+    FONT-SIZE: 12px;
+	COLOR:#000000;
+    text-decoration: none;
+    background:#E0EEF5;
+	/*border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #1D7189;
+	border-right-color: #1D7189;
+	border-bottom-color: #1D7189;
+	border-left-color: #1D7189;*/
+	}
+ /* 下拉菜单 */
+
+.xk {
+	border: 1px solid #013767;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background:#B0DAF0;
+}
+ /* 定义表CSS */
+.table{
+	border: 1px solid #004A6F;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background:#FFFFFF;
+}
+ /* 菜单部分定义表CSS  */
+.leftframetable{
+	border: 1px solid #013767;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background:#E0EEF5;
+}
+.titledaohang {
+	FONT-SIZE: 12px; 
+	FILTER: Glow(Color=#C2D5FE, Strength=1) dropshadow(Color=#C2D5FE, OffX=1, OffY=1,); 
+	COLOR: #0066CC; 
+	font-weight:bolder;
+	FONT-FAMILY: '宋体'
+}
+A.admintx:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #053EC0; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #053EC0; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none;font-weight:bolder;
+}
+.bt {
+	font-size: 12px;
+	font-weight: bold;
+	color: #EBEBEB;
+	text-decoration: none;
+}
+td {
+	color:#000000;
+	font-size:12px;
+    line-height: 18px;
+}
+ /* 定义大字体标题CSS  */
+.xingmu {
+	font-family: "Verdana, 新宋体";
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bolder;
+	background:#0F70C7;
+    line-height: 22px;
+}
+.back {
+	background:#016470;
+}
+.Leftback {
+	background:#0F70C7;
+}
+.hback {
+	background:#E0EEF5;
+}
+.hback_1 {
+	background:#CFE4EF;
+}
+
+ /* 框架CSS  */
+.bordercolor {
+cursor:col-resize;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:solid;
+border-right-width:3px;
+border-right-color:#eeeeee;
+}
+ /* 大字体CSS  */
+.pagetile {
+	font-weight:bolder;
+	font-size:20px;
+}
+.ischeck
+{
+	color:#FF9900;
+}
+/*自定义CSS样式一，黄色*/
+a.CusCss1.link
+{
+	color:#FFFFFF;
+}
+/*自定义CSS样式二,黄蓝*/
+.CusCss2
+{
+	color:#00CCCC;
+}
+MenuLine{
+Color:#FFFFFF;
+}
+/*自定义CSS样式二,黄白*/
+.CusCss3
+{
+	color:#FFCCCC;
+}
+.alps {
+FONT-SIZE: 9pt; 
+FILTER: Glow(Color=#0F42A6, Strength=2) dropshadow(Color=#0F42A6, OffX=2, OffY=1,); 
+COLOR: #8AADE9; 
+FONT-FAMILY: '宋体'
+}
+A.top:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.top:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.top:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #CC3300; TEXT-DECORATION: none
+}
+A.top:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.otherset:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.otherset:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.otherset:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+A.otherset:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+.tx
+{
+Color:red
+}
+A.sd:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.sd:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.sd:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: yellow; TEXT-DECORATION: none
+}
+A.sd:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: yellow; TEXT-DECORATION: none
+}
+.RightInput{
+	font-size:12px
+	border-bottom:solid;
+	border-bottom-color:#6FBE44;
+	border-bottom-width:1;
+	border-left:solid;
+	border-left-color:#6FBE44;
+	border-left-width:1;
+	border-right:solid;
+	border-right-color:#6FBE44;
+	border-right-width:1;
+	border-top:solid;
+	border-top-color:#6FBE44;
+	border-top-width:1;
+}
+.WarnInput{
+	font-size:12px
+	border-bottom:solid;
+	border-bottom-color:#FF0000;
+	border-bottom-width:1;
+	border-left:solid;
+	border-left-color:#FF0000;
+	border-left-width:1;
+	border-right:solid;
+	border-right-color:#FF0000;
+	border-right-width:1;
+	border-top:solid;
+	border-top-color:#FF0000;
+	border-top-width:1;
+}

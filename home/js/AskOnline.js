@@ -1,4 +1,4 @@
-define(['utilities', 'eventUtil', 'Browser'], function(utilities, eventUtil, Browser) {
+define(['utilities', 'eventUtil'], function(utilities, eventUtil) {
 
     function askOnline() {
         var oprodBorad = utilities.g('prodBorad');
@@ -16,12 +16,12 @@ define(['utilities', 'eventUtil', 'Browser'], function(utilities, eventUtil, Bro
             var target = ev.target || ev.srcElement;
             var regEx = /(^|\s)btn(\s|$)/g;
             if (target.nodeType == 1) {
-                var clNm = target.className;
-                if (regEx.test(clNm)) {
+                if (regEx.test(target.className)) {
                     eventUtil.preventDefault(event);
                     window.open(sUrl, sName, sParam);
                 }
             }
+
         });
     }
 

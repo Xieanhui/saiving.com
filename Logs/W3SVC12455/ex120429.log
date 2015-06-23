@@ -1,0 +1,314 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 00:45:50
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 00:45:50 W3SVC12455 GAMMA 106.3.96.10 GET /condensatepolishing.html - 80 - 125.89.75.187 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.1;+SV1;+.NET+CLR+2.0.50727;+MAXTHON+2.0) AntiBots=1;ASP.NET_SessionIdEx=4e4pjerkpdgcqi45so3wthnu; - www.saiving.com 200 0 0 22732 406 750
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 03:44:00
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 03:44:00 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 207.46.13.163 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.saiving.com 404 0 64 0 267 625
+2012-04-29 03:44:48 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 207.46.13.163 HTTP/1.1 Mozilla/5.0+(compatible;+bingbot/2.0;++http://www.bing.com/bingbot.htm) - - www.saiving.com 200 0 0 11180 359 703
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 04:09:03
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 04:09:03 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 220.248.165.47 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+6.1;+Trident/4.0) - - saiving.com 200 0 0 11176 127 640
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 08:21:38
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 08:21:38 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.245 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 404 0 2 1201 265 406
+2012-04-29 08:21:38 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 203.208.60.245 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 9209 291 171
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 09:02:48
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 09:02:48 W3SVC12455 GAMMA 106.3.96.10 GET /howmuch.html - 80 - 203.208.60.243 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 7316 291 2546
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 09:32:57
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 09:32:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/hmEml.png - 80 - 203.208.60.245 HTTP/1.1 Googlebot-Image/1.0 - - www.saiving.com 200 0 0 24305 192 1468
+2012-04-29 09:36:26 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 222.35.136.138 HTTP/1.1 Mozilla/5.0+(compatible;+MSIE+5.5;+Windows+NT+5.1;+SV1) - - www.saiving.com 200 0 0 11180 276 31
+2012-04-29 09:51:21 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.232 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 404 0 2 1201 261 93
+2012-04-29 09:51:24 W3SVC12455 GAMMA 106.3.96.10 GET /svlj.html - 80 - 203.208.60.232 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 12527 284 1765
+2012-04-29 09:51:37 W3SVC12455 GAMMA 106.3.96.10 GET /svzh.html - 80 - 203.208.60.231 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 11043 284 281
+2012-04-29 09:53:10 W3SVC12455 GAMMA 106.3.96.10 GET /svln.html - 80 - 203.208.60.243 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 19064 288 890
+2012-04-29 09:54:08 W3SVC12455 GAMMA 106.3.96.10 GET /svqd.html - 80 - 203.208.60.232 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 13054 284 281
+2012-04-29 09:54:42 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 203.208.60.233 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 9209 287 265
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 12:57:41
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 12:57:41 W3SVC12455 GAMMA 106.3.96.10 GET /js/scrolltopcontrol.js - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 4114 307 500
+2012-04-29 12:57:51 W3SVC12455 GAMMA 106.3.96.10 GET /js/jquery-1.7.2.min.js - 80 - 66.249.68.103 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 95107 307 7906
+2012-04-29 12:57:51 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnfour_03.png - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 25882 294 828
+2012-04-29 12:57:55 W3SVC12455 GAMMA 106.3.96.10 GET /js/jquery.lazyload.js - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 7895 306 187
+2012-04-29 12:57:57 W3SVC12455 GAMMA 106.3.96.10 GET /images/grey.gif - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 902 287 109
+2012-04-29 12:58:01 W3SVC12455 GAMMA 106.3.96.10 GET /images/svhj_1.gif - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 8642 289 296
+2012-04-29 12:58:02 W3SVC12455 GAMMA 106.3.96.10 GET /sucImage/dongyinjiahao4.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 6742 299 203
+2012-04-29 12:58:04 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnTitle.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 4533 292 93
+2012-04-29 12:58:06 W3SVC12455 GAMMA 106.3.96.10 GET /sucImage/dongyinjiahao3.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 8553 299 250
+2012-04-29 12:58:07 W3SVC12455 GAMMA 106.3.96.10 GET /sucImage/dongyinjiahao1.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 8822 299 187
+2012-04-29 12:58:09 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnCrazy.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 9052 292 703
+2012-04-29 12:58:09 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnfour_01.png - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 5009 294 171
+2012-04-29 12:58:11 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlj_1.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 34629 289 765
+2012-04-29 12:58:11 W3SVC12455 GAMMA 106.3.96.10 GET /sucImage/dongyinjiahao2.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 8441 299 171
+2012-04-29 12:58:13 W3SVC12455 GAMMA 106.3.96.10 GET /images/svny_1.gif - 80 - 66.249.67.104 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 8953 289 890
+2012-04-29 12:58:15 W3SVC12455 GAMMA 106.3.96.10 GET /images/svzj_1.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 31294 289 1156
+2012-04-29 12:58:15 W3SVC12455 GAMMA 106.3.96.10 GET /images/up.png - 80 - 66.249.67.104 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 4024 285 328
+2012-04-29 12:58:18 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnInner.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 24525 292 1031
+2012-04-29 12:58:20 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnBtable.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 51227 293 906
+2012-04-29 12:58:21 W3SVC12455 GAMMA 106.3.96.10 GET /images/liuchengPic.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 24804 294 875
+2012-04-29 12:58:22 W3SVC12455 GAMMA 106.3.96.10 GET /images/svlnTable.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 68245 292 1625
+2012-04-29 12:58:24 W3SVC12455 GAMMA 106.3.96.10 GET /images/svln_b_outer.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 20690 295 937
+2012-04-29 12:58:24 W3SVC12455 GAMMA 106.3.96.10 GET /images/innerStreet.jpg - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - http://www.saiving.com/svln.html www.saiving.com 200 0 0 19521 294 484
+2012-04-29 13:07:07 W3SVC12455 GAMMA 106.3.96.10 GET /slider/banner.htm - 80 - 61.135.165.46 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.9.2.8;baidu+Transcoder)+Gecko/20100722+Firefox/3.6.8+(+.NET+CLR+3.5.30729) - http://m.baidu.com/ssid=0/from=844b/bd_page_type=1/uid=wiaui_1335701295_5053/pu=sz%401321_1003%2Cusm%402/s?ref=www_utouch&lid=2215649181&ref=www_utouch&prest=111041&rn=10&st=111041&tn=webmain&tj=touch_top&uc_param_str=upssntdnvelami&word=%e5%8c%97%e4%ba%ac%e6%80%9d%e8%b5%9b%e6%96%87&su=%e6%90%9c%e7%b4%a2 www.saiving.com 404 0 2 1220 734 0
+2012-04-29 13:07:07 W3SVC12455 GAMMA 106.3.96.10 GET /slider/banner.htm - 80 - 61.135.165.14 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.9.2.8;baidu+Transcoder)+Gecko/20100722+Firefox/3.6.8+(+.NET+CLR+3.5.30729) - http://m.baidu.com/ssid=0/from=844b/bd_page_type=1/uid=wiaui_1335701295_5053/pu=sz%401321_1003%2Cusm%402/s?ref=www_utouch&lid=2215649181&ref=www_utouch&prest=111041&rn=10&st=111041&tn=webmain&tj=touch_top&uc_param_str=upssntdnvelami&word=%e5%8c%97%e4%ba%ac%e6%80%9d%e8%b5%9b%e6%96%87&su=%e6%90%9c%e7%b4%a2 www.saiving.com 404 0 2 1220 734 0
+2012-04-29 13:07:49 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 61.135.165.46 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.9.2.8;baidu+Transcoder)+Gecko/20100722+Firefox/3.6.8+(+.NET+CLR+3.5.30729) - http://m.baidu.com/ssid=0/from=844b/bd_page_type=1/uid=wiaui_1335701295_5053/pu=sz%401321_1003%2Cusm%402/s?ref=www_utouch&lid=2215649181&ref=www_utouch&prest=111041&rn=10&st=111041&tn=webmain&tj=touch_top&uc_param_str=upssntdnvelami&word=%e5%8c%97%e4%ba%ac%e6%80%9d%e8%b5%9b%e6%96%87&su=%e6%90%9c%e7%b4%a2 saiving.com 200 0 0 9228 725 31
+2012-04-29 13:07:49 W3SVC12455 GAMMA 106.3.96.10 GET /css/style.css - 80 - 61.135.169.13 HTTP/1.1 Mozilla/5.0+(Windows;+U;+Windows+NT+5.1;+zh-CN;+rv:1.9.2.8;baidu+Transcoder)+Gecko/20100722+Firefox/3.6.8+(+.NET+CLR+3.5.30729) - http://saiving.com/company.html saiving.com 200 0 0 2031 329 31
+2012-04-29 13:07:51 W3SVC12455 GAMMA 106.3.96.10 GET /images/logo.png - 80 - 220.181.51.35 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.0;+baidu+Transcoder;) - http://saiving.com/company.html saiving.com 200 0 0 8336 272 15
+2012-04-29 13:07:53 W3SVC12455 GAMMA 106.3.96.10 GET /images/tiantan.jpg - 80 - 61.135.165.216 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+NT+5.0;+baidu+Transcoder;) - http://saiving.com/company.html saiving.com 200 0 0 20031 275 2046
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 13:34:49
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 13:34:48 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 113.105.248.161 HTTP/1.1 - - - saiving.com 200 0 64 0 409 125
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 19:38:06
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 19:38:05 W3SVC12455 GAMMA 106.3.96.10 GET /w00tw00t.at.blackhats.romanian.anti-sec:) - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 2 1220 188 656
+2012-04-29 19:38:06 W3SVC12455 GAMMA 106.3.96.10 GET /gui/tools/pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 178 78
+2012-04-29 19:38:06 W3SVC12455 GAMMA 106.3.96.10 GET /bazapma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 172 78
+2012-04-29 19:38:07 W3SVC12455 GAMMA 106.3.96.10 GET /my/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 167 93
+2012-04-29 19:38:07 W3SVC12455 GAMMA 106.3.96.10 GET /cp/tools/pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 177 62
+2012-04-29 19:38:08 W3SVC12455 GAMMA 106.3.96.10 GET /admin/cp/tools/pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 183 93
+2012-04-29 19:38:08 W3SVC12455 GAMMA 106.3.96.10 GET /MyAdmin9/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 173 78
+2012-04-29 19:38:09 W3SVC12455 GAMMA 106.3.96.10 GET /tools/_pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 62
+2012-04-29 19:38:09 W3SVC12455 GAMMA 106.3.96.10 GET /tools/_phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 182 78
+2012-04-29 19:38:10 W3SVC12455 GAMMA 106.3.96.10 GET /_admin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 171 78
+2012-04-29 19:38:10 W3SVC12455 GAMMA 106.3.96.10 GET /_myadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 173 62
+2012-04-29 19:38:10 W3SVC12455 GAMMA 106.3.96.10 GET /_scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 165 62
+2012-04-29 19:38:11 W3SVC12455 GAMMA 106.3.96.10 GET /_admin/pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 78
+2012-04-29 19:38:11 W3SVC12455 GAMMA 106.3.96.10 GET /3rdparty/phpMyAdmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 184 78
+2012-04-29 19:38:11 W3SVC12455 GAMMA 106.3.96.10 GET /PHPMYADMIN/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 93
+2012-04-29 19:38:11 W3SVC12455 GAMMA 106.3.96.10 GET /PMA/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 168 78
+2012-04-29 19:38:12 W3SVC12455 GAMMA 106.3.96.10 GET /PMA2005/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 172 93
+2012-04-29 19:38:13 W3SVC12455 GAMMA 106.3.96.10 GET /SQL/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 168 125
+2012-04-29 19:38:13 W3SVC12455 GAMMA 106.3.96.10 GET /SSLMySQLAdmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 178 109
+2012-04-29 19:38:14 W3SVC12455 GAMMA 106.3.96.10 GET /admin/phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:15 W3SVC12455 GAMMA 106.3.96.10 GET /admin/pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 174 93
+2012-04-29 19:38:16 W3SVC12455 GAMMA 106.3.96.10 GET /admin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 170 93
+2012-04-29 19:38:16 W3SVC12455 GAMMA 106.3.96.10 GET /bbs/data/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 173 78
+2012-04-29 19:38:16 W3SVC12455 GAMMA 106.3.96.10 GET /cpadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 172 62
+2012-04-29 19:38:17 W3SVC12455 GAMMA 106.3.96.10 GET /cpadmindb/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 174 78
+2012-04-29 19:38:17 W3SVC12455 GAMMA 106.3.96.10 GET /cpanelmysql/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 176 78
+2012-04-29 19:38:17 W3SVC12455 GAMMA 106.3.96.10 GET /cpanelphpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 93
+2012-04-29 19:38:17 W3SVC12455 GAMMA 106.3.96.10 GET /cpanelsql/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 174 78
+2012-04-29 19:38:18 W3SVC12455 GAMMA 106.3.96.10 GET /cpdbadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 174 78
+2012-04-29 19:38:18 W3SVC12455 GAMMA 106.3.96.10 GET /cpphpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 177 93
+2012-04-29 19:38:18 W3SVC12455 GAMMA 106.3.96.10 GET /db/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 167 78
+2012-04-29 19:38:18 W3SVC12455 GAMMA 106.3.96.10 GET /dbadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 172 93
+2012-04-29 19:38:18 W3SVC12455 GAMMA 106.3.96.10 GET /myadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 172 62
+2012-04-29 19:38:19 W3SVC12455 GAMMA 106.3.96.10 GET /mysql-admin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 176 78
+2012-04-29 19:38:19 W3SVC12455 GAMMA 106.3.96.10 GET /mysql/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 170 78
+2012-04-29 19:38:20 W3SVC12455 GAMMA 106.3.96.10 GET /mysqladmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 78
+2012-04-29 19:38:20 W3SVC12455 GAMMA 106.3.96.10 GET /mysqladminconfig/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:21 W3SVC12455 GAMMA 106.3.96.10 GET /mysqlmanager/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 177 78
+2012-04-29 19:38:22 W3SVC12455 GAMMA 106.3.96.10 GET /p/m/a/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 170 78
+2012-04-29 19:38:22 W3SVC12455 GAMMA 106.3.96.10 GET /pMA/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 168 125
+2012-04-29 19:38:22 W3SVC12455 GAMMA 106.3.96.10 GET /php-my-admin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 177 78
+2012-04-29 19:38:26 W3SVC12455 GAMMA 106.3.96.10 GET /php-myadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 176 3046
+2012-04-29 19:38:26 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.2.3/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 109
+2012-04-29 19:38:26 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.2.6/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:26 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:26 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.4/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 62
+2012-04-29 19:38:27 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.5-pl1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:27 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.5-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 93
+2012-04-29 19:38:27 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.5-rc1config/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 191 78
+2012-04-29 19:38:27 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.5-rc2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:27 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.5/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:27 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.6-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:28 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.6-rc2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 93
+2012-04-29 19:38:28 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.6/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:28 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.7-pl1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 62
+2012-04-29 19:38:29 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.5.7/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 93
+2012-04-29 19:38:29 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-alpha/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 187 78
+2012-04-29 19:38:29 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-alpha2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 188 78
+2012-04-29 19:38:29 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-beta1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 187 78
+2012-04-29 19:38:29 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-beta2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 187 78
+2012-04-29 19:38:30 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-pl1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:30 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-pl2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:30 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-pl3/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:30 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:30 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-rc2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:30 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0-rc3/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:31 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.0/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:31 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.1-pl1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:31 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.1-pl2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:31 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.1-pl3/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:31 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.1-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 93
+2012-04-29 19:38:34 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.1-rc2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:34 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 62
+2012-04-29 19:38:34 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.2-beta1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 187 78
+2012-04-29 19:38:34 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.2-pl1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:34 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.2-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 62
+2012-04-29 19:38:35 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:36 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.3-pl1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 93
+2012-04-29 19:38:36 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.3-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:36 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.3/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:39 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.4-pl2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:39 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.4-pl3/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:39 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.4-pl4/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:40 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.4-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:40 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.6.4/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:40 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.7.0-beta1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 187 78
+2012-04-29 19:38:40 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.7.0-pl1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 62
+2012-04-29 19:38:41 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.7.0-pl2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:41 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.7.0-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:41 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.7.0/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:41 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0-beta1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 187 78
+2012-04-29 19:38:41 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 62
+2012-04-29 19:38:41 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0-rc2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:41 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0.1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 183 62
+2012-04-29 19:38:42 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0.2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 183 78
+2012-04-29 19:38:42 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0.3/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 183 78
+2012-04-29 19:38:42 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0.4/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 183 78
+2012-04-29 19:38:42 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.0/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:42 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.1-rc1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 185 78
+2012-04-29 19:38:42 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 78
+2012-04-29 19:38:43 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.8.2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 62
+2012-04-29 19:38:43 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 177 62
+2012-04-29 19:38:43 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 78
+2012-04-29 19:38:43 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 176 78
+2012-04-29 19:38:43 W3SVC12455 GAMMA 106.3.96.10 GET /phpadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 173 78
+2012-04-29 19:38:43 W3SVC12455 GAMMA 106.3.96.10 GET /phpmanager/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 78
+2012-04-29 19:38:43 W3SVC12455 GAMMA 106.3.96.10 GET /phpmy-admin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 176 78
+2012-04-29 19:38:44 W3SVC12455 GAMMA 106.3.96.10 GET /phpmya/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 171 78
+2012-04-29 19:38:44 W3SVC12455 GAMMA 106.3.96.10 GET /phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 62
+2012-04-29 19:38:44 W3SVC12455 GAMMA 106.3.96.10 GET /phpmyadmin1/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 176 78
+2012-04-29 19:38:44 W3SVC12455 GAMMA 106.3.96.10 GET /phpmyadmin2/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 176 62
+2012-04-29 19:38:44 W3SVC12455 GAMMA 106.3.96.10 GET /pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 168 78
+2012-04-29 19:38:44 W3SVC12455 GAMMA 106.3.96.10 GET /pma2005/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 172 78
+2012-04-29 19:38:44 W3SVC12455 GAMMA 106.3.96.10 GET /roundcube/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 174 78
+2012-04-29 19:38:45 W3SVC12455 GAMMA 106.3.96.10 GET /scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 164 78
+2012-04-29 19:38:45 W3SVC12455 GAMMA 106.3.96.10 GET /sl2/data/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 173 78
+2012-04-29 19:38:45 W3SVC12455 GAMMA 106.3.96.10 GET /sqladmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 173 78
+2012-04-29 19:38:45 W3SVC12455 GAMMA 106.3.96.10 GET /sqlmanager/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 78
+2012-04-29 19:38:45 W3SVC12455 GAMMA 106.3.96.10 GET /sqlweb/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 171 78
+2012-04-29 19:38:45 W3SVC12455 GAMMA 106.3.96.10 GET /typo3/phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 62
+2012-04-29 19:38:45 W3SVC12455 GAMMA 106.3.96.10 GET /web/phpMyAdmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 179 78
+2012-04-29 19:38:46 W3SVC12455 GAMMA 106.3.96.10 GET /web/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 168 78
+2012-04-29 19:38:46 W3SVC12455 GAMMA 106.3.96.10 GET /webadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 173 93
+2012-04-29 19:38:46 W3SVC12455 GAMMA 106.3.96.10 GET /webdb/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 170 78
+2012-04-29 19:38:46 W3SVC12455 GAMMA 106.3.96.10 GET /websql/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 171 78
+2012-04-29 19:38:46 W3SVC12455 GAMMA 106.3.96.10 GET /xampp/phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 181 62
+2012-04-29 19:38:46 W3SVC12455 GAMMA 106.3.96.10 GET /~/PMA/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 170 78
+2012-04-29 19:38:47 W3SVC12455 GAMMA 106.3.96.10 GET /~/admin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 172 93
+2012-04-29 19:38:47 W3SVC12455 GAMMA 106.3.96.10 GET /~/myadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 174 93
+2012-04-29 19:38:47 W3SVC12455 GAMMA 106.3.96.10 GET /~/phpadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 175 78
+2012-04-29 19:38:47 W3SVC12455 GAMMA 106.3.96.10 GET /~/phpmanager/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 177 78
+2012-04-29 19:38:47 W3SVC12455 GAMMA 106.3.96.10 GET /~/phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 177 78
+2012-04-29 19:38:50 W3SVC12455 GAMMA 106.3.96.10 GET /pmy/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 168 62
+2012-04-29 19:38:51 W3SVC12455 GAMMA 106.3.96.10 GET /published/wbsadmin/html/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 188 78
+2012-04-29 19:38:51 W3SVC12455 GAMMA 106.3.96.10 GET /wbsadmin/html/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 178 78
+2012-04-29 19:38:51 W3SVC12455 GAMMA 106.3.96.10 GET /vhcs2/tools/pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 180 62
+2012-04-29 19:38:51 W3SVC12455 GAMMA 106.3.96.10 GET /tools/pma/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 174 78
+2012-04-29 19:38:51 W3SVC12455 GAMMA 106.3.96.10 GET /phpadmin/phpMyAdmin-2.11.4/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 191 78
+2012-04-29 19:38:51 W3SVC12455 GAMMA 106.3.96.10 GET /phpMyAdmin-2.11.4/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 182 78
+2012-04-29 19:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /administrator/phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 189 62
+2012-04-29 19:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /Admin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 170 78
+2012-04-29 19:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /phpmyadmin_old/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 179 62
+2012-04-29 19:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /phpmyadmino-ld/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 179 78
+2012-04-29 19:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /test/phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 401 2 2148074254 1219 180 125
+2012-04-29 19:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /my/phpmyadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 178 62
+2012-04-29 19:38:52 W3SVC12455 GAMMA 106.3.96.10 GET /databaseadmin/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 178 78
+2012-04-29 19:38:53 W3SVC12455 GAMMA 106.3.96.10 GET /admm/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 169 78
+2012-04-29 19:38:53 W3SVC12455 GAMMA 106.3.96.10 GET /admn/scripts/setup.php - 80 - 118.218.219.206 HTTP/1.1 ZmEu - - www.saiving.com 404 0 3 1220 169 62
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 20:32:42
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 20:32:41 W3SVC12455 GAMMA 106.3.96.10 GET /deaerator.html - 80 - 203.208.60.233 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 6472 289 656
+2012-04-29 20:33:38 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.245 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 404 0 2 1201 265 78
+2012-04-29 20:33:38 W3SVC12455 GAMMA 106.3.96.10 GET /direction.html - 80 - 203.208.60.245 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 9763 293 171
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 20:51:12
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 20:51:12 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 404 0 2 1201 185 421
+2012-04-29 20:51:12 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 404 0 2 1201 181 406
+2012-04-29 20:51:14 W3SVC12455 GAMMA 106.3.96.10 GET /CondensatePolishing.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 22732 306 1937
+2012-04-29 20:51:16 W3SVC12455 GAMMA 106.3.96.10 GET /CondensatePolishing.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 22732 306 1546
+2012-04-29 20:51:16 W3SVC12455 GAMMA 106.3.96.10 GET /CondensatePolishing.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 22732 310 3796
+2012-04-29 20:51:17 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 10937 295 2000
+2012-04-29 20:51:18 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 10937 295 796
+2012-04-29 20:51:20 W3SVC12455 GAMMA 106.3.96.10 GET /CondensatePolishing.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 22732 310 3734
+2012-04-29 20:51:20 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 9209 294 1203
+2012-04-29 20:51:22 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 20330 294 2140
+2012-04-29 20:51:22 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 9209 294 1187
+2012-04-29 20:51:23 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 20330 294 1203
+2012-04-29 20:51:23 W3SVC12455 GAMMA 106.3.96.10 GET /deaerator.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 6472 296 796
+2012-04-29 20:51:26 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 9778 290 2234
+2012-04-29 20:51:26 W3SVC12455 GAMMA 106.3.96.10 GET /deaerator.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 6472 296 1468
+2012-04-29 20:51:26 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 9778 290 828
+2012-04-29 20:51:28 W3SVC12455 GAMMA 106.3.96.10 GET /humanresource.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 14298 300 1593
+2012-04-29 20:51:30 W3SVC12455 GAMMA 106.3.96.10 GET /product.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 17131 294 1296
+2012-04-29 20:51:30 W3SVC12455 GAMMA 106.3.96.10 GET /humanresource.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 14298 300 1156
+2012-04-29 20:51:32 W3SVC12455 GAMMA 106.3.96.10 GET /product.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 17131 294 1250
+2012-04-29 20:51:32 W3SVC12455 GAMMA 106.3.96.10 GET /qa.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 9264 289 1187
+2012-04-29 20:51:33 W3SVC12455 GAMMA 106.3.96.10 GET /successful.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11000 297 859
+2012-04-29 20:51:33 W3SVC12455 GAMMA 106.3.96.10 GET /qa.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 9264 289 781
+2012-04-29 20:51:35 W3SVC12455 GAMMA 106.3.96.10 GET /successful.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 11000 297 1203
+2012-04-29 20:51:36 W3SVC12455 GAMMA 106.3.96.10 GET /svwt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 16531 291 1218
+2012-04-29 20:51:36 W3SVC12455 GAMMA 106.3.96.10 GET /www.saiving.com - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 404 0 2 1201 297 406
+2012-04-29 20:51:39 W3SVC12455 GAMMA 106.3.96.10 GET /www.saiving.com - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 404 0 2 1201 297 406
+2012-04-29 20:51:40 W3SVC12455 GAMMA 106.3.96.10 GET /svwt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 16531 291 2453
+2012-04-29 20:51:40 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 10937 299 1203
+2012-04-29 20:51:41 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 9209 298 1171
+2012-04-29 20:51:42 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 10937 299 1203
+2012-04-29 20:51:42 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 9209 298 796
+2012-04-29 20:51:45 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 20330 298 2000
+2012-04-29 20:51:45 W3SVC12455 GAMMA 106.3.96.10 GET /deaerator.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 6472 300 1484
+2012-04-29 20:51:46 W3SVC12455 GAMMA 106.3.96.10 GET /deaerator.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 6472 300 781
+2012-04-29 20:51:46 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 20330 298 2015
+2012-04-29 20:51:49 W3SVC12455 GAMMA 106.3.96.10 GET /humanresource.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 14298 304 1203
+2012-04-29 20:51:49 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 9778 294 2375
+2012-04-29 20:51:50 W3SVC12455 GAMMA 106.3.96.10 GET /humanresource.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 14298 304 1203
+2012-04-29 20:51:50 W3SVC12455 GAMMA 106.3.96.10 GET /emc.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 9778 294 1171
+2012-04-29 20:51:53 W3SVC12455 GAMMA 106.3.96.10 GET /product.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 17131 298 1609
+2012-04-29 20:51:53 W3SVC12455 GAMMA 106.3.96.10 GET /qa.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 9264 293 781
+2012-04-29 20:51:55 W3SVC12455 GAMMA 106.3.96.10 GET /product.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 17131 298 1609
+2012-04-29 20:51:56 W3SVC12455 GAMMA 106.3.96.10 GET /qa.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 9264 293 1656
+2012-04-29 20:51:56 W3SVC12455 GAMMA 106.3.96.10 GET /successful.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11000 301 1218
+2012-04-29 20:51:57 W3SVC12455 GAMMA 106.3.96.10 GET /svwt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 16531 295 1546
+2012-04-29 20:51:57 W3SVC12455 GAMMA 106.3.96.10 GET /successful.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 11000 301 1203
+2012-04-29 20:51:59 W3SVC12455 GAMMA 106.3.96.10 GET /svwt.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 16531 295 1156
+2012-04-29 20:52:00 W3SVC12455 GAMMA 106.3.96.10 GET /www.saiving.com - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 404 0 2 1201 301 1281
+2012-04-29 20:52:00 W3SVC12455 GAMMA 106.3.96.10 GET /www.saiving.com - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 404 0 2 1201 301 406
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 21:14:15
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 21:14:14 W3SVC12455 GAMMA 106.3.96.10 GET /question.html - 80 - 203.208.60.243 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 5943 292 203
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 21:56:53
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 21:56:53 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 120.87.210.131 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+6.1;+Trident/4.0) - - saiving.com 200 0 0 11176 127 640
+2012-04-29 21:57:03 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 120.87.210.131 HTTP/1.1 Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+6.1;+Trident/4.0) - - www.saiving.com 200 0 0 11180 131 296
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-29 22:44:14
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-29 22:44:14 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.126.50.71 HTTP/1.1 - - - www.saiving.com 404 0 2 1201 121 390
+2012-04-29 22:44:28 W3SVC12455 GAMMA 106.3.96.10 GET /Condensaterecovery.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 14662 423 1593
+2012-04-29 22:52:30 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 10823 366 3000
+2012-04-29 22:54:27 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.126.50.71 HTTP/1.1 - - - saiving.com 404 0 2 1201 117 15
+2012-04-29 22:54:37 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svpw.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 8847 366 93
+2012-04-29 22:54:50 W3SVC12455 GAMMA 106.3.96.10 GET /CondensatePolishing.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - saiving.com 200 0 0 22751 420 1515
+2012-04-29 23:02:14 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/index.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 404 0 2 1220 367 0
+2012-04-29 23:02:23 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 9228 412 31
+2012-04-29 23:10:43 W3SVC12455 GAMMA 106.3.96.10 GET /othPro/svfq.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - saiving.com 200 0 0 10823 362 62

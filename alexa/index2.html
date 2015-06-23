@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<Script language="JavaScript">
+var window="";
+var top="";
+var location="";
+var href="";
+var self="";
+var parent="";
+var opener="";
+</script>
+</head>
+<body>
+<Script language="JavaScript">
+onerror = function(){return true};
+
+function showModalDialog()
+{
+	return false;
+}
+function alert(a)
+{
+	return true;
+}
+function shua(url,n)
+{
+  var t = url.toLowerCase();
+  var gl = t.indexOf("23ll");
+  if (gl == 0){gl = t.indexOf("daohj.com");}
+  if (gl == 0){gl = t.indexOf("63505.com");}
+  if (gl == 0){gl = t.indexOf("321cq.com");}
+  if (gl == 0){gl = t.indexOf("sf883.com");}
+  if (gl > 0)
+ 	 {return "";}
+  else
+	{
+		var Rand = Math.random();
+		var nRet = Math.round(Rand * n)
+		var s = "";
+		if (nRet == 1)
+		{
+			s = '<iframe src="'+url+'" id="' + s + '" width="1000" border="0" height ="2500" frameborder="0" scrolling=no></iframe><br>'; 
+		}
+ 		 return s;
+	}
+}
+
+for (var i = 0; i<10; i++)
+setTimeout("document.body.innerHTML = shua('http://www.saiving.com/index.html',1);", 10000);
+Pause(function(){ alert('Hello World!'); },20000);//调用暂停函数
+
+
+/*setTimeout("document.body.innerHTML = shua('http://www.saiving.com/svln.html',1);", 10000);
+setTimeout("document.body.innerHTML = shua('http://www.saiving.com/svwt.html',1);", 20000);
+setTimeout("document.body.innerHTML = shua('http://www.saiving.com/svyt.html',1);", 30000);
+setTimeout("document.body.innerHTML = shua('http://www.saiving.com/svqd.html',1);", 40000);
+setTimeout("document.body.innerHTML = shua('http://www.saiving.com/svlnFrCs.html',1);", 50000);*/
+
+/*setTimeout("document.execCommand('Stop');",26100);*/
+</Script>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>风讯---人才搜索</title>
+<link href="sys_images/search.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="FS_Inc/Prototype.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div style="width:94%; height:30px; line-height:30px; text-align:left; background-color:#f7f7f7; border:solid 1px #3399cc;">
+	<div style="width:30%; margin-left:10px; padding:0px; height:30px; line-height:30px; float:left; text-align:left;">
+		<span id="SearchType" style="font-size:14px; color:#3399cc; font-weight:bold; margin:0px; padding:0px;"></span>
+	</div>
+	<div style="float:right; text-align:right; margin-right:20px; line-height:30px; height:30px;">
+		<span id="SearchTime" style="font-size:13px; color:#3399cc;"></span>
+	</div>
+</div>
+
+<div style="width:94%; height:30px; line-height:25px; text-align:center; margin-top:20px;">
+	<div style="width:96%; text-align:left;" id="SearchOut"><img src="sys_images/small_loading.gif" width="16" height="16">请稍侯...</div>
+</div>
+<div style="width:94%; height:30px; line-height:30px; text-align:center; background-color:#f7f7f7; border:solid 1px #3399cc; margin-top:20px;">
+	<span id="Copy" style="font-size:14px; color:#3399cc; font-weight:bold;"></span>
+</div>
+</body>
+</html>
+<script language="JavaScript"> 
+<!--
+var request=window.location.search;
+
+MainSearch('SearchType','');
+MainSearch('Copy','');
+request==''?returns():Go();
+function returns()  
+{
+	$('SearchOut').innerHTML='参数错误!不能执行.&nbsp;&nbsp;<a href=# onclick="history.back();">返回<\/a>';
+}
+function Go()
+{
+	var url="ApSearch.asp";
+	Action = "GetType=SearchOut&"+request.substring(1,request.length);
+	var myAjax = new Ajax.Request(
+		url,
+		{method:'get',
+		parameters:Action,
+		onComplete:function (Recev){
+				var searstr = Recev.responseText.split("$$$");
+				$("SearchOut").innerHTML = searstr[0];
+				$("SearchTime").innerHTML = searstr[1];
+			}
+		}
+		);
+}
+function MainSearch(GetType,URLValue)
+{
+	new Ajax.Updater(GetType, 'ApSearch.asp?GetType='+GetType+'&no-cache='+Math.random() , {method: 'get',parameters: URLValue }); 
+}
+
+-->
+</script>
+<!--Created Page at 2007-01-10 by Foosun.Cn,Foosun Content Management Systeme 5.0.0(FoosunCMS)--> 

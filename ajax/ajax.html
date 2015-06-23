@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="ajax.js"></script>
+	<script>
+	window.onload = function () {
+	
+	ajax('http://www.saiving.com/', success, fault);
+	
+	function success (httpRequest) { 
+	
+		alert('success');
+		
+		if (httpRequest.readystate == 4 && httpRequest.status == 200) {
+			document.getElementById('container').innerHTML = httpRequest.responseText;
+		}		
+	}
+	
+	function fault() { 
+		alert('false');
+	};	
+	
+	};
+	</script>
+</head>
+<body>
+	<div id="container"></div>
+</body>
+</html>

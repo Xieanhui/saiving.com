@@ -1,0 +1,176 @@
+BODY {
+	FONT-FAMILY: arial,Simsun;font-size:15px;
+	background-color: #ffffff;
+	text-align:center;
+}
+TD {
+	FONT-FAMILY: arial,Simsun;font-size:15px
+}
+DIV {
+	FONT-FAMILY: arial,Simsun;font-size:15px
+}
+.p {
+	FONT-FAMILY: arial,Simsun;font-size:15px
+}
+A {
+	FONT-FAMILY: arial,Simsun;font-size:15px
+}
+DIV {
+	LINE-HEIGHT: 120%;font-size:15px
+}
+DIV .j {
+	LINE-HEIGHT: 120%;font-size:15px
+}
+DIV {
+	COLOR: #000;font-size:15px
+}
+TD {
+	COLOR: #000;font-size:15px
+}
+.f {
+	COLOR: #6f6f6f;font-size:15px
+}
+.fl:link {
+	COLOR: #77c;font-size:15px
+}
+.flc {
+	COLOR: #77c;font-size:12px
+}
+ /* 表单类 */
+.i Button,input,textarea{
+    FONT-FAMILY: "Verdana, 新宋体";
+	FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+	COLOR:#a90a08;
+    text-decoration: none;
+    background:#fff;
+	padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+A:link {
+	COLOR: #00c;font-size:15px
+}
+.w {
+	COLOR: #00c;font-size:15px
+}
+A.w:link {
+	COLOR: #00c;font-size:15px
+}
+.w A:link {
+	COLOR: #00c;font-size:15px
+}
+.q:visited {
+	COLOR: #00c;font-size:15px
+}
+.q:link {
+	COLOR: #00c;font-size:15px
+}
+.q:active {
+	COLOR: #00c;font-size:15px
+}
+.q {
+	COLOR: #00c;font-size:15px
+}
+A:visited {
+	COLOR: #551a8b;font-size:15px
+}
+.fl:visited {
+	COLOR: #551a8b;font-size:15px
+}
+A:active {
+	COLOR: #f00;font-size:15px
+}
+.fl:active {
+	COLOR: #f00;font-size:15px
+}
+.t {
+	BACKGROUND: #e5ecf9; COLOR: #000;font-size:15px
+}
+.bb {
+	BORDER-BOTTOM: #36c 1px solid;font-size:15px
+}
+.bt {
+	BORDER-TOP: #36c 1px solid;font-size:15px
+}
+.pic {
+	WIDTH: 120px;height:120px;;font-size:15px
+}
+.content {
+	height:80px;font-size:15px
+}
+.h {
+	COLOR: #36c;font-size:15px
+}
+.i {
+	COLOR: #a90a08;font-size:15px
+}
+.i:link {
+	COLOR: #a90a08;font-size:15px
+}
+.i a{text-decoration: none;}
+.a {
+	COLOR: #008000;font-size:15px
+}
+.a:link {
+	COLOR: #008000;font-size:15px
+}
+.z {
+	DISPLAY: none;font-size:15px
+}
+DIV.n {
+	MARGIN-TOP: 1ex
+}
+.n A {
+	FONT-SIZE: 10pt; COLOR: #000
+}
+.n .i {
+	FONT-SIZE: 12px
+}
+.b A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #00c
+}
+.ch {
+	CURSOR: hand
+}
+.e {
+	MARGIN-TOP: 0.75em; MARGIN-BOTTOM: 0.75em
+}
+.g {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em
+}
+.sm {
+	MARGIN-TOP: 0px; DISPLAY: block; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 40px
+}
+#navbar .nr {
+	BACKGROUND-POSITION: -60px 0px; WIDTH: 16px
+}
+#navbar #np {
+	WIDTH: 44px
+}
+#navbar #nf {
+	BACKGROUND-POSITION: -26px 0px; WIDTH: 18px
+}
+#navbar #nc {
+	BACKGROUND-POSITION: -44px 0px; WIDTH: 16px
+}
+#navbar #nn {
+	BACKGROUND-POSITION: -76px 0px; WIDTH: 66px; MARGIN-RIGHT: 34px
+}
+#navbar #nl {
+	BACKGROUND-POSITION: -76px 0px; WIDTH: 46px
+}
+.Job:link {
+	 COLOR: #0066cc; FONT-FAMILY: Arial; TEXT-DECORATION: none; font-size:12px;
+}
+.Job:visited {
+	 COLOR: #0066cc; FONT-FAMILY: Arial; TEXT-DECORATION: none; font-size:12px;
+}
+.Job:active {
+	 FONT-FAMILY: Arial; TEXT-DECORATION: none; font-size:12px;
+}
+.Job:hover {
+	COLOR: #666666; BORDER-RIGHT-WIDTH: 1px; TEXT-DECORATION: none;  BACKGROUND-REPEAT: repeat-x; POSITION: relative; TOP:1px; font-size:13px;
+}

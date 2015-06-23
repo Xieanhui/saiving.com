@@ -10,8 +10,11 @@
         'modal': '../../js/modal',
         'agencyAnchor': '../../js/agencyAnchor',
         'agencyDetail': '../../js/agencyDetail',
-        'agency': '../../js/agency',
-        'condensate_slide': 'condensate_slide'
+        'agency': '../../js/agency',    
+        'animal': '../../js/animal',    
+        'condensate_slide': './condensate_slide',
+        'Counter': './Counter',
+        'flashProduct': './flashProduct'
     },
     name: "main",
     out: "main-built.js"

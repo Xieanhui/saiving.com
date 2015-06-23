@@ -1,0 +1,22 @@
+User-Agent: *
+Disallow: /FS_Inc/
+Disallow: /User/
+Disallow: /CustomForm/
+Disallow: /blog/
+Disallow: /FS_InterFace/
+Disallow: /Editer/
+Disallow: /Templets/
+Disallow: /Foosun_Data/
+Disallow: /Userfiles/
+Disallow: /API/
+Disallow: /Admin/
+Disallow: /Ads/
+Disallow: /contr/
+Disallow: /css/
+Disallow: /down/
+Disallow: /Files/
+Disallow: /GuestBook/
+Disallow: /Help/
+Disallow: /Vote/
+Sitemap: http://www.saiving.com/sitemap.xml
+

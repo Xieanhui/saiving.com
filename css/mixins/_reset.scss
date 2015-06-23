@@ -1,0 +1,52 @@
+html, body, h1, h2, h3, h4, h5, h6, p, b, strong, i, em, blockquote, pre, span, dl, dt, dd, a, table, tr, td, div, img, form, input, ul, ol, li, strong {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 100%;
+}
+
+body {
+  font-family: 'ËÎÌå', Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  color: #555;
+  background: url(../images/sprite.png) 0 -417px repeat-x;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'ºÚÌå', Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: lighter;
+}
+
+@media screen and (min-width: 1180px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  body {
+    font-size: 0.875em;
+  }
+}
+
+a {
+  color: #496d02;
+  &:link, &:visited {
+    text-decoration: none;
+  }
+  &:hover, &:active {
+    text-decoration: underline;
+  }
+}
+
+p {
+  line-height: 25px;
+  text-align: left;
+  color: #555;
+}
+
+img {
+  border: 0;
+}

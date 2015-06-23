@@ -1,0 +1,134 @@
+#navigate {
+  height: 40px;
+  background: url(../images/sprite.png) 0 -114px repeat-x;
+  z-index: 1000;
+  margin: 0 auto;
+
+  ul {
+    zoom: 1;
+    overflow: hidden;
+    margin: 0 auto;
+
+    li {
+      float: left;
+      text-align: center;
+      width: 9.7%;
+      height: 40px;
+      position: relative;
+      list-style: none;
+      font-family: 'ºÚÌå', Verdana, Geneva, sans-serif;
+      font-size: 15px;
+
+      &.sprite_lt {
+        width: 2px;
+        background: url(../images/sprite.png) 0 -163px no-repeat;
+      }
+
+      &.sprite_rt {
+        width: 2px;
+        background: url(../images/sprite.png) 0 -163px no-repeat;
+        float: right;
+      }
+
+      &.nav_right {
+        float: right;
+      }
+
+      a {
+        padding: 12px 0 0 0;
+        display: block;
+        height: 28px;
+        color: #FFF;
+        text-decoration: none;
+
+        &:hover {
+          background: url(../images/sprite.png) 0 -210px repeat-x;
+          height: 28px;
+          padding: 12px 0 0 0;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+#navigate ul li.index_logo img {
+  margin: -10px auto 0;
+}
+
+#navigate ul li.arrow span {
+  position: absolute;
+  top: 34px;
+  left: 50px;
+  width: 30px;
+  height: 10px;
+  background: url(../images/sprite.png) 0 -373px no-repeat;
+}
+
+@media screen and (min-width: 1180px) {
+  #navigate {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  #navigate {
+    width: 940px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  #navigate ul {
+    width: 1180px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  #navigate ul {
+    width: 940px;
+  }
+}
+
+#home #navigate li.home {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#about #navigate li.about {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#contact #navigate li.contact {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#product #navigate li.product {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#condensate #navigate li.condensate {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#deaerator #navigate li.deaerator {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#polishing #navigate li.polishing {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#boiler #navigate li.boiler {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#exchanger #navigate li.exchanger {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#soften #navigate li.soften {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}
+
+#custom #topnav li.custom {
+  background: url(../images/sprite.png) 0 -210px repeat-x;
+}

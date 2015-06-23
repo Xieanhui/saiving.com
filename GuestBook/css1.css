@@ -1,0 +1,15 @@
+<style>
+.* {font-size:12px}
+.tdtitle{
+background-color:#89A5CF;
+}
+.tdhback{
+background-color:#E4E8EF;
+}
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #232323;} /* 未访问的链接 */
+a:visited {color: #232323;} /* 已访问的链接 */
+a:hover{color: #FF0000;} /* 鼠标在链接上 */ 
+a:active {color: #FF0000;} /* 点击激活链接 */
+
+</style>

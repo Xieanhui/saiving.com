@@ -1,0 +1,39 @@
+#promise {
+  width: 100%;
+  margin: 15px auto;
+  padding: 19px 0;
+  border: 1px solid #CCC;
+  text-align: center;
+  background: url(../images/service.jpg) left 7px no-repeat #FFF;
+  font-size: 1em;
+}
+
+#promise p {
+  font-family: 'ºÚÌå', Arial, Helvetica, sans-serif;
+  margin-left: 20%;
+  font-weight: bold;
+  line-height: 1.3em;
+  font-size: 2em;
+  text-align: center;
+}
+
+#promise span {
+  color: #C00;
+  font-family: Verdana, Geneva, sans-serif;
+  font-style: italic;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 1180px) {
+  #promise {
+    width: 1180px;
+  }
+  /*width:1160px;*/
+}
+
+@media screen and (max-width: 1180px) {
+  #promise {
+    width: 940px;
+  }
+}

@@ -1,0 +1,44 @@
+#footer {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #CCC;
+  background-color: #CCC;
+  line-height: 26px;
+  margin: 0 auto;
+}
+
+#footer ul {
+  padding: 20px;
+  margin: 0 auto;
+  background: url(../files/file/common/tel400.png) 90% 30px no-repeat;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #777;
+  display: inline;
+}
+
+@media screen and (min-width: 1180px) {
+  #footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  #footer {
+    width: 940px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  #footer ul {
+    width: 1180px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  #footer ul {
+    width: 940px;
+  }
+}

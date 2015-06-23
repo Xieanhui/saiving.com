@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>插入表格</title>
+<link rel="stylesheet" href="ModeWindow.css">
+<style type="text/css">
+<!--
+ SELECT  {font-family:宋体; font-size:12px}
+.Separator 
+{
+	BORDER-RIGHT: buttonhighlight 1px solid;
+	FONT-SIZE: 0px;
+	BORDER-LEFT: buttonshadow 1px solid;
+	cursor: default;
+	height: 120px;
+	width: 1px;
+	top: 10px;
+}
+-->
+</style>
+</head>
+<body>
+<div align="center">
+  <table width="380" border="0" cellspacing="0" cellpadding="0">
+    <tr> 
+      <td> <div align="center"> 
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr> 
+              <td width="110" height="26">行数 
+                <input name="RowNum" type="text" value="1" size="8">
+              </td>
+              <td width="140" height="26">单元格填充 
+                <input name="cellpadding" type="text" value="0" size="8">
+              </td>
+            </tr>
+            <tr> 
+              <td height="26">列数 
+                <input name="CellNum" type="text" value="1" size="8"></td>
+              <td height="26">单元格间距 
+                <input name="cellspacing" type="text" value="0" size="8"></td>
+            </tr>
+            <tr> 
+              <td height="26">宽度 
+                <input name="Width" type="text" value="100" size="8"></td>
+              <td height="26">
+				<select name="SelectWidth">
+                  <option value="pt" selected>像素</option>
+                  <option value="%">百分比</option>
+                </select></td>
+            </tr>
+            <tr> 
+              <td height="26">边框 
+                <input name="Border" type="text" value="1" size="8"></td>
+              <td height="26">&nbsp;</td>
+            </tr>
+          </table>
+        </div></td>
+      <td width="2"><div align="center" class="Separator"></div></td>
+      <td width="100" valign="top"> 
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td height="30"> <div align="center"> 
+                <input type="button" onClick="window.returnValue=GetTableStr();window.close();" name="Submit" value=" 确 定 ">
+              </div></td>
+          </tr>
+          <tr> 
+            <td height="30"> <div align="center"> 
+                <input onClick="window.close();" type="button" name="Submit2" value=" 取 消 ">
+              </div></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
+<script language="JavaScript">
+function GetTableStr()
+{
+	var TempStr='<table border="'+document.all.Border.value+'" width="'+document.all.Width.value+document.all.SelectWidth.value+'" cellspacing="'+document.all.cellspacing.value+'" cellpadding="'+document.all.cellpadding.value+'">\n';
+	for (var i=0;i<document.all.RowNum.value;i++)
+	{
+		TempStr=TempStr+' <tr>\n';
+		for (var j=0;j<document.all.CellNum.value;j++)
+		{
+			TempStr=TempStr+'  <td>&nbsp;</td>\n';
+		}
+		TempStr=TempStr+' </tr>\n';
+	}
+	TempStr=TempStr+'</table>';
+	return TempStr;
+}
+window.onunload=SetReturnValue;
+function SetReturnValue()
+{
+	if (typeof(window.returnValue)!='string') window.returnValue='';
+}
+</script>

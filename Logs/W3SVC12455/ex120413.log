@@ -1,0 +1,66 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 16:20:55
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 16:20:55 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 66.249.71.243 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 404 0 2 1201 261 1000
+2012-04-13 16:20:56 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 66.249.71.243 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - saiving.com 200 0 0 9212 237 1109
+2012-04-13 16:22:16 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 123.126.50.71 HTTP/1.1 - - - www.saiving.com 404 0 2 1201 71 109
+2012-04-13 16:22:29 W3SVC12455 GAMMA 106.3.96.10 GET /Condensaterecovery.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3229 373 250
+2012-04-13 16:24:25 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 6227 350 375
+2012-04-13 16:26:24 W3SVC12455 GAMMA 106.3.96.10 GET /index.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 6174 360 265
+2012-04-13 16:26:51 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 66.249.71.119 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 404 0 2 1201 265 546
+2012-04-13 16:26:53 W3SVC12455 GAMMA 106.3.96.10 GET /direction.html - 80 - 66.249.71.119 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 8539 243 1265
+2012-04-13 16:36:34 W3SVC12455 GAMMA 106.3.96.10 GET /contact.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3327 362 312
+2012-04-13 16:43:11 W3SVC12455 GAMMA 106.3.96.10 GET /company.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 9231 362 375
+2012-04-13 16:46:39 W3SVC12455 GAMMA 106.3.96.10 GET /product.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3033 362 296
+2012-04-13 16:57:04 W3SVC12455 GAMMA 106.3.96.10 GET /images/logo.png - 80 - 66.249.71.244 HTTP/1.1 Googlebot-Image/1.0 - - saiving.com 200 0 0 8316 187 1593
+2012-04-13 17:01:09 W3SVC12455 GAMMA 106.3.96.10 GET /images/tiantan.png - 80 - 66.249.71.245 HTTP/1.1 Googlebot-Image/1.0 - - saiving.com 200 0 0 114089 190 4296
+2012-04-13 17:01:11 W3SVC12455 GAMMA 106.3.96.10 GET /humanresource.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3527 368 375
+2012-04-13 17:06:39 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 203.208.60.243 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 404 0 2 1201 265 109
+2012-04-13 17:06:39 W3SVC12455 GAMMA 106.3.96.10 GET /images/logo.png - 80 - 203.208.60.243 HTTP/1.1 Googlebot-Image/1.0 - - www.saiving.com 200 0 0 8316 191 203
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 17:34:45
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 17:34:45 W3SVC12455 GAMMA 106.3.96.10 GET /technology.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3389 365 328
+2012-04-13 17:34:56 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 404 0 2 1201 185 421
+2012-04-13 17:34:56 W3SVC12455 GAMMA 106.3.96.10 GET /robots.txt - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 404 0 2 1201 181 421
+2012-04-13 17:34:57 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 6208 286 843
+2012-04-13 17:34:57 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 6204 282 812
+2012-04-13 17:34:57 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - www.saiving.com 200 0 0 6208 286 390
+2012-04-13 17:34:57 W3SVC12455 GAMMA 106.3.96.10 GET /Index.html - 80 - 93.158.147.8 HTTP/1.1 Mozilla/5.0+(compatible;+YandexBot/3.0;++http://yandex.com/bots) - - saiving.com 200 0 0 6204 282 406
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 17:58:20
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 17:58:20 W3SVC12455 GAMMA 106.3.96.10 GET /slider/banner.htm - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 5031 367 390
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 18:29:20
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 18:29:20 W3SVC12455 GAMMA 106.3.96.10 GET /qa.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 8243 357 1593
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 18:51:04
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 18:51:04 W3SVC12455 GAMMA 106.3.96.10 GET /question.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3233 363 500
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 19:08:06
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 19:08:06 W3SVC12455 GAMMA 106.3.96.10 GET /CondensatePolishing.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3419 374 125
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 19:33:47
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 19:33:47 W3SVC12455 GAMMA 106.3.96.10 GET /needBook.html - 80 - 203.208.60.243 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 3371 242 1281
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 21:09:26
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 21:09:26 W3SVC12455 GAMMA 106.3.96.10 GET /accessor.html - 80 - 203.208.60.244 HTTP/1.1 Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html) - - www.saiving.com 200 0 0 3370 242 546
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2012-04-13 21:29:40
+#Fields: date time s-sitename s-computername s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs-version cs(User-Agent) cs(Cookie) cs(Referer) cs-host sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken 
+2012-04-13 21:29:40 W3SVC12455 GAMMA 106.3.96.10 GET /deaerator.html - 80 - 123.126.50.71 HTTP/1.1 Sogou+web+spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07) - - www.saiving.com 200 0 0 3171 364 78

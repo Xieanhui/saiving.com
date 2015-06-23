@@ -10,7 +10,8 @@ define(['utilities', 'cookie', 'agencyAnchor', 'agencyDetail'], function(utiliti
                     agencyText = "\u5317\u4eac";
                 } else {
                     agencyText = remote_ip_info["province"];
-                }                
+                }        
+                       
                 agencyAnchor.setAnchor(agencyText);
                 agencyDetail.showAgency(agencyText);
                 cookie.setCookie("agency", agencyText, 10);

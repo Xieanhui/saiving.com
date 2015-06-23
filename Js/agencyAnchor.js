@@ -38,19 +38,17 @@ define(['eventUtil', 'ajax', 'modal'], function(eventUtil, ajax, modal) {
         ["\u6c5f\u82cf", "jiangshu"], //江苏
         ["\u6c5f\u82cf\u7701", "jiangshu"],
         ["\u6e56\u5317", "hubei"], //湖北
-        ["\u6e56\u5317\u7701", "hubei"]
+        ["\u6e56\u5317\u7701", "hubei"],
         ["\u5b89\u5fbd", "anhui"], //安徽
         ["\u5b89\u5fbd\u7701", "anhui"],
         ["\u4e0a\u6d77", "shanghai"], //上海
-        ["\u4e0a\u6d77\u5E02", "shanghai"]
+        ["\u4e0a\u6d77\u5E02", "shanghai"],
         ["\u6d59\u6c5f", "jiejiang"], //浙江
-        ["\u6d59\u6c5f\u7701", "jiejiang"]
+        ["\u6d59\u6c5f\u7701", "jiejiang"],
         ["\u6e56\u5357", "hunan"], //湖南
         ["\u6e56\u5357\u7701", "hunan"],
         ["\u798f\u5efa", "fujian"], //福建
         ["\u798f\u5efa\u7701", "fujian"],
-        ["\u6c5f\u897f", "jiangxi"], //江西
-        ["\u6c5f\u897f\u7701", "jiangxi"],
         ["\u5e7f\u897f", "guangxi"], //广西
         ["\u5e7f\u897f\u7701", "guangxi"],
         ["\u5e7f\u4e1c", "guangdong"], //广东
@@ -68,13 +66,15 @@ define(['eventUtil', 'ajax', 'modal'], function(eventUtil, ajax, modal) {
         ["\u9999\u6e2f", "beijing"], //香港
         ["\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a", "beijing"],
         ["\u6fb3\u95e8", "beijing"], //澳门
-        ["\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a", "beijing"]
+        ["\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a", "beijing"],
+        ["\u6c5f\u897f", "jiangxi"], //江西
+        ["\u6c5f\u897f\u7701", "jiangxi"]
     ];
 
     function getHash(agencyStr) {
-        for (var i = 0; i < arrAgency.length; i++) {
-            if (arrAgency[i][0] == agencyStr) {
-                return arrAgency[i][1];
+        for (var i = 0; i < arrAgency.length; i++) {            
+            if (arrAgency[i][0] == agencyStr) {                
+                return arrAgency[i][1];                               
             }
         }
     }
