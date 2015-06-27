@@ -48,7 +48,7 @@ define(['utilities', 'eventUtil', 'animal', 'onView'], function(utilities, event
         }, 20);
     });
 
-    onView.onView(oSixthPage, 600, function() {
+    onView.onView(oSixthPage, 650, function() {
         animal.move(oCopartner, {opacity:100, top: 0}, 20);
     });
 
