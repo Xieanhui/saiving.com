@@ -1,9 +1,10 @@
 define(['utilities'], function(utilities) {
 
-    function move(el, json, fn) {
+    function move(el, json, duration, fn) {
         clearInterval(el.timer);
-        var flag = true;
+        var flag;
         el.timer = setInterval(function() {
+            flag = true;
             for (var attr in json) {
                 var iCurr = 0;
                 if (attr == 'opacity') {
@@ -14,7 +15,7 @@ define(['utilities'], function(utilities) {
                 var speed = (json[attr] - iCurr) / 10;
                 speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
                 if (iCurr != json[attr]) {
-                    flag = false
+                    flag = false;
                 }
                 if (attr == 'opacity') {
                     el.style.opacity = (iCurr + speed) / 100;
@@ -26,10 +27,10 @@ define(['utilities'], function(utilities) {
 
             if (flag) {
                 clearInterval(el.timer);
-                if (fn) fn();
+                if(fn) fn();
             }
 
-        }, 30);
+        }, duration);
     }
 
     return {

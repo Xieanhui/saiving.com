@@ -15,11 +15,11 @@ if (olive != null && oLiveCtrl != null) {
             for (var j = 0; j < oLiveCtrl.length; j++) {
                 oLiveCtrl[j].style.backgroundColor = "#555555";
             }
-            step = -(this.index * 2000);
+            step = -(this.index * 760);
             olive.style.left = step + "px";
             this.style.backgroundColor = "#ffffff";
             if (timer) clearInterval(timer);
-            timer = setTimeout(slide, 3000);
+            timer = setTimeout(slide, 2500);
         });
     }
 
@@ -30,20 +30,21 @@ if (olive != null && oLiveCtrl != null) {
                 clearTimeout(timer);
             }
             timer = setInterval(function() {
-                if (olive.offsetLeft <= -4000) step = 0;
-                if (step % 2000 == 0) {
-                    current = Math.abs(Math.floor(step / 2000));
+                step -= 76;
+                if (olive.offsetLeft <= -1520) step = 0;
+                if (step % 760 == 0) {
+                    current = Math.abs(Math.floor(step / 760));
                     if (current == oLiveCtrl.length) current = 0;
                     for (var j = 0; j < oLiveCtrl.length; j++) {
                         oLiveCtrl[j].style.backgroundColor = "#555555";
                     }
                     oLiveCtrl[current].style.backgroundColor = "#ffffff";
                     if (timer) clearInterval(timer);
-                    timer = setTimeout(slide, 3000);
-                }
-                step -= 100;
+                    timer = setTimeout(slide, 2500);
+                }        
+                
                 olive.style.left = step + "px";
-            }, 10);
+            }, 20);
         }
     }
 

@@ -11,7 +11,8 @@
         'agencyAnchor': '../../js/agencyAnchor',
         'agencyDetail': '../../js/agencyDetail',
         'agency': '../../js/agency',    
-        'animal': '../../js/animal',    
+        'animal': '../../js/animal',  
+        'onView': '../../js/onView',   
         'condensate_slide': './condensate_slide',
         'Counter': './Counter',
         'flashProduct': './flashProduct'
