@@ -1,15 +1,14 @@
 #promise {
     width: 1180px;
-    margin: 15px auto;
-    padding: 19px 0;
+    height: 350px;
+    margin: 0 auto;
+    padding: 60px 0;
     border: 1px solid #CCC;
     text-align: center;
-    background: url(../images/service.jpg) left 7px no-repeat #FFF;
+    background: url(../condensate-cecovery/images/Staff.png) 50% 100% no-repeat #FFF;
     font-size: 1em;
     p {
         margin: 0;
-        margin-left: 20%;
-        font-weight: bold;
         line-height: 1.3em;
         font-size: 2em;
         text-align: center
@@ -20,14 +19,11 @@
         margin: 10px 0;
         vertical-align: middle
     }
-    a {
-        margin-left: 20%;
-    }
 }
 
 @include minWidth ($maxWidth) {
     #promise {
-        width: $maxWidth
+        width: $fullScreenWidth
     }
 }
 

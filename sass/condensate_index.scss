@@ -18,7 +18,7 @@ body {
 
 .container {
     width: $fullScreenWidth;
-    padding: 50px 0;
+    padding: 50px 0 70px;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -117,7 +117,7 @@ body {
         li {
             position: relative;
             height: 373px;
-            top: 400px;
+            top: 300px;
             opacity: 0;
             filter: alpha(opacity=0);
         }
@@ -257,15 +257,20 @@ h2 {
 }
 
 .copartner {
-    margin: 0 auto;
-    width: $fullScreenWidth;
-    height: 512px;
+    margin: 20px auto;
+    width: 100%;
     display: block;
-    background: url(../condensate-cecovery/images/corp_logo.jpg) center center no-repeat;
     position: relative;
     top: 200px;
     opacity: 0;
     filter: alpha(opacity=0);
+    li {
+            float: left;
+            width: 25%;
+            text-align: center;
+            overflow: hidden;
+            display: block
+        }
 }
 
 #industryNum,

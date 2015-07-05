@@ -11,7 +11,7 @@ define(['utilities', 'eventUtil', 'animal', 'onView'], function(utilities, event
     var oAssitProduct = oSecondPage.getElementsByTagName('ul')[0];
 
     var oSixthPage = utilities.getElementsByClassName(document, 'div', 'sixthPage')[0];
-    var oCopartner = utilities.getElementsByClassName(oSixthPage, 'div', 'copartner')[0];
+    var oCopartner = utilities.getElementsByClassName(oSixthPage, 'ul', 'copartner')[0];
 
     var timer,
         k = 0,
@@ -48,7 +48,7 @@ define(['utilities', 'eventUtil', 'animal', 'onView'], function(utilities, event
         }, 20);
     });
 
-    onView.onView(oSixthPage, 650, function() {
+    onView.onView(oSixthPage, 530, function() {
         animal.move(oCopartner, {opacity:100, top: 0}, 20);
     });
 
@@ -56,19 +56,19 @@ define(['utilities', 'eventUtil', 'animal', 'onView'], function(utilities, event
         animal.move(arrProductLi2[0], {
             'top': 0,
             'opacity': 100
-        }, 6, function() {
+        }, 10, function() {
             animal.move(arrProductLi2[1], {
                 'top': 0,
                 'opacity': 100
-            }, 6, function() {
+            }, 10, function() {
                 animal.move(arrProductLi2[2], {
                     'top': 0,
                     'opacity': 100
-                }, 6, function() {
+                }, 10, function() {
                     animal.move(arrProductLi2[3], {
                         'top': 0,
                         'opacity': 100
-                    }, 6);
+                    }, 10);
                 });
             });
         });

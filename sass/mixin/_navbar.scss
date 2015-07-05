@@ -1,7 +1,7 @@
 #navigate {
     width: 1180px;
     height: 50px;
-    background: $themeColor;
+    background: #404144;
     z-index: 100;
     margin: 0 auto;
 }
@@ -30,7 +30,7 @@
         font-size: 18px;
         display: block;
         color: #FFF;
-        text-decoration: none
+        text-decoration: none;
     }
     &:hover {
         background: $themeColorDeep;
@@ -38,47 +38,47 @@
 }
 
 #home #navigate li.home {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #about #navigate li.about {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #contactUs #navigate li.contact {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #product #navigate li.product {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #condensate #navigate li.condensate {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #deaerator #navigate li.deaerator {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #polishing #navigate li.polishing {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #boiler #navigate li.boiler {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #exchanger #navigate li.exchanger {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #soften #navigate li.soften {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 #custom #topnav li.custom {
-    background: $themeColorDeep;
+    background: $themeColor;
 }
 
 @include minWidth($maxWidth) {
